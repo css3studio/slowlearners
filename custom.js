@@ -95,6 +95,7 @@ function init_pc(){
 	if($('.slider-main .slider .slick-list').length > 0){
 		$('.slider-main .slider').slick('unslick');
 	}
+	console.log('pc')
 }
 
 //모바일 버젼 초기화
@@ -109,6 +110,7 @@ function init_mobile(){
 	  variableWidth: true,
 	  draggable: true
     });
+	console.log('mobile')
 
 }
 
