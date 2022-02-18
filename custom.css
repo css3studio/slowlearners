@@ -1,0 +1,645 @@
+/*
+Theme Name: earthecok
+writer: css3studio
+*/
+
+/*공톨*/
+
+html{font-size:16px}
+.btn{font-size: 15px}
+ul{list-style-type:none;padding:0}
+
+/*헤더*/
+#w20201216a79f8b1235e4d .search_type.search_btn_type01 a {
+  border:1px solid #002A58;
+  width:2.5rem;
+  height:2.5rem;
+  line-height:2.5rem;
+  border-radius:1.25rem;
+  text-align:center;
+}
+#w20201216a79f8b1235e4d .search_btn i {
+  vertical-align: top;
+  font-size:1.125rem;
+  color:#002A58
+}
+#dropdown_w202012164444102f1a028 .mega_dropdown_wrap {
+  background:#EEEFF1;
+}
+#dropdown_w202012164444102f1a028 .mega_dropdown .sub_menu a{
+  color:#141517 !important;
+}
+#dropdown_w202012164444102f1a028 .mega_dropdown .sub_menu a:hover {
+  font-weight:bold;
+  color:#212121
+}
+
+/*푸터*/
+footer{margin-top:6rem}
+._footer_text .custom-text-info p:nth-child(3){font-size:15px}
+._footer_text .custom-text-info p:nth-child(4){color:#8A8F9A}
+.footer-section .nav.footer-all-nav li:before{content:"|";color:#8A8F9A;margin:0 9px 0 0;font-size:14px;font-weight:300}
+.footer-section .nav.footer-all-nav li:first-child:before{content:none;margin:0}
+.footer-section .nav.footer-all-nav li a .plain_name{font-size:15px;font-weight:400}
+
+/*메인 홈 > 슬라이더*/
+#s2021020874d535d3bee93 .visual_section .header-content .text-wrap._text{max-width:1200px;margin:0 auto}
+
+/*메인 홈 > 이용후기*/
+#s20210208f435305281dae ._widget_data .text_bg_color{background:#FFFFFF !important;box-shadow: 0px 4px 30px rgba(99, 99, 99, 0.1);height:100%;width:100%;position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+}
+#s20210208f435305281dae .text-table p:first-of-type{float:left;position:relative;left:-1.2rem}
+#s20210208f435305281dae .text-table h6{padding-top:1rem}
+#s20210208f435305281dae .text-table h6 span:first-of-type{font-size:1rem;letter-spacing: -1px}
+#s20210208f435305281dae .text-table h6 span:nth-child(3){font-size:1rem;font-weight:normal}
+#s20210208f435305281dae .text-table p:nth-child(4){clear:left}
+#s20210208f435305281dae .text-table .btn-sm{padding:4px 10px;font-size:13px;font-weight:normal}
+
+#s20210208f435305281dae .button_wrap .btn{line-height:24px;font-weight:normal}
+#s20210208f435305281dae .button_wrap .btn span{float:right;margin-right:0 !important;margin-left:10px}
+
+/*메인 홈 > 이용후기 - 커스텀*/
+.slider-main{margin-bottom:4.375rem}
+.slider-main .slider:after{content:"";display:block;clear:left}
+.slider-main .slider li{
+  background:#FFFFFF;
+  box-shadow: 0px 4px 30px rgba(99, 99, 99, 0.1);
+  border-radius: 20px;
+  padding:1.5rem;
+  width:32%;
+  height:32.5rem;
+  float:left;
+  margin-right:2%;
+  box-sizing:border-box;
+  position:relative;
+}
+.slider-main .slider li:last-child{margin-right:0}
+.slider-main .header-area{margin-bottom:0.5rem}
+.slider-main .header-area:after{content:"";display:block;clear:left}
+.slider-main .header-area img{float:left;margin-left:-1.2rem;margin-right:1rem}
+.slider-main .header-area dl{padding-top:1rem}
+.slider-main .header-area dt{font-size:1.0625rem;font-weight:bold;letter-spacing:-1px;line-height:1.47;margin-bottom:0.3rem}
+.slider-main .header-area dd{font-size:1.0625rem;color:#4E525A;}
+.slider-main .slider li > p{font-size:0.9375rem;line-height:2.2}
+.slider-main .slider li > a.btn{position:absolute;bottom:1.5rem;right:1.5rem;color:#0052AC;background-color:#E3F0FF !important;border-color:#E3F0FF}
+.slider-main .slider li > a.btn:hover{background-color:#fff}
+
+/*메인 홈 > 사회기여*/
+#s20210208747a321f8a932{position:relative}
+#s20210208747a321f8a932:after{content:"";display:block;width:1464px;height:1028px;background:url(./images/bg01.png) no-repeat 0 0;background-size:contain;position:absolute;left:50%;top:5rem;transform:translate(-50%,0);z-index:-1}
+
+/*메인 홈 > 지점 소개 및 예약*/
+#s20210215159c93c980d75{position:relative}
+.ng01{position:absolute;z-index:10;top:100%;left:63rem}
+.ng01 li{margin-bottom:0.75rem}
+.ng01 li a{display:block;width:11.25rem;height:3.75rem;line-height:3.75rem;text-align:center;border:1px solid #CDCFD4;box-sizing:border-box;border-radius:8px;font-size:17px}
+.ng01 li a:hover{background-color:#eee}
+.ng01 li.active a{background-color:#002A58;border-color:#002A58;color:#fff}
+.map-data-area{height:780px}
+.metro_no{font-size:1.5rem !important}
+
+/*메인 홈 > 지점 소개 및 예약 > 사당점*/
+#s202102155aa89ede2ed9a .inside > .doz_row{width:62.25rem}
+#s202102155aa89ede2ed9a .inside > .doz_row:nth-child(1) .widget{margin:0}
+#s202102155aa89ede2ed9a .inside > .doz_row:nth-child(1) .naver-map {background-color:#F7F8F9;padding:1.75rem;border-radius:30px 30px 0 0;height:28.75rem}
+#s202102155aa89ede2ed9a .inside > .doz_row:nth-child(2) .widget{margin-top:0}
+#s202102155aa89ede2ed9a .inside > .doz_row:nth-child(2) ._widget_data {background-color:#F7F8F9;padding:1.75rem;border-radius:0 0 30px 30px}
+#s202102155aa89ede2ed9a .inside > .doz_row:nth-child(2) ._widget_data{padding:0}
+#s202102155aa89ede2ed9a .inside > .doz_row:nth-child(2) ._widget_data .text-table{padding:0 1.75rem 1.75rem}
+/*메인 홈 > 지점 소개 및 예약 > 선릉점*/
+#s202102174f98591002401 .inside > .doz_row{width:62.25rem}
+#s202102174f98591002401 .inside > .doz_row:nth-child(1) .widget{margin:0}
+#s202102174f98591002401 .inside > .doz_row:nth-child(1) .naver-map {background-color:#F7F8F9;padding:1.75rem;border-radius:30px 30px 0 0;height:28.75rem}
+#s202102174f98591002401 .inside > .doz_row:nth-child(2) .widget{margin-top:0}
+#s202102174f98591002401 .inside > .doz_row:nth-child(2) ._widget_data {background-color:#F7F8F9;padding:1.75rem;border-radius:0 0 30px 30px}
+#s202102174f98591002401 .inside > .doz_row:nth-child(2) ._widget_data{padding:0}
+#s202102174f98591002401 .inside > .doz_row:nth-child(2) ._widget_data .text-table{padding:0 1.75rem 1.75rem}
+/*메인 홈 > 지점 소개 및 예약 > 수원역점*/
+#s20210218b328c8f043424 .inside > .doz_row{width:62.25rem}
+#s20210218b328c8f043424 .inside > .doz_row:nth-child(1) .widget{margin:0}
+#s20210218b328c8f043424 .inside > .doz_row:nth-child(1) .naver-map {background-color:#F7F8F9;padding:1.75rem;border-radius:30px 30px 0 0;height:28.75rem}
+#s20210218b328c8f043424 .inside > .doz_row:nth-child(2) .widget{margin-top:0}
+#s20210218b328c8f043424 .inside > .doz_row:nth-child(2) ._widget_data {background-color:#F7F8F9;padding:1.75rem;border-radius:0 0 30px 30px}
+#s20210218b328c8f043424 .inside > .doz_row:nth-child(2) ._widget_data{padding:0}
+#s20210218b328c8f043424 .inside > .doz_row:nth-child(2) ._widget_data .text-table{padding:0 1.75rem 1.75rem}
+/*메인 홈 > 지점 소개 및 예약 > 청주상당점*/
+#s202102184128416a16fd8 .inside > .doz_row{width:62.25rem}
+#s202102184128416a16fd8 .inside > .doz_row:nth-child(1) .widget{margin:0}
+#s202102184128416a16fd8 .inside > .doz_row:nth-child(1) .naver-map {background-color:#F7F8F9;padding:1.75rem;border-radius:30px 30px 0 0;height:28.75rem}
+#s202102184128416a16fd8 .inside > .doz_row:nth-child(2) .widget{margin-top:0}
+#s202102184128416a16fd8 .inside > .doz_row:nth-child(2) ._widget_data {background-color:#F7F8F9;padding:1.75rem;border-radius:0 0 30px 30px}
+#s202102184128416a16fd8 .inside > .doz_row:nth-child(2) ._widget_data{padding:0}
+#s202102184128416a16fd8 .inside > .doz_row:nth-child(2) ._widget_data .text-table{padding:0 1.75rem 1.75rem}
+/*메인 홈 > 지점 소개 및 예약 > 인덕원점*/
+#s202102182ae4bbdb11a68 .inside > .doz_row{width:62.25rem}
+#s202102182ae4bbdb11a68 .inside > .doz_row:nth-child(1) .widget{margin:0}
+#s202102182ae4bbdb11a68 .inside > .doz_row:nth-child(1) .naver-map {background-color:#F7F8F9;padding:1.75rem;border-radius:30px 30px 0 0;height:28.75rem}
+#s202102182ae4bbdb11a68 .inside > .doz_row:nth-child(2) .widget{margin-top:0}
+#s202102182ae4bbdb11a68 .inside > .doz_row:nth-child(2) ._widget_data {background-color:#F7F8F9;padding:1.75rem;border-radius:0 0 30px 30px}
+#s202102182ae4bbdb11a68 .inside > .doz_row:nth-child(2) ._widget_data{padding:0}
+#s202102182ae4bbdb11a68 .inside > .doz_row:nth-child(2) ._widget_data .text-table{padding:0 1.75rem 1.75rem}
+/*메인 홈 > 지점 소개 및 예약 > 합정점*/
+#s2021021861818badf2940 .inside > .doz_row{width:62.25rem}
+#s2021021861818badf2940 .inside > .doz_row:nth-child(1) .widget{margin:0}
+#s2021021861818badf2940 .inside > .doz_row:nth-child(1) .naver-map {background-color:#F7F8F9;padding:1.75rem;border-radius:30px 30px 0 0;height:28.75rem}
+#s2021021861818badf2940 .inside > .doz_row:nth-child(2) .widget{margin-top:0}
+#s2021021861818badf2940 .inside > .doz_row:nth-child(2) ._widget_data {background-color:#F7F8F9;padding:1.75rem;border-radius:0 0 30px 30px}
+#s2021021861818badf2940 .inside > .doz_row:nth-child(2) ._widget_data{padding:0}
+#s2021021861818badf2940 .inside > .doz_row:nth-child(2) ._widget_data .text-table{padding:0 1.75rem 1.75rem}
+/*메인 홈 > 지점 소개 및 예약 > 가산디지털점*/
+#s20210218cb3a3231852aa .inside > .doz_row{width:62.25rem}
+#s20210218cb3a3231852aa .inside > .doz_row:nth-child(1) .widget{margin:0}
+#s20210218cb3a3231852aa .inside > .doz_row:nth-child(1) .naver-map {background-color:#F7F8F9;padding:1.75rem;border-radius:30px 30px 0 0;height:28.75rem}
+#s20210218cb3a3231852aa .inside > .doz_row:nth-child(2) .widget{margin-top:0}
+#s20210218cb3a3231852aa .inside > .doz_row:nth-child(2) ._widget_data {background-color:#F7F8F9;padding:1.75rem;border-radius:0 0 30px 30px}
+#s20210218cb3a3231852aa .inside > .doz_row:nth-child(2) ._widget_data{padding:0}
+#s20210218cb3a3231852aa .inside > .doz_row:nth-child(2) ._widget_data .text-table{padding:0 1.75rem 1.75rem}
+/*메인 홈 > 지점 소개 및 예약 > 마곡점*/
+#s202102183367b249b0b9b .inside > .doz_row{width:62.25rem}
+#s202102183367b249b0b9b .inside > .doz_row:nth-child(1) .widget{margin:0}
+#s202102183367b249b0b9b .inside > .doz_row:nth-child(1) .naver-map {background-color:#F7F8F9;padding:1.75rem;border-radius:30px 30px 0 0;height:28.75rem}
+#s202102183367b249b0b9b .inside > .doz_row:nth-child(2) .widget{margin-top:0}
+#s202102183367b249b0b9b .inside > .doz_row:nth-child(2) ._widget_data {background-color:#F7F8F9;padding:1.75rem;border-radius:0 0 30px 30px}
+#s202102183367b249b0b9b .inside > .doz_row:nth-child(2) ._widget_data{padding:0}
+#s202102183367b249b0b9b .inside > .doz_row:nth-child(2) ._widget_data .text-table{padding:0 1.75rem 1.75rem}
+/*메인 홈 > 지점 소개 및 예약 > 여의도점*/
+#s2021021885dec74fb36fd .inside > .doz_row{width:62.25rem}
+#s2021021885dec74fb36fd .inside > .doz_row:nth-child(1) .widget{margin:0}
+#s2021021885dec74fb36fd .inside > .doz_row:nth-child(1) .naver-map {background-color:#F7F8F9;padding:1.75rem;border-radius:30px 30px 0 0;height:28.75rem}
+#s2021021885dec74fb36fd .inside > .doz_row:nth-child(2) .widget{margin-top:0}
+#s2021021885dec74fb36fd .inside > .doz_row:nth-child(2) ._widget_data {background-color:#F7F8F9;padding:1.75rem;border-radius:0 0 30px 30px}
+#s2021021885dec74fb36fd .inside > .doz_row:nth-child(2) ._widget_data{padding:0}
+#s2021021885dec74fb36fd .inside > .doz_row:nth-child(2) ._widget_data .text-table{padding:0 1.75rem 1.75rem}
+/*메인 홈 > 언론보도*/
+#s2021021502ffb20a06a0e .card{min-height:26.875rem}
+#s2021021502ffb20a06a0e .card .card-body .title{margin-bottom:1rem;font-weight:bold}
+/*메인 홈 > 참손길과 함께 해주신 분들*/
+#w2021021593989d68d3131 .type_slide .item_gallary .img_wrap{background-size:100% auto;background-repeat:no-repeat}
+
+
+/*국내 안마사 제도*/
+.text-table ul li{padding-left:20px;position:relative}
+.text-table ul li:before{content:"•";position:absolute;top:0;left:0}
+
+#w20210208c7e1ac03882c7 .text-table p:nth-child(n+7) strong{display:inline-block;width:6rem}
+
+/*지점소개*/
+.doz_sys h2{font-size:2.5rem;font-weight:600}
+.doz_sys h3{font-size:2.125rem !important;font-weight:600;}
+.doz_sys .text-table h3 span span{font-size:2.125rem !important;font-weight:600}
+.doz_sys .text-table h3 img.fr-fin{display:inline;vertical-align:top !important;width:2.375rem !important;margin:0 0.4rem 0 0 !important}
+.owl-thumbs{transform:scale(0.6);transform-origin:top center}
+
+#s20210208ba6b26227d4d8 .doz_row:nth-child(3) ._widget_data ._text_wrap{box-shadow: 0px 4px 30px rgba(63, 56, 56, 0.1);}
+#s202102092c8b4beec8d4f .doz_row:nth-child(3) ._widget_data ._text_wrap{box-shadow: 0px 4px 30px rgba(63, 56, 56, 0.1);height:273px}
+#s2021020986ad4322a36ce .doz_row:nth-child(3) ._widget_data ._text_wrap{box-shadow: 0px 4px 30px rgba(63, 56, 56, 0.1);}
+#s202102153561a3c0a0a8f .doz_row:nth-child(3) ._widget_data ._text_wrap{box-shadow: 0px 4px 30px rgba(63, 56, 56, 0.1);}
+#s20210215c28dab4c1d1b9 .doz_row:nth-child(3) ._widget_data ._text_wrap{box-shadow: 0px 4px 30px rgba(63, 56, 56, 0.1);height:310px}
+#s2021021580b8384de6bd4 .doz_row:nth-child(3) ._widget_data ._text_wrap{box-shadow: 0px 4px 30px rgba(63, 56, 56, 0.1)}
+#s202102156edb0b85511e7 .doz_row:nth-child(3) ._widget_data ._text_wrap{box-shadow: 0px 4px 30px rgba(63, 56, 56, 0.1);height:276px}
+#s202102155ead3a36d8ebb .doz_row:nth-child(3) ._widget_data ._text_wrap{box-shadow: 0px 4px 30px rgba(63, 56, 56, 0.1)}
+#s202102158e3576e091b9c .doz_row:nth-child(3) ._widget_data ._text_wrap{box-shadow: 0px 4px 30px rgba(63, 56, 56, 0.1)}
+
+.custom_nav.nav_round .owl-controls .owl-nav > div:before {
+  border-radius: 5px;
+  border-width: 0;
+  color:#000 !important;
+  background:rgba(255,255,255,0.7);
+}
+.custom_nav.nav_round .owl-controls .owl-nav > div:hover:before {
+  background:rgba(255,255,255,1);
+}
+
+/*안마 바우처 제공*/
+#w202102080c3173a7df91e table{border-top:none}
+#w202102080c3173a7df91e table tr td{padding:24px}
+#w202102080c3173a7df91e table tr td:nth-child(2){border-left:1px solid rgba(128, 128, 128, 0.3)}
+.boucher{overflow:hidden}
+.boucher .leftA{float:left;width:60%;word-break:keep-all}
+.boucher .thumb{float:right}
+
+/*이용후기*/
+#s2021020860e417366a8d9 ._widget_data .text_bg_color{background:#FFFFFF !important;box-shadow: 0px 4px 30px rgba(99, 99, 99, 0.1);}
+#s2021020860e417366a8d9 .text-table p:first-of-type{float:left;position:relative;left:-1.2rem}
+#s2021020860e417366a8d9 .text-table h6{padding-top:1rem}
+#s2021020860e417366a8d9 .text-table h6 span:first-of-type{font-size:1rem;letter-spacing: -1px}
+#s2021020860e417366a8d9 .text-table h6 span:nth-child(3){font-size:1rem;font-weight:normal}
+#s2021020860e417366a8d9 .text-table p:nth-child(4){clear:left}
+#s2021020860e417366a8d9 .text-table .btn-sm{padding:4px 10px;font-size:13px;font-weight:normal}
+
+#s2020121094ef1ac53774c .board{margin:0 -39px !important}
+.board .board-head{background-color:#E3F0FF;padding:15px 39px;border-radius:1rem}
+.board .board-head .heading header{font-weight:bold}
+.board .board-head .heading header em{font-weight:normal;color:#ff6600;font-size:0.875rem}
+.board .li_board{border:none}
+.board .li_board .li_header li{color:#8A8F9A}
+.board .li_board .li_body:last-child li{border-bottom:none}
+
+/*자주묻는질문*/
+.acd_group .acd_row{background-color:#E5E5E5;padding:1.5rem 0.875rem !important;border:none;margin-bottom:1rem;box-sizing:border-box;border-radius:1rem}
+.acd_group .acd_collapse{border:none !important}
+/*참손길 소식*/
+.nav.h-menu-type2 ul li.active a{background-color:#002A58;color:#fff !important;border:none}
+
+/*마이페이지
+.mypage .left-menu > ul > li:nth-child(1){display:none}
+.mypage .left-menu > ul > li:nth-child(2){display:none}
+.mypage .left-menu > ul > li:nth-child(3){display:none}
+.mypage .left-menu > ul > li:nth-child(4){display:none}
+.mypage .left-menu > ul > li:nth-child(7){display:none}
+#order_total_price{display:none}
+.shop-content.mypage .head .my-theme .coupon-view{display:none}
+*/
+
+/* 참손길과 함께한 분들 */
+/*.text-table p a span{color:#313338 !important}*/
+
+/*통증과 스트레스 관리*/
+#s2021020846a91ff614abb .doz_row:nth-child(3) .widget_text_wrap{border:none}
+#s2021020846a91ff614abb .doz_row:nth-child(3) .widget_text_wrap .text_bg_color{box-shadow: 0px 4px 30px rgba(63, 56, 56, 0.1);}
+
+#s202102080333cec6e937b .col-dz-3 .widget_text_wrap{border:none}
+#s202102080333cec6e937b .col-dz-3 .widget_text_wrap .text-table{padding:0 0 1.5rem;overflow:hidden;border-radius:20px}
+#s202102080333cec6e937b .col-dz-3 .widget_text_wrap .text_bg_color{box-shadow: 0px 4px 30px rgba(63, 56, 56, 0.1);}
+#s202102080333cec6e937b .col-dz-3 .widget_text_wrap .text-table img{margin:0}
+#s202102080333cec6e937b .col-dz-3 .widget_text_wrap .text-table h6{margin-top:0}
+#s202102080333cec6e937b .col-dz-3 .widget_text_wrap .text-table h6:first-of-type{margin-bottom:1.5rem}
+#s202102080333cec6e937b .col-dz-3 .widget_text_wrap .text-table h6:nth-child(2){margin:0 1rem 1rem;font-size:1.25rem;color:#141517 !important}
+#s202102080333cec6e937b .col-dz-3 .widget_text_wrap .text-table p{margin:0 1rem;color:#141517}
+
+#s20210208163d37943a79b .widget_text_wrap .text_bg_color{box-shadow: 0px 4px 30px rgba(63, 56, 56, 0.1);;background-color:#fff !important}
+#s20210208163d37943a79b .widget_text_wrap .text-table .btn{padding:8px 15px}
+
+
+/*참손길 안마 전문성*/
+#s2021021037299b118a390{padding:4rem 0 0}
+#s2021021037299b118a390  .img_wrap{padding:80px 0;position:relative;overflow:visible}
+#s2021021037299b118a390  .img_wrap:after{content:"";display:block;width:3000px;height:100%;background-color:#E3F0FF;position:absolute;top:0;right:5rem}
+#s2021021037299b118a390  .img_wrap img{width:auto !important;height:35.375rem !important;position:relative;z-index:10;margin:0 !important}
+#s2021021037299b118a390 .doz_row:nth-child(1) > .col-dz:nth-child(2){padding-left:6rem}
+#s2021021037299b118a390 .doz_row:nth-child(1) > .col-dz:nth-child(2) .text-table p{word-break:keep-all;font-size:1.0625rem}
+
+#s202102106d82eb009e6c0  ._image_wrap{width:30.3125rem !important;float:right}
+#s202102106d82eb009e6c0  .img_wrap{padding:80px 0;position:relative;overflow:visible;height:auto !important;text-align:right}
+#s202102106d82eb009e6c0  .img_wrap:after{content:"";display:block;width:3000px;height:100%;background-color:#E3F0FF;position:absolute;top:0;left:5rem}
+#s202102106d82eb009e6c0  .img_wrap img{width:auto !important;height:35.375rem !important;position:relative;z-index:10;margin:0 !important}
+#s202102106d82eb009e6c0 .doz_row:nth-child(1) > .col-dz:nth-child(1) .text-table p{word-break:keep-all;font-size:1.0625rem}
+
+#s2021021058fa511637aed  .img_wrap{padding:80px 0;position:relative;overflow:visible;height:auto !important;width:30.3125rem;text-align:left}
+#s2021021058fa511637aed  .img_wrap:after{content:"";display:block;width:3000px;height:100%;background-color:#E3F0FF;position:absolute;top:0;right:5rem}
+#s2021021058fa511637aed  .img_wrap img{width:auto !important;height:35.375rem !important;position:relative;z-index:10;margin:0 !important}
+#s2021021058fa511637aed .doz_row:nth-child(1) > .col-dz:nth-child(2) .text-table p{word-break:keep-all;font-size:1.0625rem}
+
+/*고객혜택*/
+#s20210214bf548389e5ced .inside > .doz_row:nth-child(4) > .col-dz .widget_text_wrap{border:none}
+#s20210214bf548389e5ced .inside > .doz_row:nth-child(4) > .col-dz .widget_text_wrap .text_bg_color{box-shadow: 0px 4px 30px rgba(63, 56, 56, 0.1);}
+
+#s20210210c15395c88562a .inside > .doz_row:nth-child(3) > .col-dz .widget_text_wrap{border:none}
+#s20210210c15395c88562a .inside > .doz_row:nth-child(3) > .col-dz .widget_text_wrap .text_bg_color{box-shadow: 0px 4px 30px rgba(63, 56, 56, 0.1);}
+
+#s20210210c15395c88562a .inside > .doz_row:nth-child(3) table td{vertical-align:top}
+#s20210210c15395c88562a .inside > .doz_row:nth-child(3) table td:nth-child(1){padding-right:15px}
+#s20210210c15395c88562a .inside > .doz_row:nth-child(3) table td:nth-child(2){padding-left:15px}
+#s20210210c15395c88562a .inside > .doz_row:nth-child(3) table td p:first-child{margin-bottom:10px}
+#s20210210c15395c88562a .inside > .doz_row:nth-child(3) table td p *{color:#141517}
+
+#s2021021404039f0e4201d .visual_section .header-content{width:62.25rem}
+#s2021021404039f0e4201d .visual_section .header-content .text-wrap h6{font-size:1rem;font-weight:600}
+#s2021021404039f0e4201d .custom_nav.nav_round .owl-controls .owl-nav > div::before{background-color:transparent;color:#FF6D39 !important;font-weight:500}
+
+/*지점별 예약*/
+.h-menu-type4 ul{border:none !important}
+.h-menu-type4 li{width:15% !important;margin-right:2%;margin-bottom:2%;border:1px solid #CDCFD4 !important;box-sizing:border-box;border-radius:8px !important;height:60px !important;}
+.h-menu-type4 li:nth-child(6n){margin-right:0}
+.h-menu-type4 li.active{background-color:#002A58 !important;border-color:#002A58 !important}
+.h-menu-type4 li a{font-size:17px !important}
+
+.doz_sys .text-table .tc01{overflow:hidden}
+.doz_sys .text-table .tc01 h3:nth-child(1) img.fr-fin{width:384px !important;height:auto !important;margin-right:2rem !important;border-radius:0.5rem}
+.doz_sys .text-table .tc01 h3:nth-child(2){margin-top:2rem}
+.doz_sys .text-table .tc01 .btn{line-height:1.6rem}
+.doz_sys .text-table .tc01 .btn:after{content:"";display:inline-block;width:1.5rem;height:1.5rem;background:url(images/icon_arrow.png) no-repeat 0 0;background-size:contain;vertical-align:top}
+
+/*참손길 공동체 협동조합*/
+#s202102145c8f1e41e9007{padding:4rem 0 0}
+#s202102145c8f1e41e9007  .img_wrap{padding:9rem 0;position:relative;overflow:visible}
+#s202102145c8f1e41e9007  .img_wrap:after{content:"";display:block;width:3000px;height:100%;background-color:#FFF5F2;position:absolute;top:0;right:6.6rem}
+#s202102145c8f1e41e9007  .img_wrap img{width:auto !important;height:18.125rem !important;position:relative;z-index:10;margin:0 !important}
+#s202102145c8f1e41e9007 .doz_row:nth-child(1) > .col-dz:nth-child(2){padding-left:6rem}
+#s202102145c8f1e41e9007 .doz_row:nth-child(1) > .col-dz:nth-child(2) .text-table p{word-break:keep-all;font-size:1.0625rem}
+
+#s20210214e66562a853fa8  ._image_wrap{width:30.3125rem !important;float:right}
+#s20210214e66562a853fa8  .img_wrap{padding:9rem 0;position:relative;overflow:visible;height:auto !important;text-align:right}
+#s20210214e66562a853fa8  .img_wrap:after{content:"";display:block;width:3000px;height:100%;background-color:#FFF5F2;position:absolute;top:0;left:6.6rem}
+#s20210214e66562a853fa8  .img_wrap img{width:auto !important;height:17.25rem !important;position:relative;z-index:10;margin:0 !important}
+#s20210214e66562a853fa8 .doz_row:nth-child(1) > .col-dz:nth-child(1) .text-table p{word-break:keep-all;font-size:1.0625rem}
+
+#s20210214ec835400aa4da .inside > .doz_row:nth-child(3) .text-table h6:nth-child(1){margin-bottom:1.2rem}
+#s20210214ec835400aa4da .inside > .doz_row:nth-child(3) .text-table h6:nth-child(2){margin-bottom:1rem}
+
+#s202102141f1e301f8b278 .inside > .doz_row:nth-child(5) > .col-dz > .doz_row:nth-child(2) .widget_text_wrap{border:none}
+#s202102141f1e301f8b278 .inside > .doz_row:nth-child(5) > .col-dz > .doz_row:nth-child(2) .widget_text_wrap .text_bg_color{box-shadow: 0px 4px 30px rgba(63, 56, 56, 0.1);}
+
+#s20210214311a63625d4f4 ._more_btn{display:none !important}
+
+/*인사말*/
+#s20210111abf5b041a8f67 ._img_box{height:auto !important}
+#s20210111abf5b041a8f67 ._img_box img{margin-bottom:0 !important}
+
+
+/*mobile*/
+@media screen and (max-width:991px) {
+  /*푸터*/
+  .footer-section .nav.footer-all-nav{border-bottom:1px solid #4E525A;padding-bottom:30px}
+  .foot-custom p:nth-child(1){display:none}
+  .foot-custom p:nth-child(2){height:12px}
+  /*서브페이지 타이틀*/
+  h1.widget_menu_title{font-size:40px !important}
+  div.widget_text_wrap p{display:inline;}
+  div.widget_text_wrap p[style="text-align: center;"]{display:block}
+  .doz_sys h2{word-break:keep-all}
+  /*메인 홈 > 지점 소개 및 예약*/
+  .ng01{margin-bottom:20px;border-top:1px solid #dadae5;border-bottom:1px solid #dadae5;height:0rem;margin-bottom:2rem;position:relative;top:0;left:0;padding-top:calc(3.5rem + 1px);overflow:hidden;z-index:100}
+  .ng01:after{content:"";display:block;width:16px;height:8px;background:url(images/icon_down.png) no-repeat 0 0;background-size:contain;position:absolute;right:20px;top:24px}
+  .ng01.openMenu{overflow:visible}
+  .ng01.openMenu:after{transform:rotate(180deg)}
+  .ng01 > li{display:block;box-sizing:border-box;border-top:none;border-bottom:1px solid #dadae5;border-left:1px solid #dadae5;border-right:1px solid #dadae5;margin-bottom:0;background-color:#fff}
+  .ng01 > li:last-child{border-right:1px solid #dadae5}
+  .ng01 > li.active:last-child{border-right:1px solid #dadae5}
+  .ng01 > li.active{border-top:none;border-left:1px solid #dadae5;position:absolute !important;top:0;left:0;width:100%}
+  .ng01 > li.active + li{border-left:1px solid #dadae5}
+  .ng01 > li.active:after{content:none}
+  .ng01 > li:before{content:none !important}
+  .ng01 > li > a{text-align:left;padding:0 20px;background-color:#fff;width:auto;border-radius:0;border:none}
+  .ng01 > li.active a{background-color:#fff;border-color:#002A58;color:#313338}
+
+  .map-data-area{height:640px}
+
+  .doz_sys .text-table .tc01 h3:nth-child(1){display:none}
+  .doz_sys .text-table .tc01{height:286px}
+
+  /*메인 홈 > 지점 소개 및 예약 > 사당점*/
+  #s202102155aa89ede2ed9a .inside > .doz_row{width:auto}
+  #s202102155aa89ede2ed9a .inside > .doz_row:nth-child(1) .naver-map {padding:16px;height:327px}
+  #s202102155aa89ede2ed9a .inside > .doz_row:nth-child(1) .naver-map > div{height:295px !important}
+  /*메인 홈 > 지점 소개 및 예약 > 선릉점*/
+  #s202102174f98591002401 .inside > .doz_row{width:auto}
+  #s202102174f98591002401 .inside > .doz_row:nth-child(1) .naver-map {padding:16px;height:327px}
+  #s202102174f98591002401 .inside > .doz_row:nth-child(1) .naver-map > div{height:295px !important}
+  /*메인 홈 > 지점 소개 및 예약 > 수원역점*/
+  #s20210218b328c8f043424 .inside > .doz_row{width:auto}
+  #s20210218b328c8f043424 .inside > .doz_row:nth-child(1) .naver-map {padding:16px;height:327px}
+  #s20210218b328c8f043424 .inside > .doz_row:nth-child(1) .naver-map > div{height:295px !important}
+  /*메인 홈 > 지점 소개 및 예약 > 청주상당점*/
+  #s202102184128416a16fd8 .inside > .doz_row{width:auto}
+  #s202102184128416a16fd8 .inside > .doz_row:nth-child(1) .naver-map {padding:16px;height:327px}
+  #s202102184128416a16fd8 .inside > .doz_row:nth-child(1) .naver-map > div{height:295px !important}
+  /*메인 홈 > 지점 소개 및 예약 > 인덕원점*/
+  #s202102182ae4bbdb11a68 .inside > .doz_row{width:auto}
+  #s202102182ae4bbdb11a68 .inside > .doz_row:nth-child(1) .naver-map {padding:16px;height:327px}
+  #s202102182ae4bbdb11a68 .inside > .doz_row:nth-child(1) .naver-map > div{height:295px !important}
+  /*메인 홈 > 지점 소개 및 예약 > 합정점*/
+  #s2021021861818badf2940 .inside > .doz_row{width:auto}
+  #s2021021861818badf2940 .inside > .doz_row:nth-child(1) .naver-map {padding:16px;height:327px}
+  #s2021021861818badf2940 .inside > .doz_row:nth-child(1) .naver-map > div{height:295px !important}
+  /*메인 홈 > 지점 소개 및 예약 > 가산디지털단지역점*/
+  #s20210218cb3a3231852aa .inside > .doz_row{width:auto}
+  #s20210218cb3a3231852aa .inside > .doz_row:nth-child(1) .naver-map {padding:16px;height:327px}
+  #s20210218cb3a3231852aa .inside > .doz_row:nth-child(1) .naver-map > div{height:295px !important}
+  /*메인 홈 > 지점 소개 및 예약 > 마곡점*/
+  #s202102183367b249b0b9b .inside > .doz_row{width:auto}
+  #s202102183367b249b0b9b .inside > .doz_row:nth-child(1) .naver-map {padding:16px;height:327px}
+  #s202102183367b249b0b9b .inside > .doz_row:nth-child(1) .naver-map > div{height:295px !important}
+  /*메인 홈 > 지점 소개 및 예약 > 여의도점*/
+  #s2021021885dec74fb36fd .inside > .doz_row{width:auto}
+  #s2021021885dec74fb36fd .inside > .doz_row:nth-child(1) .naver-map {padding:16px;height:327px}
+  #s2021021885dec74fb36fd .inside > .doz_row:nth-child(1) .naver-map > div{height:295px !important}
+
+
+  /*메인 - 이용후기*/
+  #s20210208f435305281dae .inside > .doz_row:nth-child(6) .slick-list{overflow:visible}
+  #s20210208f435305281dae .inside > .doz_row:nth-child(6) .col-dz-4{width:320px;margin:0}
+  #s20210208f435305281dae .inside > .doz_row:nth-child(6) .widget{margin:0}
+  #s20210208f435305281dae ._widget_data .text_bg_color{height:100%;width:100%;position: absolute;top: 0;left: 0;height: 100%;width: 100%;border-radius: 20px;}
+
+  #s20210208f435305281dae .inside > .doz_row:nth-child(6) .col-dz-4 .fr-view img.fr-dib.fr-fil{width:60px !important}
+  #s20210208f435305281dae .inside > .doz_row:nth-child(6) .text-table h6 span:first-of-type{font-size:15px;}
+  #s20210208f435305281dae .inside > .doz_row:nth-child(6) .text-table p:first-of-type {left: -10px;}
+
+  #s20210208f435305281dae .inside > .doz_row:nth-child(6) .text-table h6 {
+    padding-top:10px;margin-bottom:0
+}
+  #s20210208f435305281dae .inside > .doz_row:nth-child(6) .text-table h6 span:nth-child(3) {
+    font-size:15px
+}
+  #s20210208f435305281dae .inside > .doz_row:nth-child(6) .text-table{padding:0 14px 8px;height:506px;position:relative}
+  #s20210208f435305281dae .inside > .doz_row:nth-child(6) .text-table .btn{position:absolute;bottom:12px;right:12px}
+
+  #s20210208f435305281dae .slick-dots{
+    margin-top:30px;
+    text-align:center;
+    width:100%;
+  }
+  #s20210208f435305281dae .slick-dots li button{
+    text-indent:-9999px;
+    width:8px;
+    height:8px;
+    border-radius:4px;
+    padding: 0;
+    background:#CDCFD4;
+    display:block;
+    border:none;
+  }
+  #s20210208f435305281dae .slick-dots li{
+    width:8px;
+    height:8px;
+    margin:0 4px;
+    display:inline-block;
+  }
+  #s20210208f435305281dae .slick-dots li.slick-active button{
+    background:#002A58;
+    width:8px;
+    height:8px;
+  }
+  #s20210208f435305281dae .slick-dots li button::before{
+    content:none
+  }
+  /*메인 홈 > 이용후기 - 커스텀*/
+  .slider-main{margin-bottom:0}
+  .slider-main .slider .slick-list{overflow:visible}
+  .slider-main .slider .slick-list li{
+    border-radius:30px;
+    padding:14px;
+    width:320px !important;
+    height:32.5rem;
+    margin-right:12px;
+  }
+
+  .slider-main .slick-dots li{
+    background:transparent;
+    box-shadow:none;
+    border-radius:0;
+    padding:0;
+    width:auto;
+    height:auto;
+    float:none;
+    margin-right:0;
+  }
+  .slider-main .slider li:last-child{margin-right:12px}
+  .slider-main .header-area{margin-bottom:0.5rem}
+  .slider-main .header-area img{width:60px !important;margin-left:-12px}
+  .slider-main .header-area dl{padding-top:3px}
+  .slider-main .header-area dt{font-size:15px;margin-bottom:0}
+  .slider-main .header-area dd{font-size:15px}
+  .slider-main .slider li > p{font-size:15p}
+   .slider-main .slick-dots{
+    margin-top:30px;
+    text-align:center;
+    width:100%;
+  }
+  .slider-main .slick-dots li button{
+    text-indent:-9999px;
+    width:8px;
+    height:8px;
+    border-radius:4px;
+    padding: 0;
+    background:#CDCFD4;
+    display:block;
+    border:none;
+  }
+  .slider-main .slick-dots li{
+    width:8px;
+    height:8px;
+    margin:0 4px;
+    display:inline-block;
+  }
+  .slider-main .slick-dots li.slick-active button{
+    background:#002A58;
+    width:8px;
+    height:8px;
+  }
+  .slider-main .slick-dots li button::before{
+    content:none
+  }
+
+  /*메인 - 공동체 협동조합*/
+  #text_w20210208853093ead35c7 h2{text-align:center !important}
+  #text_w20210208853093ead35c7 h4{text-align:center !important}
+  #s20210208747a321f8a932 .inside .doz_row:nth-child(2) > .col-dz > .doz_row:nth-child(3){text-align:center;display:block !important;margin-top:30px}
+  #s20210208747a321f8a932 .inside .doz_row:nth-child(2) > .col-dz > .doz_row:nth-child(3) > .col-dz{float:none;display:inline-block;width:auto}
+  /*메인 - 언론보도*/
+  #newest_w20210208415df22a52975 .post_row{}
+  #newest_w20210208415df22a52975 .post_row .list-style-card{display:block}
+  #newest_w20210208415df22a52975 .post_row .list-style-card .ma-item{padding-bottom:0 !important}
+  #newest_w20210208415df22a52975 .post_row .list-style-card .card{width:auto;height:auto;border:none;min-height:0;border-radius:0;border-bottom:1px solid #ddd;padding-bottom:8px}
+  #newest_w20210208415df22a52975 .post_row .list-style-card:last-child .card{border-bottom:none;padding-bottom:0}
+  #newest_w20210208415df22a52975 .post_row .list-style-card .card_wrapper{width:80px;height:80px;float:left;border-radius: 8px;}
+  #newest_w20210208415df22a52975 .post_row .list-style-card .card-body {padding:10px 16px 0;}
+  #newest_w20210208415df22a52975 .post_row .list-style-card .card-body .title-block{margin:0}
+  #newest_w20210208415df22a52975 .post_row .list-style-card .card-body .text-block{display:none !important}
+  /*국내 안마사 제도*/
+  #w20210208c7e1ac03882c7 .text-table p:nth-child(n+6){display:block}
+  #w20210208c7e1ac03882c7 .text-table p:nth-child(n+7) strong{display:block;margin-bottom:5px}
+
+  .doz_sys h3{font-size:26px !important;font-weight:600}
+
+  /*안마바우처 제공*/
+  .boucher .leftA{float:none;width:auto;margin-bottom:25px}
+  .boucher .thumb{float:none}
+
+  /*이용후기*/
+  #s2021020860e417366a8d9 .col-dz.col-dz-4{margin-bottom:20px}
+  #s2020121094ef1ac53774c .board{margin:0 !important}
+  .board .board-head{border-radius:0}
+  #s2020121094ef1ac53774c .board-head .btn-write{display:none}
+
+  /*테이블*/
+  .text-table{overflow-x:scroll}
+  .text-table table{width:500px !important;max-width:500px !important;min-width:100% !important}
+
+  /*통증과 스트레스 관리*/
+  #s2021020846a91ff614abb .doz_row:nth-child(3) .col-xdz-6{width:auto !important}
+  #s202102080333cec6e937b .widget_text_wrap .text-table p{display:block}
+  #s20210208163d37943a79b .widget_text_wrap .text-table .btn{margin-bottom:1rem}
+
+  #s202102103e976bb73ec87 .text-table{overflow-x:visible;padding:0 1rem}
+  #s202102103e976bb73ec87 .text-table table{width:auto !important;max-width:100% !important;min-width:100% !important;margin:0 !important}
+  #s202102103e976bb73ec87 .text-table table td{vertical-align:top}
+  #s202102103e976bb73ec87 .text-table table td strong span:first-of-type{display:block;margin-bottom:5px}
+  #s202102103e976bb73ec87 .text-table table td strong{font-size:0}
+
+  /*참손길 안마 전문성*/
+  #s202102169e317d5437f73 .text-table h3{margin-bottom:10px}
+
+  /*고객혜택*/
+  #s2021021404039f0e4201d .visual_section .header-content{width:calc(100% - 100px);height:500px !important}
+  #text_w2021021084ad7d92e7478 .table-responsive{overflow-y:visible;overflow-x:hidden}
+  #text_w2021021084ad7d92e7478 .text-table .table{width:auto !important;max-width:100% !important;min-width:100% !important;display:block !important}
+  #text_w2021021084ad7d92e7478 .text-table .table td{display:block !important;width:auto !important;white-space:normal;padding:0 0 20px !important}
+  #text_w2021021084ad7d92e7478 .text-table .table td p{text-align:left !important;display:block}
+
+  /*지점별 예약*/
+  .h-menu-type4 ul{border-top:1px solid #CDCFD4 !important;border-left:1px solid #CDCFD4 !important;}
+  .h-menu-type4.row-cnt-mobile-3 ul li{margin-right:0;margin-bottom:0;border-top:none !important;border-left:none !important;border-radius:0 !important;height:50px !important;}
+  .h-menu-type4 li:nth-child(3n){margin-right:0}
+  .h-menu-type4 li a{font-size:15px !important}
+  .doz_sys .text-table .tc01 h3:nth-child(1) img.fr-fin{float:none !important}
+  .doz_sys .text-table .tc01 .btn{margin-top:2rem}
+
+  /*참손길 공동체 협동조합*/
+  #s202102145c8f1e41e9007{padding:3rem 0 0}
+  #s202102145c8f1e41e9007  .img_wrap{padding:0;margin-bottom:2rem}
+  #s202102145c8f1e41e9007  .img_wrap:after{content:none}
+  #s202102145c8f1e41e9007  .img_wrap img{height:auto !important}
+  #s202102145c8f1e41e9007 .doz_row:nth-child(1) > .col-dz:nth-child(2){padding-left:7.5px}
+
+  #s20210214e66562a853fa8  ._image_wrap{width:auto !important;float:none}
+  #s20210214e66562a853fa8  .img_wrap{padding:0}
+  #s20210214e66562a853fa8  .img_wrap:after{content:none}
+  #s20210214e66562a853fa8  .img_wrap img{height:auto !important}
+
+  #s20210214ec835400aa4da .inside > .doz_row:nth-child(3) .text-table p{display:block}
+  #s202102141f1e301f8b278 .inside > .doz_row:nth-child(5) > .col-dz > .doz_row:nth-child(2){margin-bottom:3rem}
+  #s202102141f1e301f8b278 .inside > .doz_row:nth-child(5) > .col-dz > .doz_row:nth-child(1)  ._img_box{height:auto !important}
+  #s20210214311a63625d4f4 ._more_btn{display:none !important}
+
+  #s20210214efa31d5859cb2 .item_container .title{font-size:15px !important}
+  /*지점 소개*/
+  #s202102092c8b4beec8d4f .doz_row:nth-child(3) ._widget_data ._text_wrap{height:auto}
+  #s20210215c28dab4c1d1b9 .doz_row:nth-child(3) ._widget_data ._text_wrap{height:auto}
+  #s202102156edb0b85511e7 .doz_row:nth-child(3) ._widget_data ._text_wrap{height:auto}
+  .naver-map {height:327px}
+  .naver-map > div{height:327px !important}
+  /*이용후기*/
+  .pc_section #padding_w202102080135bee3892ea{height:40px !important}
+  /*자주묻는질문*/
+  #s2021011126f768eb59790 .board-head{display:none}
+  /*참손길 소식*/
+  #s202012100fd921a68d0a5 .board-head .btn-write{display:none}
+  /*사업소개*/
+  #s202101111b2f689053458 .board-head{display:none}
+  /*인사말*/
+  #s20210111abf5b041a8f67 ._img_box img{width:100% !important;height:auto !important}
+  #text_w202101116ef73fb933ae4{padding-left:0}
+  #text_w202101116ef73fb933ae4 .text-table p:nth-child(-n+4){display:none}
+  #text_w202101116ef73fb933ae4 .text-table p:nth-last-child(-n+2){display:block}
+  #text_w202101116ef73fb933ae4 .text-table p:nth-last-child(2){margin-top:1rem}
+  /*프랜차이즈*/
+  #s20210209d739d9aea9f9b .text-table table{width:auto !important;}
+  #s20210209d739d9aea9f9b .text-table table td{font-size:12px}
+  #s202102103ef958c141d63 .text-table table{width:auto !important;}
+  #s202102103ef958c141d63 .text-table table td{font-size:12px}
+
+  /*마이페이지
+  .mypage .left-menu > ul li:nth-child(1){display:none}
+  .mypage .left-menu > ul li:nth-child(2){display:none}
+  .mypage .left-menu > ul li:nth-child(3){display:none}
+  .mypage .left-menu > ul li:nth-child(4){display:none}
+  .mypage .left-menu > ul li:nth-child(5){display:none}
+  */
+}
