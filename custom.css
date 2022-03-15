@@ -22,12 +22,18 @@ header ._txt_m20211220eadd1ca00ce50{
   background:url('https://cdn.imweb.me/upload/S202112204dec119bc3b56/640de9fd5613f.png') no-repeat 0 0;
   background-size:contain;
 }
+header ._main_menu li a{
+  color:#000 !important;
+}
 
 /******메인페이지******/
 
 /*키비주얼*/
 header + .section_wrap{
   background:#F9F9F9 url('https://cdn.imweb.me/upload/S202112204dec119bc3b56/56b8ba68d8c1f.png') no-repeat center center;
+}
+.doz_sys.new_header_overlay .section_first.pc_section{
+  padding-top:0 !important;
 }
 .visual-main{
   height:784px;
@@ -112,15 +118,14 @@ header + .section_wrap{
   width:119px;
 }
 
-/*마이페이지
-.mypage .left-menu > ul > li:nth-child(1){display:none}
-.mypage .left-menu > ul > li:nth-child(2){display:none}
-.mypage .left-menu > ul > li:nth-child(3){display:none}
-.mypage .left-menu > ul > li:nth-child(4){display:none}
-.mypage .left-menu > ul > li:nth-child(7){display:none}
-#order_total_price{display:none}
-.shop-content.mypage .head .my-theme .coupon-view{display:none}
-*/
+/* Work */
+#s20220315b996719a16fbe .masonry_02 .list-style-card:nth-child(2) .card{
+  padding-top:180px;
+}
+
+
+
+
 
 
 /*mobile*/
