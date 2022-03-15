@@ -4,6 +4,7 @@ writer: css3studio
 */
 
 /*공톨*/
+* {font-family: ‘SUIT Variable’, sans-serif;}
 .img_wrap{
   border-radius:10px;
 }
