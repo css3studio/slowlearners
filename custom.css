@@ -26,6 +26,39 @@ header ._main_menu li a{
   color:#000 !important;
 }
 
+.footer-section{
+  color:#000;
+}
+.footer-section .inside{
+  position:relative;
+}
+.doz_sys .footer-section a{
+  color:#000 !important;
+}
+.footer-section .foot-sociallink{
+  text-align:left;
+  position:absolute;
+  right:100px;
+  top:0;
+}
+.footer-section .foot-sociallink:before{
+  content:"SNS";
+  font-weight:bold;
+  padding-left:12px;
+}
+.footer-section .foot-sociallink .btn-group .btn i{
+  color:#000;
+}
+.family-footer{
+  text-align:left;
+  position:absolute;
+  right:300px;
+  top:0; 
+}
+.family-footer dt{
+  margin-bottom:8px;
+}
+
 /******메인페이지******/
 
 /*키비주얼*/
