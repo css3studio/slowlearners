@@ -26,7 +26,91 @@ header ._txt_m20211220eadd1ca00ce50{
 /******메인페이지******/
 
 /*키비주얼*/
-
+header + .section_wrap{
+  background:#F9F9F9 url('https://cdn.imweb.me/upload/S202112204dec119bc3b56/56b8ba68d8c1f.png') no-repeat center center;
+}
+.visual-main{
+  height:784px;
+  position:relative;
+}
+.visual-main .title-area{
+  position:absolute;
+  left:50%;
+  top:50%;
+  text-align:center;
+  transform: translate(-50%,-50%)
+}
+.visual-main .title-area p{
+  font-size:32px;
+  line-height:48px;
+  margin-bottom:16px;
+}
+.visual-main .title-area img{
+  width:255px;
+  height:80px;
+}
+.visual-main ul{
+  list-style: none;
+}
+.visual-main ul li{
+  position:absolute;
+  left:50%;
+  top:50%;
+  transform: translate(-50%,-50%)
+}
+.visual-main ul li img{
+  margin-bottom:19px;
+  display:block;
+  margin:0 auto;
+}
+.visual-main ul li span{
+  text-align:center;
+  display:block;
+  font-size:14px;
+  color:#9F9F9F;
+}
+.visual-main ul li.l1{
+  margin-left:-260px;
+  margin-top:250px;
+}
+.visual-main ul li.l1 img{
+  width:153px;
+}
+.visual-main ul li.l2{
+  margin-left:100px;
+  margin-top:230px;
+}
+.visual-main ul li.l2 img{
+  width:178px;
+}
+.visual-main ul li.l3{
+  margin-left:380px;
+  margin-top:30px;
+}
+.visual-main ul li.l3 img{
+  width:163px;
+}
+.visual-main ul li.l4{
+  margin-left:-300px;
+  margin-top:-80px;
+}
+.visual-main ul li.l4 img{
+  width:78px;
+}
+.visual-main ul li.l5{
+  margin-left:-100px;
+  margin-top:-210px;
+}
+.visual-main ul li.l5 img{
+  width:84px;
+}
+.visual-main ul li.l6{
+  margin-left:280px;
+  margin-top:-230px;
+}
+.visual-main ul li.l6 img{
+  width:119px;
+}
 
 /*마이페이지
 .mypage .left-menu > ul > li:nth-child(1){display:none}
