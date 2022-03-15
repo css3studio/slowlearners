@@ -122,9 +122,46 @@ header + .section_wrap{
 #s20220315b996719a16fbe .masonry_02 .list-style-card:nth-child(2) .card{
   padding-top:180px;
 }
-
-
-
+/* About */
+.list-main-about ul{
+  list-style: none;
+  display:flex;
+  justify-content: space-between;
+  padding-left:0;
+  margin:0 -9px;
+}
+.list-main-about ul li{
+  padding:0 9px;
+}
+.list-main-about ul li dl{
+  margin-bottom:50px;
+}
+.list-main-about ul li dl dt{
+  font-size:16px;
+  font-weight:normal;
+  margin-bottom:18px;
+}
+.list-main-about ul li dl dt b{
+  font-size:24px;
+  display:block;
+  font-weight:normal;
+}
+.list-main-about ul li dl dd{
+  font-size:14px;
+ color:#999;
+}
+.list-main-about ul li.l1 img{
+  width:78px;
+}
+.list-main-about ul li.l2 img{
+  width:76.7px;
+}
+.list-main-about ul li.l3 img{
+  width:91px;
+}
+.list-main-about ul li.l4 img{
+  width:85.5px;
+}
 
 
 
