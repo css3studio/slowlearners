@@ -176,6 +176,41 @@ header ._main_menu li a{
   font-size:14px;
   color:#999 !important;
 }
+#newest_w20220315f530f1c838044 > .line .table-cell a .third_fake em{
+  display:none;
+}
+
+/* Contact */
+#s20220315808f9c59a6f5f{
+  position:relative;
+}
+#s20220315808f9c59a6f5f:before{
+  content:"";
+  display:block;
+  width:190px;
+  height:216px;
+  position:absolute;
+  background:url('https://cdn.imweb.me/upload/S202112204dec119bc3b56/99e13e13157f2.png') no-repeat center center;
+  background-size:contain;
+  left:50%;
+  top:-130px;
+  margin-left:-720px;
+  z-index:1
+}
+#s20220315808f9c59a6f5f:after{
+  content:"";
+  display:block;
+  width:324px;
+  height:311px;
+  position:absolute;
+  background:url('https://cdn.imweb.me/upload/S202112204dec119bc3b56/71c080e4ebc4a.png') no-repeat center center;
+  background-size:contain;
+  left:50%;
+  bottom:0;
+  margin-left:295px;
+  z-index:1
+}
+
 
 
 
