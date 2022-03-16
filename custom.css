@@ -53,7 +53,7 @@ header ._main_menu li a{
   text-align:left;
   position:absolute;
   right:300px;
-  top:0; 
+  top:0;
 }
 .family-footer dt{
   margin-bottom:8px;
@@ -155,6 +155,23 @@ header ._main_menu li a{
 #s20220315b996719a16fbe .masonry_02 .list-style-card:nth-child(2) .card{
   padding-top:180px;
 }
+#s20220315b996719a16fbe .masonry_02 .list-style-card .card  > a .card-head:before{
+  transition: background 0.5s;
+}
+#s20220315b996719a16fbe .masonry_02 .list-style-card .card  > a:hover .card-head:before{
+  content: "";
+  display:block;
+  position:absolute;
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
+  background:rgba(0, 162, 144, 0.5);
+}
+
+#s20220315b996719a16fbe .masonry_02 .list-style-card .card  > a:hover .card-body .title{
+  color:#00A290;
+}
 /* About */
 .list-main-about ul{
   list-style: none;
@@ -212,6 +229,13 @@ header ._main_menu li a{
 #newest_w20220315f530f1c838044 > .line .table-cell a .third_fake em{
   display:none;
 }
+#newest_w20220315f530f1c838044 > .line .table-cell a:hover{
+  font-weight:bold;
+  /*text-decoration: underline;*/
+}
+#newest_w20220315f530f1c838044 > .line .table-cell a:hover > em{
+  text-decoration: none;
+}
 
 /* Contact */
 #s20220315808f9c59a6f5f{
@@ -220,10 +244,10 @@ header ._main_menu li a{
 #s20220315808f9c59a6f5f:before{
   content:"";
   display:block;
-  width:190px;
+  width:217px;
   height:216px;
   position:absolute;
-  background:url('https://cdn.imweb.me/upload/S202112204dec119bc3b56/99e13e13157f2.png') no-repeat center center;
+  background:url('https://cdn.imweb.me/upload/S202112204dec119bc3b56/0018545d8c3c0.png') no-repeat center center;
   background-size:contain;
   left:50%;
   top:-130px;
@@ -243,6 +267,7 @@ header ._main_menu li a{
   margin-left:295px;
   z-index:1
 }
+
 
 
 
