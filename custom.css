@@ -284,6 +284,7 @@ header ._main_menu li a{
 
 /*mobile*/
 @media screen and (max-width:991px) {
+  /* 레이아웃 */
   #s20211220ea80bc907a203 .inline-col-group{
     height:54px;
   }
@@ -299,4 +300,15 @@ header ._main_menu li a{
   #w20211220d7fb7630b4e03 .icon_type_menu a{
     color:#000;
   }
+  .footer-section .foot-sociallink{
+    right:initial;
+    left:5px;
+    top:155px;
+  }
+  .family-footer{
+    position:static;
+    margin-bottom:100px
+  }
+
+
 }
