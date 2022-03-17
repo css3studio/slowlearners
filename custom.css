@@ -97,16 +97,27 @@ header ._main_menu li a{
   top:50%;
   transform: translate(-50%,-50%)
 }
+.visual-main ul li a:hover{
+  display: inline-block;
+  animation: tada;
+  animation-duration: 3s;
+  cursor:auto
+}
 .visual-main ul li img{
   margin-bottom:19px;
   display:block;
   margin:0 auto;
 }
-.visual-main ul li span{
+.visual-main ul li a span{
   text-align:center;
   display:block;
+  opacity:0;
   font-size:14px;
   color:#9F9F9F;
+  transition: opacity 0.3s;
+}
+.visual-main ul li a:hover span{
+  opacity:1;
 }
 .visual-main ul li.l1{
   margin-left:-260px;
