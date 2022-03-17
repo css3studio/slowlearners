@@ -303,7 +303,7 @@ header ._main_menu li a{
   header .inline-col-group > .inline-col:first-child img{
     width:64px;
   }
-  .mobile_slide_menu li.depth-01:nth-child(4){
+  .mobile_slide_menu li.depth-01:nth-of-type(3){
     display:none
   }
   #w20211220d7fb7630b4e03 .icon_type_menu a{
