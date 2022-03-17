@@ -282,15 +282,16 @@ header ._main_menu li a{
 
 
 
-
 /*mobile*/
 @media screen and (max-width:991px) {
 
-  /*마이페이지
-  .mypage .left-menu > ul li:nth-child(1){display:none}
-  .mypage .left-menu > ul li:nth-child(2){display:none}
-  .mypage .left-menu > ul li:nth-child(3){display:none}
-  .mypage .left-menu > ul li:nth-child(4){display:none}
-  .mypage .left-menu > ul li:nth-child(5){display:none}
-  */
+  header .inline-col-group > .inline-col:first-child{
+    display:inline-block;
+  }
+  .mobile_slide_menu li.depth-01:nth-child(4){
+    display:none
+  }
+  #w20211220d7fb7630b4e03 .icon_type_menu a{
+    color:#000;
+  }
 }
