@@ -22,8 +22,9 @@ $(window).resize(function() {
 
 $(document).ready(function() {
 
-	//
+	//Contact 클래스명 지정
 	$("footer").before().addClass("section-contact");
+	console.log('good');
 /*
     //메인 홈 > 지점 소개 및 예약
 	var branches = {
