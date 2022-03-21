@@ -5,11 +5,14 @@ writer: css3studio
 
 /*공톨*/
 * {font-family: ‘SUIT Variable’, sans-serif;}
-.img_wrap{
-
-}
 
 /******헤더영역******/
+header{
+  border-bottom:1px solid #ddd;
+}
+body.new_header_overlay header{ /*메인페이지*/
+  border-bottom:none;
+}
 header .inline-col-group > .inline-col:first-child{
   display:none;
 }
@@ -273,10 +276,10 @@ header ._main_menu li a{
 }
 
 /* Contact */
-#s20220315808f9c59a6f5f{
+.section_wrap.section-contact{
   position:relative;
 }
-#s20220315808f9c59a6f5f:before{
+body.new_header_overlay .section_wrap.section-contact:before{
   content:"";
   display:block;
   width:217px;
@@ -289,7 +292,7 @@ header ._main_menu li a{
   margin-left:-720px;
   z-index:1
 }
-#s20220315808f9c59a6f5f:after{
+.section_wrap.section-contact:after{
   content:"";
   display:block;
   width:324px;
@@ -550,10 +553,10 @@ header ._main_menu li a{
   }
 
   /* Contact */
-  #s20220315808f9c59a6f5f{
+  .section_wrap.section-contact{
     padding-bottom:200px;
   }
-  #s20220315808f9c59a6f5f:before{
+  .section_wrap.section-contact:before{
     width:108px;
     height:107px;
     background-size:contain;
@@ -561,7 +564,7 @@ header ._main_menu li a{
     top:-70px;
     margin-left:0;
   }
-  #s20220315808f9c59a6f5f:after{
+  .section_wrap.section-contact:after{
     width:284px;
     height:273px;
     left:initial;
@@ -569,16 +572,16 @@ header ._main_menu li a{
     bottom:0;
     margin-left:0;
   }
-  #text_w2022031549436fa6c590d{
+  .section_wrap.section-contact .widget_text_wrap{
     padding-right:85px;
     margin-bottom:15px;
   }
-  #text_w2022031549436fa6c590d p span{
+  .section_wrap.section-contact .widget_text_wrap p span{
     font-size:32px !important;
     line-height:48px !important;
     word-break:keep-all;
   }
-  #w202203154ed97a255ab03{
+  .section_wrap.section-contact main .inside > div:first-child > div >div{
     height:20px;
   }
 
