@@ -22,6 +22,9 @@ $(window).resize(function() {
 
 $(document).ready(function() {
 
+	//
+	$("footer").before().addClass("section-contact");
+/*
     //메인 홈 > 지점 소개 및 예약
 	var branches = {
 		"사당" : "#s202102155aa89ede2ed9a",
@@ -74,7 +77,7 @@ $(document).ready(function() {
 		});
         return false;
     });
-
+*/
     var dw = viewport().width;
 	if(dw <= 768){	//모바일
 		$("body").removeClass('pc');
@@ -92,14 +95,15 @@ $(document).ready(function() {
 
 //PC버젼 초기화
 function init_pc(){
+	/*
 	if($('.slider-main .slider .slick-list').length > 0){
 		$('.slider-main .slider').slick('unslick');
-	}
-	console.log('pc')
+	}*/
 }
 
 //모바일 버젼 초기화
 function init_mobile(){
+	/*
     $('.slider-main .slider').slick({
 	  dots: true,
 	  arrows: false,
@@ -109,8 +113,7 @@ function init_mobile(){
 	  slidesToScroll: 1,
 	  variableWidth: true,
 	  draggable: true
-    });
-	console.log('mobile')
+    */
 
 }
 
