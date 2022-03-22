@@ -802,8 +802,26 @@ body.post_view .sub-menu.h-menu-type1{
   .sub-menu.h-menu-type1 ul > li > a{
     font-size:16px !important
   }
-  /* notice 게시판 */
 
+  /* 게시판 뷰 화면 */
+  .board_view header {
+    border-bottom:none;
+  }
+  .board_view header p.view_tit{
+    font-size:24px;
+  }
+  .post_view .board_summary {
+    margin:0 0.1px;
+    padding:0 0 15px;
+  }
+  .board_view header:before{
+    content:none;
+  }
+  .board_view .board_txt_area {
+    padding: 24px 0;
+  }
+
+  /* notice 게시판 */
   #post_card_b20220321cc961bd599dd1.li_table ul.list li.tit a span.time{
     margin-top:0 !important;
   }
