@@ -567,6 +567,20 @@ body.post_view .sub-menu.h-menu-type1{
   font-weight:bold;
 }
 
+.wrap_map > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(6) > div:nth-child(1){
+  width:62px;
+  height:77px;
+  background:url('https://cdn.imweb.me/upload/S202112204dec119bc3b56/1bfa1233ef79a.png') no-repeat 0 0;
+  background-size:contain;
+  transform: translate(-20%,-20px)
+}
+.wrap_map > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(6) > div:nth-child(1) img{
+  display:none !important;
+}
+.roughmap_maker_label{
+  transform: translate(0,-20px)
+}
+
 /**** mobile ****/
 
 @media screen and (max-width:991px) {
