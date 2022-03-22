@@ -368,7 +368,31 @@ body.new_header_overlay .section_wrap.section-contact:before{
   left: -20px;
 }
 
-/*mobile*/
+/* 서브페이지타이틀 */
+.title-sub-page{
+  padding-top:60px;
+  width:100%;
+  font-size:48px !important;
+  font-weight:bold !important;
+  height:230px;
+  margin:0 !important;
+  background:url('https://cdn.imweb.me/upload/S202112204dec119bc3b56/f6273a9fe0bee.png') no-repeat right center;
+}
+.title-sub-page.notice{
+  background-image:url('https://cdn.imweb.me/upload/S202112204dec119bc3b56/f6273a9fe0bee.png');
+}
+.title-sub-page.insight{
+  background-image:url('https://cdn.imweb.me/upload/S202112204dec119bc3b56/1e8b171852b5c.png');
+}
+.title-sub-page.faq{
+  background-image:url('https://cdn.imweb.me/upload/S202112204dec119bc3b56/2f4c71bf3efbf.png');
+}
+.title-sub-page.contact{
+  background-image:url('https://cdn.imweb.me/upload/S202112204dec119bc3b56/061deebe1f1f9.png');
+}
+
+
+/**** mobile ****/
 @media screen and (max-width:991px) {
   /* 레이아웃 */
   #s20211220ea80bc907a203{
