@@ -17,7 +17,7 @@ header .inline-col-group > .inline-col:first-child{
   display:none;
 }
 header ._txt_m20211220eadd1ca00ce50{
-  display:block;
+  display:inline-block;
   width:65.75px;
   height:48px;
   text-indent:-9999px;
@@ -25,10 +25,41 @@ header ._txt_m20211220eadd1ca00ce50{
   background:url('https://cdn.imweb.me/upload/S202112204dec119bc3b56/640de9fd5613f.png') no-repeat 0 0;
   background-size:contain;
 }
-header ._main_menu li a{
+header ._main_menu > li > a{
   color:#000 !important;
+  width:160px;
+  padding:0 !important;
+}
+header ._main_menu li.open a{
+  background-color: #F9F9F9 !important;
+  font-weight:bold !important;
+}
+#w202203023b6d62c220ed9 .dropdown-menu {
+  margin-top: 0;
+  left:50%;
+  transform: translate(-50%,0);
+  background: #F9F9F9;
+  border-radius:0 !important;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+  padding: 5px 0;
+  border:none;
+  text-align:center;
+  border-top:1px solid #ddd;
+}
+#w202203023b6d62c220ed9 .dropdown-menu > li > a{
+  border-radius:0 !important;
+  font-size: 16px !important;
+  font-weight: normal !important;
+  padding:12px 0;
+}
+#w202203023b6d62c220ed9 .dropdown-menu > li > a:hover{
+  background-color: #F9F9F9 !important;
+  color: #00A290 !important;
 }
 
+
+/******푸터영역******/
 .footer-section{
   color:#000;
 }
