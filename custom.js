@@ -28,7 +28,7 @@ $(document).ready(function() {
 	//Notice 게시판 구조변경
 	$('#post_card_b20220321cc961bd599dd1 ul.list').each(function(){
 		var time = $('i').text($('li.time',this).text());
-		$('li.time a span:first-of-type',this).before(time);
+		$('li.tit a span:first-of-type',this).before(time);
 		$('li.time',this).remove();
 	})
 
