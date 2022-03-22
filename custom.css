@@ -547,7 +547,22 @@ body.post_view .sub-menu.h-menu-type1{
   text-decoration: underline;
   font-weight:bold;
 }
-
+/* Insight view*/
+.full_board .board_view {
+    max-width: 100%;
+}
+.full_board .board_view .grid_ignore_wrap{
+  max-width: 870px;
+  display:block !important;
+  position:absolute;
+  bottom:0;
+  left:50%;
+  transform: translate(-50%,0)
+}
+.full_board .board_view .grid_ignore_wrap p{
+  font-size:40px !important;
+  font-weight:bold;
+}
 
 /**** mobile ****/
 
@@ -926,7 +941,18 @@ body.post_view .sub-menu.h-menu-type1{
     font-size:16px;
   }
 
-
+  /* Insight view*/
+  .full_board .board_view .show_view_class{
+      max-height:472px !important;
+      height:472px !important;
+  }
+  .full_board .board_view .grid_ignore_wrap{
+    bottom:20px;
+  }
+  .full_board .board_view .grid_ignore_wrap p{
+    font-size:32px !important;
+    margin-bottom:30px;
+  }
 
 
 }
