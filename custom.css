@@ -371,7 +371,7 @@ body.new_header_overlay .section_wrap.section-contact:before{
 
 /* 서브페이지타이틀 */
 .title-sub-page{
-  padding-top:60px;
+  padding-top:70px;
   width:100%;
   font-size:48px !important;
   font-weight:bold !important;
@@ -489,12 +489,37 @@ body.post_view .sub-menu.h-menu-type1{
 }
 
 
+/* FAQ */
+.container_border .acd_group > div:first-of-type{
+  border-top:2px solid #000;
+}
+.container_border .acd_group .acd_heading{
+  padding: 32px 32px 32px 10px !important;;
+}
+.container_border .acd_group .acd_heading .acd_title a{
+  padding-right:100px !important;;
+}
+.container_border .acd_group .acd_heading .acd_title .title .tabled:before{
+  content:"Q";
+  display:inline;
+  margin-right:40px;
+  font-weight:bold;
+}
+.container_border .acd_group .acd_collapse{
+  padding: 15px 132px 15px 10px !important;
+  background: #F9F9F9;
+}
 
-
-
-
-
-
+.container_border .acd_group .acd_collapse .board_contents:before{
+  content:"A";
+  float:left;
+  font-weight:bold;
+  font-size:24px;
+}
+.container_border .acd_group .acd_collapse .board_contents p{
+  margin-left:60px;
+  font-size:18px;
+}
 
 
 
@@ -829,4 +854,36 @@ body.post_view .sub-menu.h-menu-type1{
   #post_card_b20220321cc961bd599dd1.li_table ul.list li.tit a {
     font-size:16px !important;
   }
+
+
+  /* FAQ */
+  .container_border .acd_group .acd_heading{
+    padding: 24px 10px 24px 10px !important;;
+  }
+  .container_border .acd_group .acd_heading .acd_title a{
+    padding-right:30px !important;
+    font-size:16px;
+    line-height:1.5;
+  }
+  .container_border .acd_group .acd_heading .acd_title .title .tabled:before{
+    margin-right:20px;
+  }
+  .container_border .acd_group .acd_collapse{
+    padding: 15px 10px 15px 10px !important;
+  }
+
+  .container_border .acd_group .acd_collapse .board_contents::before {
+    font-size: 18px;
+  }
+  .container_border .acd_group .acd_collapse .board_contents p{
+    margin-left:30px;
+    font-size:14px;
+  }
+
+
+
+
+
+
+
 }
