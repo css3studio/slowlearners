@@ -309,6 +309,7 @@ header ._main_menu li.open a{
 /* Contact */
 .section_wrap.section-contact{
   position:relative;
+  margin-top:120px;
 }
 body.new_header_overlay .section_wrap.section-contact:before{
   content:"";
@@ -408,6 +409,51 @@ body.new_header_overlay .section_wrap.section-contact:before{
   border:none;
   font-weight:bold;
 }
+
+
+/* notice 게시판 */
+#post_card_b20220321cc961bd599dd1.li_table ul:nth-of-type(2){
+  border-top:2px solid #000;
+}
+#post_card_b20220321cc961bd599dd1.li_table ul.list li.tit a em:nth-of-type(2){
+  display:inline-block !important;
+  font-size:14px;
+  color:#999 !important;
+}
+#post_card_b20220321cc961bd599dd1.li_table ul.list li.tit a span.time{
+  display:inline-block !important;
+  color:#999 !important;
+}
+#post_card_b20220321cc961bd599dd1.li_table ul.list li.tit a span.time:before{
+  content:"∙";
+  margin-right:8px;
+}
+#post_card_b20220321cc961bd599dd1.li_table ul.list li.tit a span.time + span{
+  display:block !important;
+  position:relative;
+}
+#post_card_b20220321cc961bd599dd1.li_table ul.list li.tit a span.icons{
+  display:none !important;
+}
+#post_card_b20220321cc961bd599dd1.li_table ul.list li.tit a:hover span.time + span{
+  font-weight:bold;
+}
+#post_card_b20220321cc961bd599dd1.li_table ul.list li.tit a:hover span.time + span:after{
+  content:"";
+  display:block;
+  position:absolute;
+  width:100%;
+  height:1px;
+  border-top:1px solid #000;
+  bottom:3px;
+  left:0;
+}
+
+
+
+
+
+
 
 
 
@@ -665,6 +711,10 @@ body.new_header_overlay .section_wrap.section-contact:before{
   /* Contact */
   .section_wrap.section-contact{
     padding-bottom:200px;
+    margin-top:80px;
+  }
+  .section_wrap.section-contact .doz_aside{
+    margin-top:-60px
   }
   .section_wrap.section-contact:before{
     width:108px;
@@ -713,5 +763,13 @@ body.new_header_overlay .section_wrap.section-contact:before{
   .sub-menu.h-menu-type1 ul > li > a{
     font-size:16px !important
   }
+  /* notice 게시판 */
 
+  #post_card_b20220321cc961bd599dd1.li_table ul.list li.tit a span.time{
+    margin-top:0 !important;
+  }
+
+  #post_card_b20220321cc961bd599dd1.li_table ul.list li.tit a {
+    font-size:16px !important;
+  }
 }
