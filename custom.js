@@ -24,6 +24,16 @@ $(document).ready(function() {
 
 	//Contact 클래스명 지정
 	$("footer").prev().addClass("section-contact");
+
+	//Notice 게시판 구조변경
+	$('#post_card_b20220321cc961bd599dd1 ul.list').each(function(){
+		var time = $('i').text($('li.time',this).text());
+		$('a span:first-of-type',this).before(time);
+		$('li.time',this).remove();
+	})
+
+
+
 /*
     //메인 홈 > 지점 소개 및 예약
 	var branches = {
