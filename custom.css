@@ -506,10 +506,12 @@ body.post_view .sub-menu.h-menu-type1{
   font-weight:bold;
 }
 .container_border .acd_group .acd_collapse{
-  padding: 15px 132px 15px 10px !important;
   background: #F9F9F9;
+  padding-left:10px;
 }
-
+.container_border .acd_group .acd_collapse .board_contents{
+  padding: 32px 132px 32px 0px !important;
+}
 .container_border .acd_group .acd_collapse .board_contents:before{
   content:"A";
   float:left;
@@ -519,6 +521,7 @@ body.post_view .sub-menu.h-menu-type1{
 .container_border .acd_group .acd_collapse .board_contents p{
   margin-left:60px;
   font-size:18px;
+  margin-bottom:0
 }
 
 
@@ -868,10 +871,9 @@ body.post_view .sub-menu.h-menu-type1{
   .container_border .acd_group .acd_heading .acd_title .title .tabled:before{
     margin-right:20px;
   }
-  .container_border .acd_group .acd_collapse{
-    padding: 15px 10px 15px 10px !important;
+  .container_border .acd_group .acd_collapse .board_contents {
+    padding: 24px 10px 24px 0px !important;
   }
-
   .container_border .acd_group .acd_collapse .board_contents::before {
     font-size: 18px;
   }
@@ -880,6 +882,10 @@ body.post_view .sub-menu.h-menu-type1{
     font-size:14px;
   }
 
+  .container_border .acd_group .acd_collapse .board_summary .left{
+    padding-bottom:0 !important;
+
+  }
 
 
 
