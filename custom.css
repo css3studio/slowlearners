@@ -391,8 +391,35 @@ body.new_header_overlay .section_wrap.section-contact:before{
   background-image:url('https://cdn.imweb.me/upload/S202112204dec119bc3b56/061deebe1f1f9.png');
 }
 
+/* 게시판 카테고리 menu */
+.sub-menu.h-menu-type1 ul > li:before{
+  content:"|";
+  font-size:24px;
+  font-weight:300;
+  color:#aaa;
+  margin:0 24px;
+}
+.sub-menu.h-menu-type1 ul > li:first-child:before{
+  content:none;
+}
+.sub-menu.h-menu-type1 ul > li > a{
+  padding-bottom:0 !important
+}.sub-menu.h-menu-type1 ul > li > a.active{
+  border:none;
+  font-weight:bold;
+}
+
+
+
+
+
+
+
+
+
 
 /**** mobile ****/
+
 @media screen and (max-width:991px) {
   /* 레이아웃 */
   #s20211220ea80bc907a203{
@@ -668,7 +695,23 @@ body.new_header_overlay .section_wrap.section-contact:before{
     height:20px;
   }
 
+  /* 서브페이지타이틀 */
+  .title-sub-page{
+    padding-top:40px;
+    width:100%;
+    font-size:40px !important;
+    height:128px;
+    margin:40px 0 20px !important;
+    background-size: auto 128px;
+  }
 
-
+  /* 게시판 카테고리 menu */
+  .sub-menu.h-menu-type1 ul > li:before{
+    font-size:16px;
+    margin:0 16px;
+  }
+  .sub-menu.h-menu-type1 ul > li > a{
+    font-size:16px !important
+  }
 
 }
