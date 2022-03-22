@@ -25,12 +25,14 @@ $(document).ready(function() {
 	//Contact 클래스명 지정
 	$("footer").prev().addClass("section-contact");
 
-	//Notice 게시판 구조변경
+	//Notice 게시판 리스트 구조변경
 	$('#post_card_b20220321cc961bd599dd1 ul.list').each(function(){
 		var time = $('<span/>').text($('li.time',this).text()).addClass('time');
 		$('li.tit a span:first-of-type',this).before(time);
 		$('li.time',this).remove();
 	})
+	//Notice 게시판 뷰 구조변경
+	$('.board_view .board_summary .author .date').before($('.board_view header p a'));
 
 
 
