@@ -306,7 +306,7 @@ header ._main_menu li.open a{
   text-decoration: none;
 }
 
-/* Contact */
+/* Contact - 전체 페이지 */
 .section_wrap.section-contact{
   position:relative;
   margin-top:120px;
@@ -336,6 +336,9 @@ body.new_header_overlay .section_wrap.section-contact:before{
   bottom:0;
   margin-left:295px;
   z-index:1
+}
+body._body_menu_m202112201a1e8e9ba87b8 .section-contact main .doz_aside{  /* contact 페이지 */
+  display:none !important;
 }
 
 /**** sub pages *****/
@@ -923,7 +926,7 @@ body.post_view .sub-menu.h-menu-type1{
 
   /* Insight */
   #post_card_b2022031573f70b1c1b4bd ul.list .post_link_wrap{
-    padding:24px 0 !important;;
+    padding:24px 0 !important;
   }
   #post_card_b2022031573f70b1c1b4bd ul.list .post_link_wrap .board_thumb_wrap{
     width:96px;
