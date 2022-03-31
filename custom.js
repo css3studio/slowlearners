@@ -37,7 +37,7 @@ $(document).ready(function() {
 	//에티켓 탭메뉴 레이어 전환
 	var sections = ['#s20220331c93b202b05422','#s2022033123d7fd2520021','#s20220331a893966028ed7','#s202203317eac794233917'];
 	$('.tabmenu-etiquette li a').on("click",function(event){
-		$(this).parentsUntil('ul').find('li').removeClass("current");
+		$('.tabmenu-etiquette li').removeClass("current");
 		$(this).parent().addClass("current");
 		var idx = $(this).parent().index();
 		for(var i in sections) {
