@@ -395,6 +395,9 @@ body._body_menu_m202112201a1e8e9ba87b8 .section-contact main .doz_aside{  /* con
 .title-sub-page.contact{
   background-image:url('https://cdn.imweb.me/upload/S202112204dec119bc3b56/061deebe1f1f9.png');
 }
+.title-sub-page.story{
+  height:200px;
+}
 
 /* 게시판 카테고리 menu */
 .sub-menu.h-menu-type1 ul > li:before{
@@ -584,7 +587,7 @@ body.post_view .sub-menu.h-menu-type1{
 
 /**** STORY ****/
 
- /*지구에콕 BI*/
+/*지구에콕 BI*/
 #w202203313ff0b40cf9aff{
   border:1px solid #ddd;
   margin:10px 0 0;
@@ -607,8 +610,20 @@ body.post_view .sub-menu.h-menu-type1{
   padding-left:40px;
   margin-bottom:20px;
 }
-
-
+/*지구에콕 BI*/
+#w20220331c4267cd802aed{
+  border:1px solid #ddd;
+  margin:10px 0 0;
+}
+#w20220331c4267cd802aed img{
+  height:80px !important;
+  width:auto !important;
+  margin:48px 0 !important;
+}
+#w20220331637b45cbc4ca5 .text-table p span{
+  display:block;
+  margin-bottom:10px;
+}
 
 /**** mobile ****/
 
