@@ -1011,7 +1011,12 @@ body.post_view .sub-menu.h-menu-type1{
     margin:40px 0 20px !important;
     background-size: auto 128px;
   }
-
+  .title-sub-page.etiquette{
+    background-size: auto 128px;
+  }
+  .title-sub-page.etiquette span{
+    font-size:14px
+  }
   /* 게시판 카테고리 menu */
   .sub-menu.h-menu-type1 ul > li:before{
     font-size:16px;
@@ -1194,4 +1199,60 @@ body.post_view .sub-menu.h-menu-type1{
   #text_w20220331e864f4982452e{
     margin-bottom:15px
   }
+
+
+  /**** 에티켓 ****/
+  .tabmenu-etiquette {
+    overflow:scroll;
+    margin-top:40px;
+    margin-bottom:20px;
+  }
+  .tabmenu-etiquette ul li:before{
+    font-size:16px;
+    margin:0 16px;
+  }
+  .tabmenu-etiquette ul li a{
+    font-size:16px;
+    white-space:nowrap;
+    word-break:keep-all
+  }
+
+  .list-etiquette{
+    margin-bottom:120px;
+  }
+  .list-etiquette li{
+    display:block;
+    margin-bottom:40px;
+  }
+  .list-etiquette li .thumb{
+    width:auto;
+    text-align:left;
+    padding-left:10px;
+  }
+  .list-etiquette li .thumb img{
+    width:60px;
+  }
+  .list-etiquette li dl{
+    padding:35px 0;
+  }
+  .list-etiquette li dl dt{
+    font-size:24px;
+  }
+
+  #newest_w20220331ab3ce7f465626 .post_row{
+    display:block;
+  }
+  #newest_w20220331ab3ce7f465626 .post_row .card_wrapper {
+    background-size:auto 120% !important;
+    background-color:#eee;
+  }
+  #newest_w20220331ab3ce7f465626 .post_row .card .card-head{
+    height:200px !important;
+  }
+  #newest_w20220331ab3ce7f465626 .post_row .card-body .title{
+    font-size:13px;
+  }
+
+
+
 }
