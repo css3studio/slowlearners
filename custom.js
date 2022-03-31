@@ -39,7 +39,7 @@ $(document).ready(function() {
 	$('.tabmenu-etiquette li a').on("click",function(event){
 		$(this).parentsUntil('ul').find('li').removeClass("current");
 		$(this).parent().addClass("current");
-		var idx = $(this).parent();
+		var idx = $(this).parent().index();
 		for(var i in sections) {
 			if(idx == i)	$(sections[i]).show();
 			else			$(sections[i]).hide();
