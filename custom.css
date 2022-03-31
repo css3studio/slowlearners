@@ -347,6 +347,7 @@ body._body_menu_m202112201a1e8e9ba87b8 .section-contact main .doz_aside{  /* con
 .sub-menu.h-menu-type5 > ul > li:nth-child(3){
   display:inline-block !important;
   margin-right:20px;
+  float:left;
 }
 .sub-menu.h-menu-type5 > ul > li.active > ul > li.active-real:before {
   font-size: 10px !important;
@@ -380,7 +381,7 @@ body._body_menu_m202112201a1e8e9ba87b8 .section-contact main .doz_aside{  /* con
   font-weight:bold !important;
   height:230px;
   margin:0 !important;
-  background:url('https://cdn.imweb.me/upload/S202112204dec119bc3b56/f6273a9fe0bee.png') no-repeat right center;
+  background:no-repeat right center;
 }
 .title-sub-page.notice{
   background-image:url('https://cdn.imweb.me/upload/S202112204dec119bc3b56/f6273a9fe0bee.png');
@@ -580,6 +581,34 @@ body.post_view .sub-menu.h-menu-type1{
 .roughmap_maker_label{
   transform: translate(0,-20px)
 }
+
+/**** STORY ****/
+
+ /*지구에콕 BI*/
+#w202203313ff0b40cf9aff{
+  border:1px solid #ddd;
+  margin:10px 0 0;
+}
+#w202203313ff0b40cf9aff img{
+  height:136px !important;
+  width:auto !important;
+  margin:23px 0 !important;
+}
+#w20220331a775904200810 img{
+  height:325px !important;
+  width:auto !important;
+}
+#w202203315df42a233d269 ul{
+  list-style-type:none;
+  padding:0
+}
+#w202203315df42a233d269 ul li{
+  background: url('https://cdn.imweb.me/upload/S202112204dec119bc3b56/42e51b2014113.png') no-repeat 0 0;
+  padding-left:40px;
+  margin-bottom:20px;
+}
+
+
 
 /**** mobile ****/
 
