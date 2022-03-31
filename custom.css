@@ -586,6 +586,35 @@ body.post_view .sub-menu.h-menu-type1{
 }
 
 /**** STORY ****/
+/*왜 친환경?*/
+.story-statistics01{
+  list-style: none;
+  padding:0;
+  display:flex;
+  justify-content: space-between;
+  margin:0 -15px;
+}
+.story-statistics01 > li{
+  padding:0 15px;
+}
+.story-statistics01 > li > strong{
+  font-size:80px;
+  line-height:1;
+  display:block;
+  color:#F67449;
+  margin-bottom:5px
+}
+.story-statistics01 > li > strong span{
+  font-size:24px;
+  position:relative;
+  font-weight:normal;
+  top:-6px;
+  margin-left:5px;
+}
+.story-statistics01 > li > p{
+  color:#F67449;
+  font-size:14px;
+}
 
 /*지구에콕 BI*/
 #w202203313ff0b40cf9aff{
