@@ -1044,5 +1044,85 @@ body.post_view .sub-menu.h-menu-type1{
     margin-bottom:30px;
   }
 
+  /*왜 친환경?*/
+  .title-sub-page.story {
+    height: 130px;
+  }
+  #s2022033103a13775d88e4{
+    padding-top:230px;
+    background:url('https://cdn.imweb.me/upload/S202112204dec119bc3b56/df18da952464b.png') no-repeat center top;
+  }
+
+  #text_w20220331d8f97041ba131 .text-table  > div > p:first-of-type strong{
+    font-size:32px
+  }
+  .story-statistics01{
+    display:block;
+    margin:0;
+    max-width:320px;
+  }
+  .story-statistics01 > li{
+    padding:20px 0;
+    display:flex;
+    align-items: center;
+  }
+  .story-statistics01 > li > strong{
+    font-size:64px;
+    margin-bottom:0;
+    flex-basis:45%;
+  }
+  .story-statistics01 > li > strong span{
+    top:-2px;
+  }
+  #w202203316085fa988cc4a .text-table > div  > p:first-of-type span strong{
+    font-size:32px
+  }
+
+  /*지구에콕*/
+  #s2022033170fceadc965ce .doz_aside{
+    margin-bottom:40px;
+  }
+  #s2022033170fceadc965ce  .doz_aside .text-table > div  > p:first-of-type span strong{
+    font-size:24px;
+  }
+
+  #w2022033124fbd73cd9eb3{
+    margin-bottom:260px;
+  }
+
+  #w202203313ff0b40cf9aff {
+    margin-bottom:40px;
+  }
+  #w202203313ff0b40cf9aff img{
+    height:96px !important;
+    margin:10px 0 !important;
+  }
+
+  #s2022033170fceadc965ce .inside > div:nth-child(4) > div:nth-child(2){
+    position:absolute;
+    top:150px;
+  }
+  #w20220331a775904200810 img{
+    height:221px !important;
+  }
+
+  /*지구에콕 BI*/
+  #s20220331c9006443b52d7 .doz_aside{
+    margin-bottom:40px;
+  }
+  #s20220331c9006443b52d7  .doz_aside .text-table > div  > p:first-of-type span strong{
+    font-size:24px;
+  }
+  #w20220331c4267cd802aed{
+    margin-bottom:30px;
+  }
+  #w20220331c4267cd802aed img{
+    height:60px !important;
+    margin:28px 0 !important;
+  }
+  #w20220331637b45cbc4ca5 .text-table p span{
+    display:block;
+    margin-bottom:10px;
+  }
 
 }
