@@ -399,7 +399,9 @@ body._body_menu_m202112201a1e8e9ba87b8 .section-contact main .doz_aside{  /* con
   background-image:url('https://cdn.imweb.me/upload/S202112204dec119bc3b56/e36c06f18fcfd.png');
   background-size: 230px;
 }
-
+.title-sub-page.work{
+ height: 140px;
+}
 
 .title-sub-page.story{
   height:200px;
@@ -720,6 +722,65 @@ body.post_view .sub-menu.h-menu-type1{
 .list-etiquette li dl dd{
   color:#666;
 }
+
+/**** Work ****/
+#w202204012417638787498{ /* search */
+  margin:10px 0;
+}
+#w202204012417638787498 .search_type.search_btn_type02::before{
+  border-radius:28px !important;
+}
+#w202204012417638787498 .search_btn i{
+  line-height:1 !important;;
+}
+
+#post_card_b20220222e1f6e625033c7 .list-style-card .card a .card-head{
+  height:512px !important;;
+}
+
+#post_card_b20220222e1f6e625033c7 .list-style-card .card a .card-head:before{
+  transition: background 0.5s;
+}
+#post_card_b20220222e1f6e625033c7 .list-style-card .card a:hover .card-head:before{
+  content: "";
+  display:block;
+  position:absolute;
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
+  background:rgba(0, 162, 144, 0.5);
+}
+
+#post_card_b20220222e1f6e625033c7 .list-style-card .card a:hover .card-body .title{
+  color:#00A290;
+}
+#post_card_b20220222e1f6e625033c7 .list-style-card .card a .card-body .text{
+  display:none;
+  position:absolute;
+  top:-40px;
+  color:#fff;
+  width:100%;
+  padding:0 20px;
+  z-index:10;
+  text-overflow:ellipsis;white-space:nowrap;word-wrap:normal;overflow:hidden
+}
+#post_card_b20220222e1f6e625033c7 .list-style-card .card a:hover .card-body .text{
+  display:block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**** mobile ****/
 
