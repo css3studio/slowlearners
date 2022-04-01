@@ -774,12 +774,52 @@ body.post_view .sub-menu.h-menu-type1{
   display:block;
 }
 
-
-
-
-
-
-
+/**** Work view ****/
+.post-portfolio-header .basic-info{
+  display:flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.post-portfolio-header .basic-info ul{
+  list-style:none;
+  padding:0;
+  flex-grow: 1;
+}
+.post-portfolio-header .basic-info ul li{
+  margin-bottom:10px;
+}
+.post-portfolio-header .basic-info ul li:last-child{
+  margin-bottom:0;
+}
+.post-portfolio-header .basic-info ul dl{
+  display:flex;
+  margin-bottom: 0;
+}
+.post-portfolio-header .basic-info ul dl dt{
+  flex-basis:90px;
+}
+.post-portfolio-header .basic-info ul dl dt:after{
+  content:"|";
+  float:right;
+  font-weight:300
+}
+.post-portfolio-header .basic-info ul dl dd{
+  padding-left:16px;
+}
+.post-portfolio-header .certifications img{
+  height:48px;
+  margin-left:10px
+}
+.post-portfolio-header .product-info ul{
+  padding:0 16px;
+  display:flex;
+  flex-wrap: wrap;
+  line-height:1.8
+}
+.post-portfolio-header .product-info ul li{
+  width:50%;
+  color:#666;
+}
 
 
 
