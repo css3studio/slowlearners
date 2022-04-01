@@ -346,6 +346,9 @@ body._body_menu_m202112201a1e8e9ba87b8 .section-contact main .doz_aside{  /* con
 /**** sub pages *****/
 
 /* breadcrumb */
+.sub-menu.h-menu-type5 > ul{
+  display:block !important;
+}
 .sub-menu.h-menu-type5 > ul > li:nth-child(3){
   display:inline-block !important;
   margin-right:20px;
