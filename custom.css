@@ -814,11 +814,14 @@ body.post_view .sub-menu.h-menu-type1{
   padding:0 16px;
   display:flex;
   flex-wrap: wrap;
-  line-height:1.8
+  line-height:1.8;
+  margin-bottom:0
+
 }
 .post-portfolio-header .product-info ul li{
   width:50%;
   color:#666;
+  font-size:14px;
 }
 
 
@@ -1456,6 +1459,25 @@ body.post_view .sub-menu.h-menu-type1{
     display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis
   }
 
+
+  /**** Work view ****/
+  .post-portfolio-header .basic-info{
+    display:block;
+  }
+  .post-portfolio-header .basic-info ul{
+    margin-bottom:24px;
+  }
+  .post-portfolio-header .basic-info ul dl dt{
+    flex-shrink: 0;
+  }
+  .post-portfolio-header .certifications img{
+    height:32px !important;
+    margin-left:0px;
+    margin-right:10px;
+  }
+  .post-portfolio-header .product-info ul li{
+    width:auto;
+  }
 
 
 
