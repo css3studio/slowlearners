@@ -31,14 +31,14 @@ header ._main_menu > li > a{
   padding:0 !important;
 }
 header ._main_menu li.open a{
-  background-color: #F9F9F9 !important;
+  background-color: #E6EFEE !important;
   font-weight:bold !important;
 }
 #w202203023b6d62c220ed9 .dropdown-menu {
   margin-top: 0;
   left:50%;
   transform: translate(-50%,0);
-  background: #F9F9F9;
+  background: #E6EFEE;
   border-radius:0 !important;
   -webkit-box-shadow:none;
   box-shadow:none;
@@ -54,7 +54,7 @@ header ._main_menu li.open a{
   padding:12px 0;
 }
 #w202203023b6d62c220ed9 .dropdown-menu > li > a:hover{
-  background-color: #F9F9F9 !important;
+  background-color: #E6EFEE !important;
   color: #00A290 !important;
 }
 #w20220302869cb5ba957cf{ /*스크롤시 나타나는 검색 버튼*/
