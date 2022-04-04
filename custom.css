@@ -854,6 +854,17 @@ body.post_view .sub-menu.h-menu-type1{
 .form-widget form .form-group .control-label{
   font-size:14px;
 }
+
+.form-widget form .form-group input.form-control[type=text]{
+  height:48px;
+  padding: 0 12px !important;;
+}
+
+.form-widget form .form-group .phonenumber_wrap input{
+  width:160px !important;
+  height:48px;
+}
+
 .form-widget form .form-group .checkbox label{
   font-size:16px;
 }
