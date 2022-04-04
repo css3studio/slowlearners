@@ -134,56 +134,59 @@ header ._main_menu li.open a{
   overflow:hidden;
 }
 .visual-main .title-area .slider li div p{
+  transform: translateY(100px);
   margin-bottom:0;
-  opacity:0;
-  animation:
-    slide-up 15s cubic-bezier(0.65, 0, 0.35, 1) infinite;
+  /*
+  animation-name:slide-up;
+  animation-duration:15s;
+  animation-timing-function:cubic-bezier(0.65, 0, 0.35, 1);
+  animation-iteration-count: infinite;
+  animation-fill-mode: both;
+  animation-direction:alternate;
+  */
 }
 
 .visual-main .title-area .slider li.l1 div:nth-child(1) p{
-  animation-delay: 0;
+  animation: slide-up 15s 0s cubic-bezier(0.65, 0, 0.35, 1) infinite;
 }
 .visual-main .title-area .slider li.l1 div:nth-child(2) p{
-  animation-delay: 0.15s;
+  animation: slide-up 15s 0.25s cubic-bezier(0.65, 0, 0.35, 1) infinite;
 }
 .visual-main .title-area .slider li.l2 div:nth-child(1) p{
-  animation-delay: 5s;
+  animation: slide-up 15s 5s cubic-bezier(0.65, 0, 0.35, 1) infinite;
+
 }
 .visual-main .title-area .slider li.l2 div:nth-child(2) p{
-  animation-delay: 5.15s;
+  animation: slide-up 15s 5.25s cubic-bezier(0.65, 0, 0.35, 1) infinite;
+
 }
-.visual-main .title-area .slider li.l3 div:nth-child(1) p{
-  animation-delay: 10.15s;
+.visual-main .title-area .slider li.l3 div p{
+  animation: slide-up 15s 10.25s cubic-bezier(0.65, 0, 0.35, 1) infinite;
 }
 
 
 @keyframes slide-up{
   0%{
-    opacity:0;
     transform: translateY(100px)
   }
   3%{
-    opacity:1;
-    transform: translateY(0)
+    transform: translateY(0px)
   }
-  97%{
-    opacity:1;
-    transform: translateY(0)
+  30%{
+    transform: translateY(0px)
   }
-  100%{
-    opacity:0;
-    transform: translateY(100px)
-  }
-}
-@keyframes waiting{
-  0%{
-    display:none;
+  33.3333%{
+    transform: translateY(-100px)
   }
   100%{
-    display:none;
+    transform: translateY(-100px)
   }
 
+
+
 }
+
+
 .visual-main .title-area img{
   width:255px;
   height:80px;
