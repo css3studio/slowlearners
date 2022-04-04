@@ -150,18 +150,18 @@ header ._main_menu li.open a{
   animation: slide-up 15s 0s cubic-bezier(0.65, 0, 0.35, 1) infinite;
 }
 .visual-main .title-area .slider li.l1 div:nth-child(2) p{
-  animation: slide-up 15s 0.25s cubic-bezier(0.65, 0, 0.35, 1) infinite;
+  animation: slide-up 15s 0.125s cubic-bezier(0.65, 0, 0.35, 1) infinite;
 }
 .visual-main .title-area .slider li.l2 div:nth-child(1) p{
   animation: slide-up 15s 5s cubic-bezier(0.65, 0, 0.35, 1) infinite;
 
 }
 .visual-main .title-area .slider li.l2 div:nth-child(2) p{
-  animation: slide-up 15s 5.25s cubic-bezier(0.65, 0, 0.35, 1) infinite;
+  animation: slide-up 15s 5.125s cubic-bezier(0.65, 0, 0.35, 1) infinite;
 
 }
 .visual-main .title-area .slider li.l3 div p{
-  animation: slide-up 15s 10.25s cubic-bezier(0.65, 0, 0.35, 1) infinite;
+  animation: slide-up 15s 10.125s cubic-bezier(0.65, 0, 0.35, 1) infinite;
 }
 
 
