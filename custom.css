@@ -115,36 +115,75 @@ header ._main_menu li.open a{
   text-align:center;
   transform: translate(-50%,-50%)
 }
-.visual-main .title-area p{
+.visual-main .title-area .slider{
   font-size:32px;
   line-height:48px;
   margin-bottom:16px;
+  white-space:nowrap;
+  word-break:keep-all;
+  list-style: none;
+}
+.visual-main .title-area .slider li > div{
+  overflow:hidden;
+}
+.visual-main .title-area .slider li p{
+  margin-bottom:0;
+}
+.visual-main .title-area .slider li div:nth-child(1) p{
+  animation-delay: 0;
+  animation-iteration-count: infinite;
+  animation-name: slide-up;
+  animation-duration:5s;
+  animation-timing-function: cubic-bezier(0.65, 0, 0.35, 1);
+}
+.visual-main .title-area .slider li div:nth-child(2) p{
+  animation-delay: 0.15s;
+  animation-iteration-count: infinite;
+  animation-name: slide-up;
+  animation-duration:5s;
+  animation-timing-function: cubic-bezier(0.65, 0, 0.35, 1);
+}
+
+
+@keyframes slide-up{
+  0%{
+    transform: translateY(100px)
+  }
+  10%{
+    transform: translateY(0)
+  }
+  90%{
+    transform: translateY(0)
+  }
+  100%{
+    transform: translateY(-100px)
+  }
 }
 .visual-main .title-area img{
   width:255px;
   height:80px;
 }
-.visual-main ul{
+.visual-main > ul{
   list-style: none;
 }
-.visual-main ul li{
+.visual-main > ul li{
   position:absolute;
   left:50%;
   top:50%;
   transform: translate(-50%,-50%)
 }
-.visual-main ul li a:hover{
+.visual-main > ul li a:hover{
   display: inline-block;
   animation: tada;
   animation-duration: 3s;
   cursor:auto
 }
-.visual-main ul li img{
+.visual-main > ul li img{
   margin-bottom:19px;
   display:block;
   margin:0 auto;
 }
-.visual-main ul li a span{
+.visual-main > ul li a span{
   text-align:center;
   display:block;
   opacity:0;
@@ -152,49 +191,49 @@ header ._main_menu li.open a{
   color:#9F9F9F;
   transition: opacity 0.3s;
 }
-.visual-main ul li a:hover span{
+.visual-main > ul li a:hover span{
   opacity:1;
 }
-.visual-main ul li.l1{
+.visual-main > ul li.l1{
   margin-left:-260px;
   margin-top:250px;
 }
-.visual-main ul li.l1 img{
+.visual-main > ul li.l1 img{
   width:153px;
 }
-.visual-main ul li.l2{
+.visual-main > ul li.l2{
   margin-left:100px;
   margin-top:230px;
 }
-.visual-main ul li.l2 img{
+.visual-main > ul li.l2 img{
   width:178px;
 }
-.visual-main ul li.l3{
+.visual-main >  ul li.l3{
   margin-left:380px;
   margin-top:30px;
 }
-.visual-main ul li.l3 img{
+.visual-main >  ul li.l3 img{
   width:163px;
 }
-.visual-main ul li.l4{
+.visual-main >  ul li.l4{
   margin-left:-300px;
   margin-top:-80px;
 }
-.visual-main ul li.l4 img{
+.visual-main >  ul li.l4 img{
   width:78px;
 }
-.visual-main ul li.l5{
+.visual-main >  ul li.l5{
   margin-left:-100px;
   margin-top:-210px;
 }
-.visual-main ul li.l5 img{
+.visual-main >  ul li.l5 img{
   width:84px;
 }
-.visual-main ul li.l6{
+.visual-main >  ul li.l6{
   margin-left:280px;
   margin-top:-230px;
 }
-.visual-main ul li.l6 img{
+.visual-main >  ul li.l6 img{
   width:119px;
 }
 
