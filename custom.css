@@ -1182,10 +1182,19 @@ body.post_view .sub-menu.h-menu-type1{
   .title-sub-page.etiquette span{
     font-size:14px
   }
+  .title-sub-page.inquiry strong{
+    font-size:16px
+  }
   .title-sub-page.work {
     height: 70px;
   }
-
+  .title-sub-page.inquiry{
+    height:210px;
+  }
+  .title-sub-page.inquiry{
+    background-size: auto 128px;
+    background-position: right 0;
+  }
 
   /* 게시판 카테고리 menu */
   .sub-menu.h-menu-type1 ul > li:before{
@@ -1535,7 +1544,10 @@ body.post_view .sub-menu.h-menu-type1{
     width:auto;
   }
 
-
+  /* 제작 문의 */
+  .form-widget form .form-group .phonenumber_wrap input{
+    width:98px !important;
+  }
 
 
 }
