@@ -1020,64 +1020,64 @@ body.post_view .sub-menu.h-menu-type1{
     height:48px;
   }
 
-  .visual-main ul li a:active{
+  .visual-main > ul li a:active{
     display: inline-block;
     animation: tada;
     animation-duration: 3s;
     cursor:auto
   }
-  .visual-main ul li img{
+  .visual-main > ul li img{
     margin-bottom:19px;
     display:block;
     margin:0 auto;
   }
-  .visual-main ul li a span{
+  .visual-main > ul li a span{
     opacity:0;
     font-size:14px;
   }
-  .visual-main ul li a:active span{
+  .visual-main > ul li a:active span{
     opacity:1;
   }
-  .visual-main ul li.l1{
+  .visual-main > ul li.l1{
     margin-left:-140px;
     margin-top:150px;
   }
-  .visual-main ul li.l1 img{
+  .visual-main > ul li.l1 img{
     width:103px;
   }
-  .visual-main ul li.l2{
+  .visual-main > ul li.l2{
     margin-left:0px;
     margin-top:190px;
   }
-  .visual-main ul li.l2 img{
+  .visual-main > ul li.l2 img{
     width:127px;
   }
-  .visual-main ul li.l3{
+  .visual-main > ul li.l3{
     margin-left:130px;
     margin-top:100px;
   }
-  .visual-main ul li.l3 img{
+  .visual-main > ul li.l3 img{
     width:91px;
   }
-  .visual-main ul li.l4{
+  .visual-main > ul li.l4{
     margin-left:-140px;
     margin-top:-110px;
   }
-  .visual-main ul li.l4 img{
+  .visual-main > ul li.l4 img{
     width:66px;
   }
-  .visual-main ul li.l5{
+  .visual-main > ul li.l5{
     margin-left:-20px;
     margin-top:-170px;
   }
-  .visual-main ul li.l5 img{
+  .visual-main > ul li.l5 img{
     width:52px;
   }
-  .visual-main ul li.l6{
+  .visual-main > ul li.l6{
     margin-left:130px;
     margin-top:-170px;
   }
-  .visual-main ul li.l6 img{
+  .visual-main > ul li.l6 img{
     width:73px;
   }
 
