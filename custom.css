@@ -134,7 +134,6 @@ header ._main_menu li.open a{
   overflow:hidden;
 }
 .visual-main .title-area .slider li div p{
-  transform: translateY(100px);
   margin-bottom:0;
   /*
   animation-name:slide-up;
