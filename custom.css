@@ -135,6 +135,7 @@ header ._main_menu li.open a{
 }
 .visual-main .title-area .slider li div p{
   margin-bottom:0;
+  transform: translateY(100px);
   /*
   animation-name:slide-up;
   animation-duration:15s;
