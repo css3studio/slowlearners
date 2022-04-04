@@ -404,10 +404,20 @@ body._body_menu_m202112201a1e8e9ba87b8 .section-contact main .doz_aside{  /* con
   background-image:url('https://cdn.imweb.me/upload/S202112204dec119bc3b56/e36c06f18fcfd.png');
   background-size: 230px;
 }
+.title-sub-page.inquiry{
+  background-image:url('https://cdn.imweb.me/upload/S202112204dec119bc3b56/52a786c059e34.png');
+  background-size: 230px;
+}
+
+
+
 .title-sub-page.work{
  height: 140px;
 }
 
+.title-sub-page.inquiry{
+  height:280px;
+}
 .title-sub-page.story{
   height:200px;
 }
@@ -416,6 +426,11 @@ body._body_menu_m202112201a1e8e9ba87b8 .section-contact main .doz_aside{  /* con
   font-size:18px;
   font-weight:normal;
   margin-top:10px;
+}
+.title-sub-page strong{
+  display:block;
+  font-size:24px;
+  margin-top:30px;
 }
 
 /* 게시판 카테고리 menu */
@@ -828,10 +843,36 @@ body.post_view .sub-menu.h-menu-type1{
   font-size:14px;
 }
 
+/* 제작 문의 */
+.form-widget{
+  max-width:1064px;
+  margin:0 auto !important;;
+}
+.form-widget form .form-group{
+  margin-bottom:30px !important;;
+}
+.form-widget form .form-group .control-label{
+  font-size:14px;
+}
+.form-widget form .form-group .checkbox label{
+  font-size:16px;
+}
+.form-widget form .form-group.privacy .form-control{
+  padding:16px;
+  font-size:14px;
+  line-height:24px;
+}
 
+.form-widget form .form-group.privacy .checkbox label{
+  font-size:14px;
+}
 
-
-
+.form-widget .btn-primary{
+  border:1px solid #000 !important;
+  background: #000 !important;
+  color:#fff !important;
+  font-size:16px
+}
 
 
 /**** mobile ****/
