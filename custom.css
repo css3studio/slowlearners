@@ -1690,6 +1690,12 @@ body.post_view .sub-menu.h-menu-type1{
   #w202204012417638787498{ /* search */
     margin:0;
   }
+  #w202204012417638787498 .search_type .holder{
+    width:100% !important;
+  }
+  #w202204012417638787498 form{
+    width:100% !important;
+  }
   #w202204012417638787498 .search_type.search_btn_type02{
     width:calc(100% - 15px) !important;
   }
@@ -1699,7 +1705,7 @@ body.post_view .sub-menu.h-menu-type1{
     width:100% !important;
   }
   #w202204012417638787498 .search_type.search_btn_type02 a {
-    right:-20px
+    right:-10px
   }
   #w202204012417638787498 .search_btn i{
     line-height:2 !important;
