@@ -905,6 +905,25 @@ body.post_view .sub-menu.h-menu-type1{
   color:#666;
 }
 
+#newest_w20220331ab3ce7f465626 .list-style-card .card a .card-head:before{
+  transition: background 0.5s;
+}
+#newest_w20220331ab3ce7f465626 .list-style-card .card a:hover .card-head:before{
+  content: "";
+  display:block;
+  position:absolute;
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
+  background:rgba(0, 162, 144, 0.5);
+}
+
+#newest_w20220331ab3ce7f465626 .list-style-card .card a:hover .card-body .title{
+  color:#00A290;
+  font-weight:700;
+}
+
 /**** Work ****/
 #w202204012417638787498{ /* search */
   margin:10px 0;
