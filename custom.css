@@ -80,6 +80,9 @@ header ._main_menu li.open a{
   color:#666 !important;
   font-weight:bold;
 }
+.doz_sys .footer-section a:hover {
+  text-decoration:underline
+}
 .footer-section .foot-sociallink{
   text-align:left;
   position:absolute;
@@ -106,6 +109,25 @@ header ._main_menu li.open a{
   margin-bottom:12px;
 }
 
+.footer-section .nav.nav-stacked.footer-all-nav{
+  position:absolute;
+  top:0;
+  right: 550px;
+}
+.footer-section .nav.nav-stacked.footer-all-nav li{
+  float:none;
+  text-align:left;
+  margin-bottom:8px;
+}
+.footer-section .nav.nav-stacked.footer-all-nav li a {
+  padding:0;
+  font-size: 14px;
+  color:#666;
+  font-weight:normal;
+}
+.footer-section .nav.nav-stacked.footer-all-nav li a:hover {
+  text-decoration:underline
+}
 /******메인페이지******/
 
 /*키비주얼*/
@@ -997,12 +1019,27 @@ body.post_view .sub-menu.h-menu-type1{
   .footer-section .foot-sociallink{
     right:initial;
     left:5px;
-    top:155px;
+    top:305px;
   }
   .family-footer{
     position:static;
-    margin-bottom:100px
+    margin-top:140px;
+    margin-bottom:110px
   }
+
+  .footer-section .nav.nav-stacked.footer-all-nav{
+    position:absolute;
+    top:90px;
+    right:initial;
+    left:15px;
+  }
+  .footer-section .nav.nav-stacked.footer-all-nav li{
+    display:block;
+  }
+
+
+
+
   .section_wrap .doz_aside{
     display:block !important;
     margin-top:40px;
