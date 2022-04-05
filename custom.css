@@ -122,7 +122,7 @@ header ._main_menu li.open a{
 .footer-section .nav.nav-stacked.footer-all-nav li a {
   padding:0;
   font-size: 14px;
-  color:#666;
+  color:#666 !important;
   font-weight:normal;
 }
 .footer-section .nav.nav-stacked.footer-all-nav li a:hover {
@@ -235,10 +235,50 @@ header ._main_menu li.open a{
 }
 .visual-main > ul li a:hover{
   display: inline-block;
-  animation: tada;
+  animation: tada2;
   animation-duration: 3s;
   cursor:auto
 }
+
+
+@keyframes tada2 {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  10%,
+  20% {
+    -webkit-transform: scale3d(1.2, 1.2, 1.2) rotate3d(0, 0, 1, -3deg);
+    transform: scale3d(1.2, 1.2, 1.2) rotate3d(0, 0, 1, -3deg);
+  }
+
+  30%,
+  50%,
+  70%,
+  90% {
+    -webkit-transform: scale3d(1.2, 1.2, 1.2) rotate3d(0, 0, 1, 3deg);
+    transform: scale3d(1.2, 1.2, 1.2) rotate3d(0, 0, 1, 3deg);
+  }
+
+  40%,
+  60%,
+  80% {
+    -webkit-transform: scale3d(1.2, 1.2, 1.2) rotate3d(0, 0, 1, -3deg);
+    transform: scale3d(1.2, 1.2, 1.2) rotate3d(0, 0, 1, -3deg);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.tada2 {
+  -webkit-animation-name: tada2;
+  animation-name: tada2;
+}
+
 .visual-main > ul li img{
   margin-bottom:19px;
   display:block;
