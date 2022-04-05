@@ -1710,7 +1710,7 @@ body.post_view .sub-menu.h-menu-type1{
     margin-bottom:40px !important;
   }
   #post_card_b20220222e1f6e625033c7 .list-style-card .card a .card-head{
-    height:192px !important;;
+    /*! height:192px !important; */;
   }
 
   #post_card_b20220222e1f6e625033c7 .list-style-card .card a .card-body .title{
@@ -1753,4 +1753,11 @@ body.post_view .sub-menu.h-menu-type1{
   }
 
 
+}
+
+/* 스마트폰 */
+@media screen and (max-width: 767px){
+  #post_card_b20220222e1f6e625033c7 .list-style-card .card a .card-head {
+    height: 192px !important;
+  }
 }
