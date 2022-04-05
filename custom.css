@@ -856,6 +856,9 @@ body.post_view .sub-menu.h-menu-type1{
   padding:0;
   list-style:none;
 }
+.tabmenu-etiquette ul li{
+  display:flex;
+}
 .tabmenu-etiquette ul li:before{
   content:"|";
   font-weight:200;
