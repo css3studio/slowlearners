@@ -37,9 +37,11 @@ header ._main_menu > li > a{
   color:#000 !important;
   width:160px;
   padding:0 !important;
+  font-weight:500 !important;
 }
 header ._main_menu > li > a.active{
   color:#00a290 !important;
+  font-weight:bold !important;
 }
 header ._main_menu li.open a{
   background-color: #E6EFEE !important;
