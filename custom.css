@@ -389,6 +389,10 @@ header ._main_menu li.open a{
 #newest_w20220315f530f1c838044 > .line .table-cell a:hover > em{
   text-decoration: none;
 }
+#w20220315f530f1c838044 .addon-badge{
+  vertical-align:top !important;
+  transform: translateY(3px);
+}
 
 /* Contact - 전체 페이지 */
 .section_wrap.section-contact{
@@ -1200,7 +1204,7 @@ body.post_view .sub-menu.h-menu-type1{
   #newest_w20220315f530f1c838044 .list.line:not(.interlock_board) .row_title{
     font-size:16px;
     max-width:100%;
-    display:block;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis;
+    display:block;display:-webkit-box;-webkit-line-clamp:10;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis;
     white-space:initial;
   }
 
@@ -1210,6 +1214,9 @@ body.post_view .sub-menu.h-menu-type1{
   }
   #newest_w20220315f530f1c838044 > .line .table-cell a:active > em{
     text-decoration: none;
+  }
+  #w20220315f530f1c838044 .addon-badge{
+    margin-left:5px;
   }
 
   /* Contact */
