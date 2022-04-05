@@ -76,11 +76,11 @@ header ._main_menu li.open a{
 .footer-section .inside{
   position:relative;
 }
-.doz_sys .footer-section a{
+.footer-section .family-footer a{
   color:#666 !important;
   font-weight:bold;
 }
-.doz_sys .footer-section a:hover {
+.footer-section .family-footer a:hover {
   text-decoration:underline
 }
 .footer-section .foot-sociallink{
