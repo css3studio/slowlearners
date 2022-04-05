@@ -289,8 +289,12 @@ header ._main_menu li.open a{
 #s20220315b996719a16fbe .masonry_02 .list-style-card .card  > a .card-body .text_wrap{
   overflow:visible !important;
 }*/
+#s20220315b996719a16fbe .masonry_02 .list-style-card .card  > a:hover .card-body{
+  overflow: visible !important;
+}
 #s20220315b996719a16fbe .masonry_02 .list-style-card .card  > a:hover .card-body .title{
   color:#00A290;
+  font-weight:bold;
 }
 #s20220315b996719a16fbe .masonry_02 .list-style-card .card  > a .card-body .text{
   display:none;
