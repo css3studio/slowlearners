@@ -38,6 +38,9 @@ header ._main_menu > li > a{
   width:160px;
   padding:0 !important;
 }
+header ._main_menu > li > a.active{
+  color:#00a290 !important;
+}
 header ._main_menu li.open a{
   background-color: #E6EFEE !important;
   font-weight:bold !important;
@@ -501,6 +504,15 @@ body._body_menu_m202112201a1e8e9ba87b8 .section-contact main .doz_aside{  /* con
   display:inline-block !important;
   margin-right:20px;
   float:left;
+}
+.sub-menu.h-menu-type5 > ul > li a{
+  font-weight:500;
+}
+.sub-menu.h-menu-type5 > ul > li:nth-child(3) a .plain_name{
+  display:none;
+}
+.sub-menu.h-menu-type5 > ul > li:nth-child(3) a:before{
+  content:"홈";
 }
 .sub-menu.h-menu-type5 > ul > li.active > ul > li.active-real:before {
   font-size: 10px !important;
