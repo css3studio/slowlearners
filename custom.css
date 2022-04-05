@@ -413,7 +413,7 @@ header ._main_menu li.open a{
 }
 #w20220315f530f1c838044 .addon-badge{
   vertical-align:top !important;
-  transform: translateY(3px);
+  transform: translateY(7px);
 }
 
 /* Contact - 전체 페이지 */
@@ -1254,6 +1254,7 @@ body.post_view .sub-menu.h-menu-type1{
   }
   #w20220315f530f1c838044 .addon-badge{
     margin-left:5px;
+    transform: translateY(2px);
   }
 
   /* Contact */
