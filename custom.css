@@ -977,6 +977,36 @@ body.post_view .sub-menu.h-menu-type1{
 #post_card_b20220222e1f6e625033c7 .list-style-card .card a:hover .card-body .text{
   display:block;
 }
+#w202203156f5f626b7c111{
+  position:relative;
+}
+#w202203156f5f626b7c111 .li_footer{
+  position:static;
+}
+#w202203156f5f626b7c111 .li_footer .tools{
+  position: absolute;
+  top:-50px;
+  right:0;
+  z-index:10;
+}
+#w202203156f5f626b7c111 .li_footer .tools form .form-control{
+  height:56px;
+  width:305px;
+  border-radius: 28px;
+  padding:0 32px;
+  font-size:16px;
+}
+
+#w202203156f5f626b7c111 .li_footer .tools form .ico-search{
+  font-size:26px;
+  top:10px;
+  right:20px;
+
+}
+#w202203156f5f626b7c111 .li_footer .tools form .ico-search .icon-magnifier::before {
+  content: "\e090" !important;
+  color:#ccc;
+}
 
 /**** Work view ****/
 .post-portfolio-header .basic-info{
