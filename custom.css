@@ -406,7 +406,7 @@ header ._main_menu li.open a{
 }
 #newest_w20220315f530f1c838044 > .line .table-cell a:hover{
   font-weight:bold;
-  /*text-decoration: underline;*/
+  text-decoration: underline;
 }
 #newest_w20220315f530f1c838044 > .line .table-cell a:hover > em{
   text-decoration: none;
