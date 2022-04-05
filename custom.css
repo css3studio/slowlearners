@@ -5,6 +5,14 @@ writer: css3studio
 
 /*공톨*/
 * {font-family: 'SUIT', sans-serif;}
+.btn-primary, .btn-default{
+  font-size:16px;
+  padding:16px 32px;
+}
+.btn-primary:hover{
+  border-color:#00a290 !important;
+}
+
 
 /******헤더영역******/
 header{
