@@ -962,6 +962,7 @@ body.post_view .sub-menu.h-menu-type1{
 
 #post_card_b20220222e1f6e625033c7 .list-style-card .card a:hover .card-body .title{
   color:#00A290;
+  font-weight:bold;
 }
 #post_card_b20220222e1f6e625033c7 .list-style-card .card a .card-body .text{
   display:none;
@@ -976,6 +977,9 @@ body.post_view .sub-menu.h-menu-type1{
 }
 #post_card_b20220222e1f6e625033c7 .list-style-card .card a:hover .card-body .text{
   display:block;
+}
+#post_card_b20220222e1f6e625033c7 .list-style-card .card-body {
+  overflow: visible;
 }
 #w202203156f5f626b7c111{
   position:relative;
