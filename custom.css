@@ -1537,6 +1537,9 @@ body.post_view .sub-menu.h-menu-type1{
     padding-top:230px;
     background:url('https://cdn.imweb.me/upload/S202112204dec119bc3b56/df18da952464b.png') no-repeat center top;
   }
+  #s2022033103a13775d88e4 .section_bg{
+    background:none !important;
+  }
 
   #text_w20220331d8f97041ba131 .text-table  > div > p:first-of-type strong{
     font-size:32px
