@@ -697,6 +697,9 @@ body.post_view .sub-menu.h-menu-type1{
 
 
 /* FAQ */
+.container_border .acd_group > div{
+  border-bottom:1px solid #ddd;
+}
 .container_border .acd_group > div:first-of-type{
   border-top:2px solid #000;
 }
