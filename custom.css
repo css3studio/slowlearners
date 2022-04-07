@@ -514,6 +514,18 @@ body._body_menu_m202112201a1e8e9ba87b8 .section-contact main .doz_aside{  /* con
 .sub-menu.h-menu-type5 > ul > li:nth-child(3) a .plain_name{
   display:none;
 }
+body._body_menu_m20220405eefe9cab637de .sub-menu.h-menu-type5 > ul > li:nth-child(3) a .plain_name{
+  display:inline;
+}
+body._body_menu_m20220405eefe9cab637de .sub-menu.h-menu-type5 > ul:before{
+  content:"홈";
+  float:left;
+  margin-right:20px;
+  font-size:14px;
+  color:#999;
+  position:relative;
+  top:2px;
+}
 .sub-menu.h-menu-type5 > ul > li:nth-child(3) a:before{
   content:"홈";
 }
