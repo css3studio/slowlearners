@@ -634,8 +634,11 @@ body.post_view .sub-menu.h-menu-type1{
 .board_view {
   max-width:1064px;
 }
+.grid_ignore + .board_summary {
+  padding: 16px 15px;
+}
 .board_view .board_txt_area {
-  padding: 56px 0;
+  padding: 0 0;
 }
 .board_view .board_summary .author *{
   font-size:14px !important;
@@ -759,7 +762,7 @@ body.post_view .sub-menu.h-menu-type1{
   max-width: 870px;
   display:block !important;
   position:absolute;
-  bottom:10px;
+  bottom:5px;
   left:50%;
   transform: translate(-50%,0)
 }
@@ -1068,6 +1071,11 @@ body.post_view .sub-menu.h-menu-type1{
   width:50%;
   color:#666;
   font-size:14px;
+}
+.full_board .btn-primary{
+  padding: 6px 20px;
+  font-size:13px;
+  font-weight:normal;
 }
 
 /* 제작 문의 */
@@ -1840,6 +1848,12 @@ body.post_view .sub-menu.h-menu-type1{
   }
   .post-portfolio-header .product-info ul li{
     width:auto;
+  }
+  .widget.board .grid_ignore.bg_on .view_tit{
+    text-align:left
+  }
+  .widget.board .grid_ignore.bg_on .board_tit{
+    display:none
   }
 
   /* 제작 문의 */
