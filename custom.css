@@ -1072,7 +1072,8 @@ body.post_view .sub-menu.h-menu-type1{
   color:#666;
   font-size:14px;
 }
-.full_board .btn-primary{
+.full_board .btn-primary,
+.widget.board .btn-primary{
   padding: 6px 20px;
   font-size:13px;
   font-weight:normal;
