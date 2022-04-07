@@ -377,10 +377,11 @@ header ._main_menu li.open a{
 #s20220315b996719a16fbe .masonry_02 .list-style-card .card  > a .card-body .text{
   display:none;
   position:absolute;
-  top:-40px;
+  top:-45px;
   color:#fff;
   width:100%;
   padding:0 20px;
+  font-size:16px;
   text-overflow:ellipsis;white-space:nowrap;word-wrap:normal;overflow:hidden
 }
 #s20220315b996719a16fbe .masonry_02 .list-style-card .card  > a:hover .card-body .text{
