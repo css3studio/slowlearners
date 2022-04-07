@@ -1113,14 +1113,23 @@ body.post_view .sub-menu.h-menu-type1{
 .form-widget form .form-group.privacy .checkbox label{
   font-size:14px;
 }
-
+.form-widget .form_widget_btn{
+  padding:12px 32px;
+  font-size:14px
+}
 .form-widget .btn-primary{
   border:1px solid #000 !important;
   background: #000 !important;
   color:#fff !important;
   font-size:16px
 }
-
+body._body_menu_m202112216d0509e395b07 .section_wrap.section-contact{
+  height:2px;
+  overflow:hidden;
+}
+body._body_menu_m202112216d0509e395b07 .section_wrap.section-contact::after{
+  content:none;
+}
 
 /**** mobile ****/
 
@@ -1861,7 +1870,9 @@ body.post_view .sub-menu.h-menu-type1{
   .form-widget form .form-group .phonenumber_wrap input{
     width:98px !important;
   }
-
+  body._body_menu_m202112216d0509e395b07 .section_wrap.section-contact{
+    padding-bottom: 0;
+  }
 
 }
 
