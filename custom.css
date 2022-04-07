@@ -1627,6 +1627,12 @@ body.post_view .sub-menu.h-menu-type1{
     margin-top:40px;
     margin-bottom:20px;
   }
+  .tabmenu-etiquette ul{
+    display: table;
+  }
+  .tabmenu-etiquette ul li{
+    display:table-cell
+  }
   .tabmenu-etiquette ul li:before{
     font-size:16px;
     margin:0 16px;
