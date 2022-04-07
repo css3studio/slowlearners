@@ -759,15 +759,22 @@ body.post_view .sub-menu.h-menu-type1{
   max-width: 870px;
   display:block !important;
   position:absolute;
-  bottom:0;
+  bottom:10px;
   left:50%;
   transform: translate(-50%,0)
+}
+.full_board .board_view .board_tit{
+  display:none;
 }
 .full_board .board_view .grid_ignore_wrap p{
   font-size:40px !important;
   font-weight:bold;
+  text-align:left;
 }
 
+.widget.board .grid_ignore.bg_on + .inside .board_txt_area {
+  padding-top: 20px;
+}
 .wrap_map > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(6) > div:nth-child(1){
   width:62px;
   height:77px;
