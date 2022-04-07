@@ -990,7 +990,7 @@ body.post_view .sub-menu.h-menu-type1{
 }
 #w202203156f5f626b7c111 .li_footer .tools{
   position: absolute;
-  top:-50px;
+  top:-56px;
   right:0;
   z-index:10;
 }
@@ -1703,20 +1703,21 @@ body.post_view .sub-menu.h-menu-type1{
     width:100% !important;
     max-width:100% !important;
   }
-  #s202204017d934bc4f7241 .inside .h-menu-type1{
+
+  #w202204018b0c223c59f9d .h-menu-type1{
     display:block;
   }
-  #s202204017d934bc4f7241 .inside .h-menu-type1 ul li:before{
+   #w202204018b0c223c59f9d .h-menu-type1 ul li:before{
     content:none;
   }
-  #s202204017d934bc4f7241 .inside .h-menu-type1 ul{
+   #w202204018b0c223c59f9d .h-menu-type1 ul{
     border-bottom:1px solid #ddd;
     border-right:1px solid #ddd;
     display:flex;
     justify-content:left;
     flex-wrap:wrap;
   }
-  #s202204017d934bc4f7241 .inside .h-menu-type1 ul:after{
+   #w202204018b0c223c59f9d .h-menu-type1 ul:after{
     content:"";
     display:block;
     text-align: center;
@@ -1725,19 +1726,46 @@ body.post_view .sub-menu.h-menu-type1{
     border-top:1px solid #ddd;
     border-left:1px solid #ddd;
   }
-  #s202204017d934bc4f7241 .inside .h-menu-type1 ul li{
+   #w202204018b0c223c59f9d .h-menu-type1 ul li{
     width:33.3333%;
     border-top:1px solid #ddd;
     border-left:1px solid #ddd;
   }
-  #s202204017d934bc4f7241 .inside .h-menu-type1 ul li a{
+   #w202204018b0c223c59f9d .h-menu-type1 ul li a{
     display:block;
     text-align: center;
     padding:12px 0 !important;
   }
-  #s202204017d934bc4f7241 .inside .h-menu-type1 ul li.active a{
+   #w202204018b0c223c59f9d .h-menu-type1 ul li.active a{
     color:#00A290;
   }
+
+  #s2021122087fd3da4f6783 .inside{
+    padding-top:20px;
+  }
+  form#reviewSearch{
+    margin-bottom:40px;
+  }
+  form#reviewSearch input.form-control{
+    height:48px;
+    border-radius:24px;
+    padding:0 32px;
+  }
+    form#reviewSearch .ico-search{
+    font-size:26px;
+    top:14px;
+    right:20px;
+
+  }
+  form#reviewSearch .ico-search .icon-magnifier::before {
+    content: "\e090" !important;
+    color:#ccc;
+  }
+  #w202203156f5f626b7c111 .board-head > .heading{
+    display:none;;
+  }
+
+
   /* search
   #w202204012417638787498{
     margin:0;
