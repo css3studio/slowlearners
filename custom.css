@@ -1764,7 +1764,9 @@ body.post_view .sub-menu.h-menu-type1{
   #w202203156f5f626b7c111 .board-head > .heading{
     display:none;;
   }
-
+  #w202203156f5f626b7c111 .li_footer .tools{
+    display:none;
+  }
 
   /* search
   #w202204012417638787498{
