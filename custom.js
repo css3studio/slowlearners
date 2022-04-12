@@ -66,8 +66,7 @@ $(document).ready(function() {
 		if(search == "tab=4"){
 			$('.tabmenu-etiquette ul li.l4 a').click();
 		}
-		console.log(path);
-		console.log(search);
+
 	}
 
 
