@@ -1174,6 +1174,21 @@ body._body_menu_m202112216d0509e395b07 .section_wrap.section-contact::after{
   color:#666;
 }
 
+/**** modal ***/
+.modal-dialog .modal-header h4{
+  font-size:20px !important;
+}
+.modal-dialog .modal-body{
+  padding:20px 0 !important;
+}
+.modal-dialog .form-widget form .form-group input.form-control[type="text"]{
+  height:36px !important;
+}
+.modal-dialog  .form-widget form .form-group .phonenumber_wrap input {
+  width: 80px !important;
+  height:36px !important;
+  height: 36px;
+}
 
 /**** mobile ****/
 
