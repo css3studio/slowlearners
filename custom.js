@@ -53,6 +53,7 @@ $(document).ready(function() {
 	});
 	var path = a.prop('pathname');
 	if(path.substr(0,1) == "/")	path = path.substr(1);
+	console.log(path);
 	if(path.length > 0){
 		var category = path.split('?');
 		console.log(category);
