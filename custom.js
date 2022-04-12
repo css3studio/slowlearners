@@ -47,6 +47,28 @@ $(document).ready(function() {
 		event.preventDefault();
 	});
 
+	//지구에티켓 링크 탭메뉴 분기
+	var a = $('<a>', {
+		href: window.location.href
+	});
+	var path = a.prop('pathname');
+	if(path.substr(0,1) == "/")	path = path.substr(1);
+	if(path.length > 0){
+		var category = path.split('?');
+		if(category[0] == "etiquette"){
+			if(category[1] == "tab=2"){
+				$('.tabmenu-etiquette ul li.l2 a').click();
+			}
+			if(category[1] == "tab=3"){
+				$('.tabmenu-etiquette ul li.l3 a').click();
+			}
+			if(category[1] == "tab=4"){
+				$('.tabmenu-etiquette ul li.l4 a').click();
+			}
+
+		}
+	}
+
     var dw = viewport().width;
 	if(dw <= 768){	//모바일
 		$("body").removeClass('pc');
