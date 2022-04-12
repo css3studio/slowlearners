@@ -58,13 +58,13 @@ $(document).ready(function() {
 		var category = path.split('/');
 		console.log(category);
 		if(category[0] == "etiquette"){
-			if(category[1] == "tab=2"){
+			if(category[1] == "tab2"){
 				$('.tabmenu-etiquette ul li.l2 a').click();
 			}
-			if(category[1] == "tab=3"){
+			if(category[1] == "tab3"){
 				$('.tabmenu-etiquette ul li.l3 a').click();
 			}
-			if(category[1] == "tab=4"){
+			if(category[1] == "tab4"){
 				$('.tabmenu-etiquette ul li.l4 a').click();
 			}
 
