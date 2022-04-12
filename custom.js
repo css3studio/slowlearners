@@ -55,6 +55,7 @@ $(document).ready(function() {
 	if(path.substr(0,1) == "/")	path = path.substr(1);
 	if(path.length > 0){
 		var category = path.split('?');
+		console.log(category);
 		if(category[0] == "etiquette"){
 			if(category[1] == "tab=2"){
 				$('.tabmenu-etiquette ul li.l2 a').click();
