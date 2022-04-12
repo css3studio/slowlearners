@@ -54,7 +54,7 @@ $(document).ready(function() {
 	var path = a.prop('pathname');
 	if(path.substr(0,1) == "/")	path = path.substr(1);
 	var search = a.prop('search');
-	if(path.substr(0,1) == "?")	search = search.substr(1);
+	if(search.substr(0,1) == "?")	search = search.substr(1);
 
 	if(path == "etiquette"){
 		if(search == "tab=2"){
@@ -66,7 +66,8 @@ $(document).ready(function() {
 		if(search == "tab=4"){
 			$('.tabmenu-etiquette ul li.l4 a').click();
 		}
-
+		console.log(path);
+		console.log(search);
 	}
 
 
