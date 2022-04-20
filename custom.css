@@ -43,7 +43,7 @@ header ._main_menu > li > a.active{
   color:#00a290 !important;
   font-weight:bold !important;
 }
-header ._main_menu li.open a{
+header ._main_menu li.open:not(li:nth-child(3)) a{
   background-color: #E6EFEE !important;
   font-weight:bold !important;
 }
