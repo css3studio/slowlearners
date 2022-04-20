@@ -631,6 +631,7 @@ body._body_menu_m20220405eefe9cab637de .sub-menu.h-menu-type5 > ul:before{
   display:block;
   font-size:24px;
   margin-top:30px;
+  font-weight:normal;
 }
 
 /* 게시판 카테고리 menu */
@@ -1956,8 +1957,13 @@ body._body_menu_m202112216d0509e395b07 .section_wrap.section-contact::after{
   }
 
   /* 제작 문의 */
+  .form-widget form .form-group .phonenumber_wrap{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+  }
   .form-widget form .form-group .phonenumber_wrap input{
-    width:98px !important;
+    width:30% !important;
   }
   body._body_menu_m202112216d0509e395b07 .section_wrap.section-contact{
     padding-bottom: 0;
