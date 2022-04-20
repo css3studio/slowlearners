@@ -1216,6 +1216,11 @@ body._body_menu_m202112216d0509e395b07 .section_wrap.section-contact::after{
   height:36px !important;
   height: 36px;
 }
+/**** 로그인 ****/
+.modal_article.login form .btn-primary{
+  line-height:40px;
+  padding:0;
+}
 
 /**** mobile ****/
 
