@@ -1376,6 +1376,7 @@ body._body_menu_m202112216d0509e395b07 .section_wrap.section-contact::after{
   #s20220315b996719a16fbe .masonry_02 .list-style-card .card  > a .card-head:before{
     transition: background 0.5s;
   }
+  /*
   #s20220315b996719a16fbe .masonry_02 .list-style-card .card  > a:active .card-head:before{
     content: "";
     display:block;
@@ -1386,7 +1387,7 @@ body._body_menu_m202112216d0509e395b07 .section_wrap.section-contact::after{
     bottom:0;
     background:rgba(0, 162, 144, 0.5);
   }
-
+  */
   #s20220315b996719a16fbe .masonry_02 .list-style-card .card  > a .card-body{
     display:block;
   }
