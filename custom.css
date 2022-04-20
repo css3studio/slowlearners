@@ -833,6 +833,9 @@ body.post_view .sub-menu.h-menu-type1{
 }
 
 /**** STORY ****/
+body._body_menu_m20211220b8e6ee7e4814b .section_wrap *{
+  word-break:keep-all
+}
 /*왜 친환경?*/
 .story-statistics01{
   list-style: none;
