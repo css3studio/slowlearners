@@ -47,7 +47,7 @@ header ._main_menu li.open:not(li:nth-child(3)) a{
   background-color: #E6EFEE !important;
   font-weight:bold !important;
 }
-#w202203023b6d62c220ed9 .dropdown-menu {
+#doz_header .dropdown-menu {
   margin-top: 0;
   left:50%;
   transform: translate(-50%,0);
@@ -60,16 +60,23 @@ header ._main_menu li.open:not(li:nth-child(3)) a{
   text-align:center;
   border-top:1px solid #ddd;
 }
-#w202203023b6d62c220ed9 .dropdown-menu > li > a{
+#doz_header .dropdown-menu > li > a{
   border-radius:0 !important;
   font-size: 16px !important;
   font-weight: normal !important;
   padding:12px 0;
 }
-#w202203023b6d62c220ed9 .dropdown-menu > li > a:hover{
+#doz_header .dropdown-menu > li > a:hover{
   background-color: #E6EFEE !important;
   color: #00A290 !important;
 }
+
+/*고정상태*/
+.new_fixed_header_active #doz_header .new_fixed_header{
+  background-color:#fff;
+  border-bottom:1px solid #ddd;
+}
+
 #w20220302869cb5ba957cf{ /*스크롤시 나타나는 검색 버튼*/
   display:none
 }
