@@ -551,6 +551,23 @@ body._body_menu_m20220405eefe9cab637de .sub-menu.h-menu-type5 > ul:before{
   position:relative;
   top:2px;
 }
+body._body_menu_m20220405eefe9cab637de .sub-menu.h-menu-type5 > ul > li:nth-child(3){ /*개인정보처리방침 브레드크럼*/
+  display:none !important;
+}
+body._body_menu_m20220405913fddf573011 .sub-menu.h-menu-type5 > ul > li:nth-child(3) a .plain_name{ /*이메일수집거부 브레드크럼*/
+  display:inline !important;
+}
+body._body_menu_m20220405913fddf573011 .sub-menu.h-menu-type5 > ul:before{
+  content:"홈";
+  float:left;
+  margin-right:20px;
+  font-size:14px;
+  color:#999;
+  position:relative;
+  top:2px;
+}
+
+
 .sub-menu.h-menu-type5 > ul > li:nth-child(3) a:before{
   content:"홈";
 }
