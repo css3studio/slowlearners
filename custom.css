@@ -1256,6 +1256,9 @@ body._body_menu_m202112216d0509e395b07 .section_wrap.section-contact::after{
   #s20211220ea80bc907a203 .inline-col-group{
     height:54px;
   }
+  header{
+    border-bottom:none;
+  }
   header .inline-col-group > .inline-col:first-child{
     display:inline-block;
   }
