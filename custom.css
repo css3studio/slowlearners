@@ -72,9 +72,15 @@ header ._main_menu li.open:not(li:nth-child(3)) a{
 }
 
 /*고정상태*/
-.new_fixed_header_active #doz_header .new_fixed_header{
+#doz_header .new_fixed_header {
   background-color:#fff;
   border-bottom:1px solid #ddd;
+  top: -100px !important;
+  opacity:1 !important;
+  transition: top 0.5s !important;;
+}
+.new_fixed_header_active #doz_header .new_fixed_header{
+  top: 0px !important;
 }
 
 #w20220302869cb5ba957cf{ /*스크롤시 나타나는 검색 버튼*/
