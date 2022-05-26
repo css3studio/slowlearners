@@ -1,5 +1,5 @@
 /*
-Theme Name: earthecok
+Theme Name: korea women campaign
 Author: css3studio
 Version:1.0
 */
