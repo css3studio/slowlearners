@@ -36,22 +36,28 @@ header ul.navbar-nav li:last-child a:after {
   font-family: xeicon;
   font-size:20px;
 }
-header .scroll-to-fixed-fixed #w202205274841bb5af074b .inline_widget a.btn_text span{
+header #w202205274841bb5af074b .inline_widget a.btn_text span{
   background:#583DFF !important;
   color:#fff !important;
   padding:16px 52px !important;
   border-radius:28px;
   font-weight:bold;
 }
-header .scroll-to-fixed-fixed #w202205274841bb5af074b .inline_widget a.btn_text:hover span{
+header #w202205274841bb5af074b .inline_widget a.btn_text:hover span{
   background:#000 !important;
+  color:#fff !important;
+}
+header .scroll-to-fixed-fixed #w202205274841bb5af074b .inline_widget a.btn_text span{
   color:#fff !important;
 }
 
 /**** mobile ****/
 
 @media screen and (max-width:991px) {
-
+  header .logo .img_box a img{
+    height:20px !important;
+    width:auto;
+  }
 }
 
 /* 스마트폰 */
