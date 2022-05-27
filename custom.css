@@ -16,11 +16,17 @@ writer: css3studio
 
 /******헤더영역******/
 header{
-  border-bottom:2px solid #000;
+  border-bottom:2px solid #000
+}
+header .scroll-to-fixed-fixed{
+    border-bottom:2px solid #000 !important;
 }
 header .logo .img_box a img{
   height:36px !important;
   width:auto;
+}
+.doz_sys #logo_w202205127429ae8a44c2c.logo .logo_title a{
+  font-family: 'SUIT', sans-serif;
 }
 header ul.navbar-nav li:first-child{
   display:none !important;
