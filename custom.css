@@ -57,6 +57,39 @@ header .scroll-to-fixed-fixed #w202205274841bb5af074b .inline_widget a.btn_text 
   color:#fff !important;
 }
 
+/* 키 비주얼 */
+.section_first .section_bg{
+  z-index:1;
+  background-size:auto 100%;
+}
+.section_first .inside{
+  height:760px;
+  position:relative;
+}
+.section_first .inside > .doz_row:nth-child(1){
+  z-index:2;
+  position:absolute;
+  left:50%;
+  top:50%;
+  transform: translate(-50%,-50%);
+  color:#fff;
+  text-align:center;
+  line-height:1.2;
+  font-family: 'EsaManru';
+}
+.section_first .inside > .doz_row:nth-child(1) .key-title > div:nth-child(1){
+  font-size:56px;
+  font-weight:700;
+  margin-bottom:8px;
+}
+.section_first .inside > .doz_row:nth-child(1) .key-title > div:nth-child(2){
+  font-size:72px;
+  font-weight:700;
+  padding:0 16px;
+  background: linear-gradient(0deg, #FF7051, #FF7051), linear-gradient(90deg, #FF5151 0%, #6951FF 100%);
+}
+
+
 /**** mobile ****/
 
 @media screen and (max-width:991px) {
