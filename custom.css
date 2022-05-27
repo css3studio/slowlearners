@@ -19,7 +19,33 @@ header{
   border-bottom:2px solid #000;
 }
 header .logo .img_box a img{
-  height:36px;
+  height:36px !important;
+  width:auto;
+}
+header ul.navbar-nav li:first-child{
+  display:none !important;
+}
+header ul.navbar-nav li:last-child a{
+  position:relative
+}
+header ul.navbar-nav li:last-child a:after {
+  position:absolute;
+  top:0;
+  right:0;
+  content:"\e980";
+  font-family: xeicon;
+  font-size:20px;
+}
+header .scroll-to-fixed-fixed #w202205274841bb5af074b .inline_widget a.btn_text span{
+  background:#583DFF !important;
+  color:#fff !important;
+  padding:16px 52px !important;
+  border-radius:28px;
+  font-weight:bold;
+}
+header .scroll-to-fixed-fixed #w202205274841bb5af074b .inline_widget a.btn_text:hover span{
+  background:#000 !important;
+  color:#fff !important;
 }
 
 /**** mobile ****/
