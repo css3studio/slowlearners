@@ -34,11 +34,25 @@ $(document).ready(function() {
 	var diff = masTime - todayTime;
 	var diffDay = Math.floor(diff / (1000*60*60*24));
 
-	$('.collection-bulletin dl.collection dd > div b').text(collection);
 	$('.collection-bulletin dl.collection dd > span em').text(collection_percent);
-	$('.collection-bulletin dl.donator dd > div span').text(donator);
+	$('.collection-bulletin dl.donator dd > div span').text(numberWithCommas(donator));
 	$('.collection-bulletin dl.period dd > div span').text(diffDay);
 
+	$({ val : 0 }).animate({ val : collection }, {
+		duration: 2000,
+		step: function() {
+		var num = numberWithCommas(Math.floor(this.val));
+		$('.collection-bulletin dl.collection dd > div b').text(num);
+		},
+		complete: function() {
+		var num = numberWithCommas(Math.floor(this.val));
+		$('.collection-bulletin dl.collection dd > div b').text(num);
+		}
+	});
+
+	function numberWithCommas(x) {
+		return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+	}
 	/*
 	//Contact 클래스명 지정
 	$("footer").prev().addClass("section-contact");
