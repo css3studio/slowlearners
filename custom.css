@@ -151,12 +151,12 @@ header .scroll-to-fixed-fixed #w202205274841bb5af074b .inline_widget a.btn_text 
 }
 
 /* campain goal */
-#s20220529d59c17c66423f main > .doz_aside{
+#s20220529d59c17c66423f main{
   background-color:#F2F2F2;
-  top:76px !important;
 }
 #s20220529d59c17c66423f main > .inside{
-  padding:0
+  padding:0;
+  background-color:#fff;
 }
 #s20220529d59c17c66423f main > .inside ._img_box{
   overflow:visible !important;
