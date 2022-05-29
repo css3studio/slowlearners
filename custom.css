@@ -91,7 +91,7 @@ footer .sns-menu li{
   margin-left:8px
 }
 footer .sns-menu li a{
-  display:flex;
+  display:block;
   width:120px;
   padding:0 16px;
   border:2px solid #000;
@@ -100,9 +100,26 @@ footer .sns-menu li a{
   border-radius:16px;
   font-weight:bold;
   color:#000;
+  position:relative
 }
 footer .sns-menu li a:hover{
   background-color:#FF7051;
+}
+footer .sns-menu li a:after{
+  position:absolute;
+  right:16px;
+  content:"\ebe9";
+  font-family: xeicon;
+  font-size:18px;
+}
+footer .sns-menu li.insta a:after{
+  content:"\ebe9";
+}
+footer .sns-menu li.fb a:after{
+  content:"\ebd5";
+}
+footer .sns-menu li.yt a:after{
+  content:"\ec32";
 }
 /* 키 비주얼 */
 .one_page_section .section_first .section_bg{
