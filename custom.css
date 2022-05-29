@@ -58,15 +58,15 @@ header .scroll-to-fixed-fixed #w202205274841bb5af074b .inline_widget a.btn_text 
 }
 
 /* 키 비주얼 */
-.section_first .section_bg{
+.one_page_section .section_first .section_bg{
   z-index:1;
   background-size:auto 100%;
 }
-.section_first .inside{
+.one_page_section .section_first .inside{
   height:760px;
   position:relative;
 }
-.section_first .inside > .doz_row:nth-child(1){
+.one_page_section .section_first .inside > .doz_row:nth-child(1){
   z-index:2;
   position:absolute;
   left:50%;
@@ -76,13 +76,13 @@ header .scroll-to-fixed-fixed #w202205274841bb5af074b .inline_widget a.btn_text 
   text-align:center;
   line-height:1.2;
 }
-.section_first .inside > .doz_row:nth-child(1) .key-title > div:nth-child(1){
+.one_page_section .section_first .inside > .doz_row:nth-child(1) .key-title > div:nth-child(1){
   font-size:56px;
   font-weight:700;
   margin-bottom:8px;
   font-family: 'EsaManru';
 }
-.section_first .inside > .doz_row:nth-child(1) .key-title > div:nth-child(2){
+.one_page_section .section_first .inside > .doz_row:nth-child(1) .key-title > div:nth-child(2){
   font-size:72px;
   font-weight:700;
   padding:6px 16px 0;
@@ -90,7 +90,7 @@ header .scroll-to-fixed-fixed #w202205274841bb5af074b .inline_widget a.btn_text 
   font-family: 'EsaManru';
 }
 
-.section_first .inside > .doz_row:nth-child(3){
+.one_page_section .section_first .inside > .doz_row:nth-child(3){
   z-index:2;
   position:absolute;
   left:50%;
@@ -151,6 +151,9 @@ header .scroll-to-fixed-fixed #w202205274841bb5af074b .inline_widget a.btn_text 
 }
 
 /* campain goal */
+#s20220529d59c17c66423f{
+  border-bottom:2px solid #000;
+}
 #s20220529d59c17c66423f:before{
   content:"";
   display:block;
@@ -186,6 +189,12 @@ header .scroll-to-fixed-fixed #w202205274841bb5af074b .inline_widget a.btn_text 
   background:url(https://cdn.imweb.me/upload/S202205122b1ec895efdd4/44ddd493d6fab.png) no-repeat right bottom;
   background-size: 334px auto;
 }
+.heading01.reward{
+  padding-bottom:0;
+  padding-right:0;
+  background:url(https://cdn.imweb.me/upload/S202205122b1ec895efdd4/44ddd493d6fab.png) no-repeat right bottom;
+  background-size: 334px auto;
+}
 .heading01 strong{
   display:inline-block;
   font-size:14px;
@@ -200,6 +209,18 @@ header .scroll-to-fixed-fixed #w202205274841bb5af074b .inline_widget a.btn_text 
   line-height:1.28;
   font-weight:900;
   margin-bottom:24px;
+}
+.heading01.reward h2{
+  margin-bottom:8px;
+}
+.heading01 h2 span{
+  color:#000;
+}
+.heading01 h3{
+  font-size:40px;
+  font-weight:900;
+  margin:0;
+  color:#000;
 }
 .heading01 p{
   font-size:18px;
