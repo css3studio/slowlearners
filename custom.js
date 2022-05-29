@@ -22,6 +22,24 @@ $(window).resize(function() {
 
 $(document).ready(function() {
 
+	//모금액 카운팅
+	var target =  Number($('ul.collection-data li.target span').text());
+	var collection = Number($('ul.collection-data li.collection span').text());
+	var donator = Number($('ul.collection-data li.donator span').text());
+	var finish_day = $('ul.collection-data li.finish span').text();
+	var collection_percent = Math.round(collection/target*100);
+
+	var masTime = new Date(finish_day);
+	var todayTime = new Date();
+	var diff = masTime - todayTime;
+	var diffDay = Math.floor(diff / (1000*60*60*24));
+
+	$('.collection-bulletin dl.collection dd > div b').text(collection);
+	$('.collection-bulletin dl.collection dd > span em').text(collection_percent);
+	$('.collection-bulletin dl.donator dd > div span').text(donator);
+	$('.collection-bulletin dl.period dd > div span').text(diffDay);
+
+	/*
 	//Contact 클래스명 지정
 	$("footer").prev().addClass("section-contact");
 
@@ -68,7 +86,7 @@ $(document).ready(function() {
 		}
 
 	}
-
+	*/
 
     var dw = viewport().width;
 	if(dw <= 768){	//모바일
