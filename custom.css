@@ -107,6 +107,9 @@ header .scroll-to-fixed-fixed #w202205274841bb5af074b .inline_widget a.btn_text 
   justify-content: space-between;
   padding:36px 70px 0;
 }
+.collection-bulletin .data-area dl:first-of-type{
+  flex-basis: 40%;
+}
 .collection-bulletin .data-area dl dt span{
   color:#999;
   font-weight:400;

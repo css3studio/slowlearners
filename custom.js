@@ -41,12 +41,13 @@ $(document).ready(function() {
 	$({ val : 0 }).animate({ val : collection }, {
 		duration: 2000,
 		step: function() {
-		var num = numberWithCommas(Math.floor(this.val));
-		$('.collection-bulletin dl.collection dd > div b').text(num);
+			var num = numberWithCommas(Math.floor(this.val));
+			$('.collection-bulletin dl.collection dd > div b').text(num);
 		},
 		complete: function() {
-		var num = numberWithCommas(Math.floor(this.val));
-		$('.collection-bulletin dl.collection dd > div b').text(num);
+			var num = numberWithCommas(Math.floor(this.val));
+			$('.collection-bulletin dl.collection dd > div b').text(num);
+			$('.collection-bulletin dl.collection dd > span').show();
 		}
 	});
 
