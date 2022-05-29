@@ -50,6 +50,12 @@ $(document).ready(function() {
 			$('.collection-bulletin dl.collection dd > span').show();
 		}
 	});
+	$('.progresive-bar .inner-bar').animate({
+		width: collection_percent + '%'
+	}, 2000, function() {
+		// Animation complete.
+	});
+
 
 	function numberWithCommas(x) {
 		return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
