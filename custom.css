@@ -151,6 +151,10 @@ header .scroll-to-fixed-fixed #w202205274841bb5af074b .inline_widget a.btn_text 
 }
 
 /* campain goal */
+#s20220529d59c17c66423f main > .doz_aside{
+  background-color:#F2F2F2;
+  top:76px !important;
+}
 #s20220529d59c17c66423f main > .inside{
   padding:0
 }
@@ -161,6 +165,33 @@ header .scroll-to-fixed-fixed #w202205274841bb5af074b .inline_widget a.btn_text 
   margin:0 !important;
   width:927px !important;
   height:auto !important;
+}
+
+.heading01{
+  color:#FF7051;
+  padding-bottom:360px;
+  padding-right:70px;
+  background:url(https://cdn.imweb.me/upload/S202205122b1ec895efdd4/44ddd493d6fab.png) no-repeat right bottom;
+  background-size: 334px auto;
+}
+.heading01 strong{
+  display:inline-block;
+  font-size:14px;
+  border:2px solid;
+  height:32px;
+  line-height:30px;
+  border-radius: 16px;
+  padding:0 16px;
+}
+.heading01 h2{
+  font-size:56px;
+  line-height:1.28;
+  font-weight:900;
+  margin-bottom:24px;
+}
+.heading01 p{
+  font-size:18px;
+  color:#000;
 }
 
 /**** mobile ****/
