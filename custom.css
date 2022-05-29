@@ -150,7 +150,18 @@ header .scroll-to-fixed-fixed #w202205274841bb5af074b .inline_widget a.btn_text 
   top:0;
 }
 
-
+/* campain goal */
+#s20220529d59c17c66423f main > .inside{
+  padding:0
+}
+#s20220529d59c17c66423f main > .inside ._img_box{
+  overflow:visible !important;
+}
+#s20220529d59c17c66423f main > .inside ._img_box img{
+  margin:0 !important;
+  width:927px !important;
+  height:auto !important;
+}
 
 /**** mobile ****/
 
