@@ -151,11 +151,7 @@ header .scroll-to-fixed-fixed #w202205274841bb5af074b .inline_widget a.btn_text 
 }
 
 /* campain goal */
-#s20220529d59c17c66423f main{
-  background-color:#F2F2F2;
-  position:relative;
-}
-#s20220529d59c17c66423f main:before{
+#s20220529d59c17c66423f:before{
   content:"";
   display:block;
   width:2000px;
@@ -163,8 +159,13 @@ header .scroll-to-fixed-fixed #w202205274841bb5af074b .inline_widget a.btn_text 
   background-color:#F2F2F2;
   position:absolute;
   top:0;
-  left:-2000px;
+  right:50%;
+  margin-left:-640px;
 }
+#s20220529d59c17c66423f main{
+  background-color:#F2F2F2;
+}
+
 #s20220529d59c17c66423f main > .inside{
   padding:0;
   background-color:#fff;
