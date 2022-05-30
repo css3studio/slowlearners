@@ -395,6 +395,9 @@ footer .btn-goto-top a span{
 .campaign-carousel{
   margin:0 -15px;
 }
+.campaign-carousel .slick-list{
+  overflow:visible;
+}
 .campaign-carousel .slick-slide{
   margin-right:40px;
   width:320px;
