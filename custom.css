@@ -247,6 +247,9 @@ footer .btn-goto-top a span{
   left:0;
   top:0;
 }
+.collection-data{
+  visibility: hidden;
+}
 
 /* campain goal */
 #s20220529d59c17c66423f{
