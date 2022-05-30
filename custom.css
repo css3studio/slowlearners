@@ -24,7 +24,8 @@ writer: css3studio
 /******캠페인 2022******/
 /* 헤더 */
 #s20220530d5fa147ea677f{
-  border-bottom:2px solid #000
+  border-bottom:2px solid #000;
+  background-color:#fff;
 }
 
 .campaign-header01{
