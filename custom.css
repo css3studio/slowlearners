@@ -323,6 +323,34 @@ footer .btn-goto-top a span{
   border-bottom:2px solid #000;
 }
 
+/* event */
+.heading02 strong{
+  display:inline-block;
+  font-size:14px;
+  border:2px solid;
+  height:32px;
+  line-height:30px;
+  border-radius: 16px;
+  padding:0 16px;
+  color:#FF7051;
+  margin-bottom:16px;
+}
+.heading02 h3{
+  font-size:40px;
+  font-weight:900;
+  margin:0;
+  color:#000;
+}
+#s202205305f641cdf25663 .widget.image{
+  margin-top:0
+}
+#s202205305f641cdf25663 .inside > .doz_row > .col-dz > .doz_row:last-of-type .widget_text_wrap{
+  margin:8px 0
+}
+#s202205305f641cdf25663 .inside > .doz_row > .col-dz > .doz_row:last-of-type .col-dz:last-of-type .widget.button{
+  margin:0px 0
+}
+
 /**** mobile ****/
 
 @media screen and (max-width:991px) {
