@@ -272,10 +272,10 @@ footer .btn-goto-top a span{
 }
 
 /* campain goal */
-#s202205301e61d7effd141{
+#s20220529d59c17c66423f{
   border-bottom:2px solid #000;
 }
-#s202205301e61d7effd141:before{
+#s20220529d59c17c66423f:before{
   content:"";
   display:block;
   width:2000px;
@@ -286,18 +286,18 @@ footer .btn-goto-top a span{
   right:50%;
   margin-left:-640px;
 }
-#s202205301e61d7effd141 main{
+#s20220529d59c17c66423f main{
   background-color:#F2F2F2;
 }
 
-#s202205301e61d7effd141 main > .inside{
+#s20220529d59c17c66423f main > .inside{
   padding:0;
   background-color:#fff;
 }
-#s202205301e61d7effd141 main > .inside ._img_box{
+#s20220529d59c17c66423f main > .inside ._img_box{
   overflow:visible !important;
 }
-#s202205301e61d7effd141 main > .inside ._img_box img{
+#s20220529d59c17c66423f main > .inside ._img_box img{
   margin:0 !important;
   width:927px !important;
   height:auto !important;
