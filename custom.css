@@ -59,6 +59,9 @@ writer: css3studio
   font-size:18px;
   font-weight:700;
 }
+.campaign-header01 .campaign-menu li.active a{
+  color:#583DFF;
+}
 .campaign-header01 .campaign-menu li.l3 i{
   font-size:18px;
   margin-left:5px;
