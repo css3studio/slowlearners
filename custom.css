@@ -272,10 +272,10 @@ footer .btn-goto-top a span{
 }
 
 /* campain goal */
-#s20220529d59c17c66423f{
+#s202205301e61d7effd141{
   border-bottom:2px solid #000;
 }
-#s20220529d59c17c66423f:before{
+#s202205301e61d7effd141:before{
   content:"";
   display:block;
   width:2000px;
@@ -286,18 +286,18 @@ footer .btn-goto-top a span{
   right:50%;
   margin-left:-640px;
 }
-#s20220529d59c17c66423f main{
+#s202205301e61d7effd141 main{
   background-color:#F2F2F2;
 }
 
-#s20220529d59c17c66423f main > .inside{
+#s202205301e61d7effd141 main > .inside{
   padding:0;
   background-color:#fff;
 }
-#s20220529d59c17c66423f main > .inside ._img_box{
+#s202205301e61d7effd141 main > .inside ._img_box{
   overflow:visible !important;
 }
-#s20220529d59c17c66423f main > .inside ._img_box img{
+#s202205301e61d7effd141 main > .inside ._img_box img{
   margin:0 !important;
   width:927px !important;
   height:auto !important;
@@ -349,7 +349,7 @@ footer .btn-goto-top a span{
   color:#000;
 }
 /* reward */
-#s202205309861b0c36ed14{
+#s202205308d5264194acec{
   border-bottom:2px solid #000;
 }
 
