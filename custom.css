@@ -318,6 +318,11 @@ footer .btn-goto-top a span{
   background-position:top 0 right 90px;
   background-size: 280px;
 }
+.heading01.result{
+  padding-bottom:0;
+  padding-right:0;
+  background:none;
+}
 .heading01 strong{
   display:inline-block;
   font-size:14px;
@@ -427,7 +432,33 @@ footer .btn-goto-top a span{
   font-size:30px;
 }
 
-
+/* result */
+.result-2021{
+  display:flex;
+  align-items: end
+}
+.result-2021 dl{
+  margin:0 64px 0 0;
+}
+.result-2021 dl dd b{
+  font-weight:900
+}
+.result-business{
+  display:flex;
+  justify-content: space-between;
+  list-style:none;
+  padding:38px;
+  margin:0
+}
+.result-business > li{
+  display:flex;
+  align-items: center;
+  width:33.3333%;
+  background:url(https://cdn.imweb.me/upload/S202205122b1ec895efdd4/9cb6a7410bf0d.png) no-repeat 0 center;
+  background-size:contain;
+  height:72px;
+  padding-left:100px;
+}
 
 /**** mobile ****/
 
