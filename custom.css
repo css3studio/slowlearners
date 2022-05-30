@@ -384,6 +384,50 @@ footer .btn-goto-top a span{
 #s20220530a7e1bcbe42c68 .inside > .doz_row > .col-dz > .doz_row:last-of-type .col-dz:last-of-type .widget.button{
   margin:0px 0
 }
+.campaign-carousel{
+  margin:0 -15px;
+}
+.campaign-carousel .slick-slide{
+  margin-right:40px;
+  width:320px;
+  overflow:hidden;
+}
+.campaign-carousel .slick-slide img{
+  width:100%;
+}
+.campaign-carousel button.slick-arrow{
+  width:64px;
+  height:64px;
+  border-radius:32px;
+  background-color:#fff;
+  position:absolute;
+  top:50%;
+  margin-top:-32px;
+  font-size:0;
+  border:none;
+  z-index:10;
+}
+.campaign-carousel button.slick-arrow:hover{
+  background-color:#FF7051;
+}
+.campaign-carousel button.slick-prev{
+  left:-32px;
+}
+.campaign-carousel button.slick-prev:after{
+  content:"\e93b";
+  font-family: xeicon;
+  font-size:30px;
+}
+.campaign-carousel button.slick-next{
+  right:-32px;
+}
+.campaign-carousel button.slick-next:after{
+  content:"\e93e";
+  font-family: xeicon;
+  font-size:30px;
+}
+
+
 
 /**** mobile ****/
 
