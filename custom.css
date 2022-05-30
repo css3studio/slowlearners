@@ -397,6 +397,17 @@ footer .btn-goto-top a span{
 }
 .campaign-carousel .slick-list{
   overflow:visible;
+  position:relative
+}
+.campaign-carousel .slick-list:after{
+  content:"";
+  display:block;
+  width:1000px;
+  height:100%;
+  background:#050844;
+  position:absolute;
+  top:0;
+  left:-1000px;
 }
 .campaign-carousel .slick-slide{
   margin-right:40px;
