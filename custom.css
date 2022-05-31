@@ -489,10 +489,175 @@ footer .btn-goto-top a span{
 /**** mobile ****/
 
 @media screen and (max-width:991px) {
-  header .logo .img_box a img{
-    height:20px !important;
-    width:auto;
+
+  /******캠페인 2022******/
+  /* 헤더 */
+  #s20220530d5fa147ea677f{
+    border-bottom:2px solid #000;
+    background-color:#fff;
   }
+  .campaign-header01{
+    height:54px;
+  }
+  .campaign-header01 .logo{
+    height:20px;
+    padding-left:40px;
+    font-size:14px;
+  }
+  .campaign-header01 nav{
+    display:block;
+    position:absolute;
+    top:56px;
+    left:-7.5px;
+    z-index:10;
+    width:calc(100% + 15px);
+    background-color:#fff;
+    max-height:0px;
+    overflow:hidden;
+  }
+  .campaign-header01 .campaign-menu{
+    display:block;
+    padding:16px 0;
+    border-bottom:1px solid #000;
+  }
+  .campaign-header01 .campaign-menu li{
+    margin-left:0px;
+    padding:8px 15px;
+  }
+
+  .campaign-header01 a.btn-mobile-menu{
+    display:block;
+    font-size:26px
+  }
+
+  .campaign-header01 .btn-donate{
+    position:fixed;
+    bottom:0;
+    left:0;
+    width:100%;
+    background:#000;
+    text-align:center;
+    height:64px;
+    line-height:64px;
+    padding:0;
+    border-radius:0px;
+    font-size:14px;
+    margin-left:0px;
+  }
+  /* 키 비주얼 */
+  #s202205308c6b36927f957 .section_bg{
+    z-index:1;
+    background-size:auto 345px;
+    background-position: center bottom !important;
+    bottom:232px !important;
+  }
+  #s202205308c6b36927f957 .inside{
+    height:378px;
+    position:relative;
+    margin-bottom:232px;
+  }
+  #s202205308c6b36927f957 .inside > .doz_row:nth-child(1){
+    white-space:nowrap; 
+    word-break:keep-all;
+    transform: translate(-50%,-50%);
+  }
+  #s202205308c6b36927f957 .inside > .doz_row:nth-child(1) .key-title > div:nth-child(1){
+    font-size:32px;
+    margin-bottom:0px;
+  }
+  #s202205308c6b36927f957 .inside > .doz_row:nth-child(1) .key-title > div:nth-child(2){
+    font-size:32px;
+    padding:6px 6px 0;
+  }
+
+  #s202205308c6b36927f957 .inside > .doz_row:nth-child(3){
+    z-index:2;
+    position:absolute;
+    left:0;
+    bottom:-232px;
+    height:232px;
+    transform: translate(0,0);
+    width:calc(100% + 15px);
+  }
+  .collection-bulletin{
+    height:232px;
+    border-left:none;
+    border-right:none;
+    display:flex;
+    flex-direction: column-reverse;
+    width:100% !important;
+  }
+  .collection-bulletin .data-area{
+    display:block;
+    padding:24px 20px 40px;
+    box-sizing: border-box;
+  }
+  .collection-bulletin .data-area dl{
+    margin-bottom:0;
+  }
+  .collection-bulletin .data-area dl.donator{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .collection-bulletin .data-area dl.period{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    position:relative
+  }
+  .collection-bulletin .data-area dl.period dt span{
+    position:absolute;
+    right:0;
+    bottom:-20px;
+  }
+  
+  
+  .collection-bulletin .data-area dl dt span{
+    font-size:14px;
+  }
+  .collection-bulletin .data-area dl dd{
+    display:block;
+    font-size:24px;
+  }
+  .collection-bulletin .data-area dl dd > div > em{
+    font-size:14px;
+    margin-left:6px;
+  }
+  .collection-bulletin .data-area dl.collection {
+    position:relative;
+    margin-bottom:20px;
+  }
+  .collection-bulletin .data-area dl.collection dd > div b{
+    font-size:32px;
+  }  
+  .collection-bulletin .data-area dl.collection dd > div em{
+    font-size:16px;
+    font-weight:bold;
+  }
+  .collection-bulletin .data-area dl.collection dd > span{
+    margin-left:0;
+    position:absolute;
+    top:0;
+    right:0;
+  }
+  .collection-bulletin .progresive-bar{
+    height:8px;
+    background-color:#E4E4E4;
+    position:relative;
+  }
+  .collection-bulletin .progresive-bar .inner-bar{
+    height:8px;
+    background-color:#FF7051;;
+    position:absolute;
+    left:0;
+    top:0;
+  }
+  .collection-data{
+    visibility: hidden;
+  }
+
+
 }
 
 /* 스마트폰 */
@@ -549,44 +714,4 @@ header #w202205274841bb5af074b .inline_widget a.btn_text:hover span{
 }
 header .scroll-to-fixed-fixed #w202205274841bb5af074b .inline_widget a.btn_text span{
   color:#fff !important;
-}
-/* 키 비주얼 */
-.one_page_section .section_first .section_bg{
-  z-index:1;
-  background-size:auto 100%;
-}
-.one_page_section .section_first .inside{
-  height:760px;
-  position:relative;
-}
-.one_page_section .section_first .inside > .doz_row:nth-child(1){
-  z-index:2;
-  position:absolute;
-  left:50%;
-  top:50%;
-  transform: translate(-50%,-80%);
-  color:#fff;
-  text-align:center;
-  line-height:1.2;
-}
-.one_page_section .section_first .inside > .doz_row:nth-child(1) .key-title > div:nth-child(1){
-  font-size:56px;
-  font-weight:700;
-  margin-bottom:8px;
-  font-family: 'EsaManru';
-}
-.one_page_section .section_first .inside > .doz_row:nth-child(1) .key-title > div:nth-child(2){
-  font-size:72px;
-  font-weight:700;
-  padding:6px 16px 0;
-  background: linear-gradient(0deg, #FF7051, #FF7051), linear-gradient(90deg, #FF5151 0%, #6951FF 100%);
-  font-family: 'EsaManru';
-}
-
-.one_page_section .section_first .inside > .doz_row:nth-child(3){
-  z-index:2;
-  position:absolute;
-  left:50%;
-  bottom:0;
-  transform: translate(-50%,0);
 }
