@@ -20,6 +20,23 @@ $(window).resize(function() {
 	}
 });
 
+$(window).scroll(function(e){
+	var scroll_top = $(window).scrollTop();
+	var event_top = $('#s20220530a7e1bcbe42c68').offset().top - 10;
+	var result_top = $('#s202205307577598ce6b6d').offset().top - 10;
+	  if (scroll_top > event_top && scroll_top <= result_top) {
+		  $('.campaign-menu li.l1').addClass('active')
+		  $('.campaign-menu li.l2').removeClass('active')
+	  }else if(scroll_top > result_top) {
+			$('.campaign-menu li.l1').removeClass('active')
+		  $('.campaign-menu li.l2').addClass('active')
+	  }else{
+		  $('.campaign-menu li.l1').removeClass('active')
+		  $('.campaign-menu li.l2').removeClass('active')
+	  }
+	//console.log($(window).scrollTop());
+  });
+
 $(document).ready(function() {
 
 	//모금액 카운팅
@@ -56,59 +73,6 @@ $(document).ready(function() {
 		// Animation complete.
 	});
 
-
-	function numberWithCommas(x) {
-		return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-	}
-	/*
-	//Contact 클래스명 지정
-	$("footer").prev().addClass("section-contact");
-
-	//Notice 게시판 리스트 구조변경
-	$('#post_card_b20220321cc961bd599dd1 ul.list').each(function(){
-		var time = $('<span/>').text($('li.time',this).text()).addClass('time');
-		$('li.tit a span:first-of-type',this).before(time);
-		$('li.time',this).remove();
-	})
-	//Notice 게시판 뷰 구조변경
-	$('.board_view .board_summary .author .date').before($('.board_view header p a'));
-
-	//에티켓 탭메뉴 레이어 전환
-	var sections = ['#s20220331c93b202b05422','#s2022033123d7fd2520021','#s20220331a893966028ed7','#s202203317eac794233917'];
-	$('.tabmenu-etiquette li a').on("click",function(event){
-		$('.tabmenu-etiquette li').removeClass("current");
-		$(this).parent().addClass("current");
-		var idx = $(this).parent().index();
-		for(var i in sections) {
-			if(idx == i)	$(sections[i]).show();
-			else			$(sections[i]).hide();
-		}
-		event.preventDefault();
-	});
-
-	//지구에티켓 링크 탭메뉴 분기
-	var a = $('<a>', {
-		href: window.location.href
-	});
-	var path = a.prop('pathname');
-	if(path.substr(0,1) == "/")	path = path.substr(1);
-	var search = a.prop('search');
-	if(search.substr(0,1) == "?")	search = search.substr(1);
-
-	if(path == "etiquette"){
-		if(search == "tab=2"){
-			$('.tabmenu-etiquette ul li.l2 a').click();
-		}
-		if(search == "tab=3"){
-			$('.tabmenu-etiquette ul li.l3 a').click();
-		}
-		if(search == "tab=4"){
-			$('.tabmenu-etiquette ul li.l4 a').click();
-		}
-
-	}
-	*/
-
     var dw = viewport().width;
 	if(dw <= 768){	//모바일
 		$("body").removeClass('pc');
@@ -126,12 +90,25 @@ $(document).ready(function() {
 
 //PC버젼 초기화
 function init_pc(){
-
+	$('btn-mobile-menu').off();
 }
 
 //모바일 버젼 초기화
 function init_mobile(){
+	//헤더 LNB 메뉴(mobile)
+	$("btn-mobile-menu").on("click",function(event){
+		if($("campaign-header01").hasClass('open-mobile-menu')){
+			$("campaign-header01").removeClass('open-mobile-menu');
+		}else{
+			$("campaign-header01").addClass('open-mobile-menu');
+		}
+		event.preventDefault();
+	});
 
+}
+
+function numberWithCommas(x) {
+	return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 }
 
 function viewport() {
