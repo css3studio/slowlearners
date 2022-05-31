@@ -545,7 +545,7 @@ footer .btn-goto-top a span{
 
   .campaign-header01 .btn-donate{
     position:fixed;
-    bottom:0;
+    bottom:-64px;
     left:0;
     width:100%;
     background:#000;
@@ -556,6 +556,10 @@ footer .btn-goto-top a span{
     border-radius:0px;
     font-size:14px;
     margin-left:0px;
+    transition: bottom 0.3s;
+  }
+  .campaign-header01 .btn-donate.up{
+    bottom:0
   }
   /* 키 비주얼 */
   #s202205308c6b36927f957 .section_bg{

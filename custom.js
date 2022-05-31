@@ -5,6 +5,10 @@ Version:1.0
 */
 
 var device_status = "";
+var didScroll;
+var lastScrollTop = 0;
+var delta = 5;
+
 $(window).resize(function() {
 	var dw = viewport().width;
 	if(dw <= 768 && device_status == "pc"){	//PC에서 모바일로 변경시
@@ -24,17 +28,17 @@ $(window).scroll(function(e){
 	var scroll_top = $(window).scrollTop();
 	var event_top = $('#s20220530a7e1bcbe42c68').offset().top - 10;
 	var result_top = $('#s202205307577598ce6b6d').offset().top - 10;
-	  if (scroll_top > event_top && scroll_top <= result_top) {
-		  $('.campaign-menu li.l1').addClass('active')
-		  $('.campaign-menu li.l2').removeClass('active')
-	  }else if(scroll_top > result_top) {
-			$('.campaign-menu li.l1').removeClass('active')
-		  $('.campaign-menu li.l2').addClass('active')
-	  }else{
-		  $('.campaign-menu li.l1').removeClass('active')
-		  $('.campaign-menu li.l2').removeClass('active')
-	  }
-	//console.log($(window).scrollTop());
+	if (scroll_top > event_top && scroll_top <= result_top) {
+		$('.campaign-menu li.l1').addClass('active')
+		$('.campaign-menu li.l2').removeClass('active')
+	}else if(scroll_top > result_top) {
+		$('.campaign-menu li.l1').removeClass('active')
+		$('.campaign-menu li.l2').addClass('active')
+	}else{
+		$('.campaign-menu li.l1').removeClass('active')
+		$('.campaign-menu li.l2').removeClass('active')
+	}
+	didScroll = true;
   });
 
 $(document).ready(function() {
@@ -115,7 +119,32 @@ function init_mobile(){
 		}
 		event.preventDefault();
 	});
+	setInterval(function() {
+		if (didScroll) {
+			hasScrolled();
+			didScroll = false;
+		}
+	}, 250);
 
+}
+
+function hasScrolled() {
+    var st = $(this).scrollTop();
+
+    if(Math.abs(lastScrollTop - st) <= delta)
+        return;
+
+
+    if (st > lastScrollTop){
+        // Scroll Down
+        $('.campaign-header01 .btn-donate').removeClass('up').addClass('down');
+    } else {
+        // Scroll Up
+        if(st + $(window).height() < $(document).height()) {
+            $('.campaign-header01 .btn-donate').removeClass('down').addClass('up');
+        }
+    }
+    lastScrollTop = st;
 }
 
 function numberWithCommas(x) {
