@@ -107,11 +107,11 @@ function init_pc(){
 //모바일 버젼 초기화
 function init_mobile(){
 	//헤더 LNB 메뉴(mobile)
-	$("btn-mobile-menu").on("click",function(event){
-		if($("campaign-header01").hasClass('open-mobile-menu')){
-			$("campaign-header01").removeClass('open-mobile-menu');
+	$(".btn-mobile-menu").on("click",function(event){
+		if($(".campaign-header01").hasClass('open-mobile-menu')){
+			$(".campaign-header01").removeClass('open-mobile-menu');
 		}else{
-			$("campaign-header01").addClass('open-mobile-menu');
+			$(".campaign-header01").addClass('open-mobile-menu');
 		}
 		event.preventDefault();
 	});

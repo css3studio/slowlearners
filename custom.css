@@ -514,6 +514,10 @@ footer .btn-goto-top a span{
     background-color:#fff;
     max-height:0px;
     overflow:hidden;
+    transition: max-height 0.3s;
+  }
+  .campaign-header01.open-mobile-menu nav{
+    max-height:500px;
   }
   .campaign-header01 .campaign-menu{
     display:block;
@@ -528,6 +532,15 @@ footer .btn-goto-top a span{
   .campaign-header01 a.btn-mobile-menu{
     display:block;
     font-size:26px
+  }
+  .campaign-header01 a.btn-mobile-menu i.xi-close{
+    display:none;
+  }
+  .campaign-header01.open-mobile-menu a.btn-mobile-menu i.xi-bars{
+    display:none;
+  }
+  .campaign-header01.open-mobile-menu a.btn-mobile-menu i.xi-close{
+    display:inline;
   }
 
   .campaign-header01 .btn-donate{
