@@ -656,8 +656,63 @@ footer .btn-goto-top a span{
   .collection-data{
     visibility: hidden;
   }
+  
+  /* campain goal */  
+  #s202205301e61d7effd141 .doz_aside{
+    display: block !important;
+    width:auto !important;
+    border-bottom:2px solid #000;
+  }
+  #s202205301e61d7effd141 .doz_aside .inside {
+    width:auto !important;
+  }
+  #s202205301e61d7effd141:before{
+    content:none;
+  }
+  #s202205301e61d7effd141 main > .inside .doz_row .widget_text_wrap{
+    padding:0 15px;
+  }
+  #w2022053000ef3ebaec5ea{
+    display:none;
+  }
 
+  .heading01{
+    padding-bottom:170px;
+    padding-right:30px;
+    background-size: auto 175px;
+  }
+  .heading01.reward{
+    padding-bottom:20px;
+    padding-right:0;
+    margin-right:-15px;
+    background-position:top 0 right -30px;
+    background-size: 208px;
+  }
+  .heading01.result{
+    padding-bottom:0;
+    padding-right:0;
+    background:none;
+  }
 
+  .heading01 h2{
+    font-size:40px !important;;
+    line-height:1.28;
+    font-weight:900;
+    margin-bottom:24px;
+  }
+  .heading01.reward h2{
+    margin-bottom:8px;
+  }
+  .heading01 h3{
+    font-size:40px;
+  }
+  .heading01 p{
+    font-size:14px;
+  }
+  #w2022053047474a98b2fa3{
+    position:relative;
+    top:-15px;
+  }
 }
 
 /* 스마트폰 */
