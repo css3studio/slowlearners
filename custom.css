@@ -4,7 +4,10 @@ writer: css3studio
 */
 
 /*공톨*/
-* {font-family: 'SUIT', sans-serif;}
+* {
+  font-family: 'SUIT', sans-serif;
+  word-break:keep-all;
+}
 .btn-primary, .btn-default{
   font-size:16px;
   padding:16px 32px;
@@ -490,6 +493,29 @@ footer .btn-goto-top a span{
 
 @media screen and (max-width:991px) {
 
+  /* footer */
+  footer{
+    padding-bottom:40px;
+  }
+  footer .foot-custom .custom-text-info{
+    display:block;
+  }
+
+  footer .bank-account{
+    margin:16px 0 24px;
+  }
+  footer .bank-account dt{
+    margin-right:40px;
+  }
+  footer .sns-menu{
+    display:flex;
+    flex-wrap: wrap;
+    padding:0
+  }
+  footer .sns-menu li{
+    margin:0 8px 8px 0;
+  }
+
   /******캠페인 2022******/
   /* 헤더 */
   #s20220530d5fa147ea677f{
@@ -675,6 +701,12 @@ footer .btn-goto-top a span{
   }
   
   /* campain goal */  
+  .pc_section #padding_w20220530b985f6c5ad0f9 { /* 상단 마진 */
+    height: 80px !important;
+  }
+  .pc_section #padding_w202205305ce4bc59a9203 { /* 하단 마진 */
+    height: 80px !important;
+  }
   #s202205301e61d7effd141 .doz_aside{
     display: block !important;
     width:auto !important;
@@ -730,6 +762,82 @@ footer .btn-goto-top a span{
     position:relative;
     top:-15px;
   }
+  
+  /* 리워드 */
+  .pc_section #padding_w20220530063c0ef218dfc {
+    height: 80px !important;
+  }
+  .pc_section #padding_w20220530a5d76c1558631 {
+    height: 80px !important;
+  }
+  
+  /* 이벤트 */
+  #s20220530a7e1bcbe42c68{
+    padding:80px 0 !important;
+  }
+  #text_w202205300a5c6b42509c5{
+    margin-top:0;
+  }
+  
+  #s20220530a7e1bcbe42c68 .inside > .doz_row > .col-dz:nth-of-type(1){
+    margin-bottom:70px;
+  }
+  #s20220530a7e1bcbe42c68 .inside > .doz_row > .col-dz > .doz_row:nth-of-type(6) > .col-dz:nth-of-type(2) .widget.button.txt_r{
+    text-align:left !important;;
+  }
+
+  .campaign-carousel button.slick-arrow{
+    display:none !important;
+  }
+  
+  .campaign-carousel .slick-slide {
+    margin-right: 20px;
+  }
+  /*지원결과*/
+  #s202205307577598ce6b6d{
+    padding:80px 0 !important;
+  }
+  .heading01.result h2{
+    width:240px;
+  }
+  .result-2021{
+    display:block;
+  }
+  .result-2021 dl{
+    margin:0 0 16px;
+  }
+  .result-2021 dl dd{
+    font-size:24px !important;
+    display:inline-block;
+  }  
+  .result-2021 dl dt{
+    font-size:18px !important;
+  }  
+  .result-2021 dl dd b{
+    font-size:32px !important;
+  }
+  .result-2021 > p{
+    font-size:16px !important;
+  }  
+  .result-business{
+    display:block;
+    padding:38px 25px 0;
+  }
+  .result-business > li{
+    height:80px;
+    padding-left:120px;
+    margin-bottom:38px;
+  }
+  .pc_section #padding_w20220530e0464d248a7b4 {
+    height: 40px !important;
+  }
+  #s202205307577598ce6b6d main > .inside >.doz_row:nth-of-type(9) .text-table p:nth-of-type(1) span{
+    font-size:24px !important;
+  }
+  #s202205307577598ce6b6d main > .inside >.doz_row:nth-of-type(9) > .col-dz{
+    margin-bottom:40px
+  }
+  
 }
 
 /* 스마트폰 */
