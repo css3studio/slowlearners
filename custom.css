@@ -744,9 +744,11 @@ footer .btn-goto-top a span{
   }
 
   .heading01{
+    margin-right:-10px;
     padding-bottom:175px;
     padding-right:30px;
-    background:url(https://cdn.imweb.me/upload/S202205122b1ec895efdd4/44ddd493d6fab.png) no-repeat right bottom;
+    background:url(https://cdn.imweb.me/upload/S202205122b1ec895efdd4/44ddd493d6fab.png) no-repeat;
+    background-position: right bottom;
     background-size: auto 175px;
   }
   .heading01.reward{
