@@ -717,6 +717,7 @@ footer .btn-goto-top a span{
     height:8px;
     background-color:#E4E4E4;
     position:relative;
+    top:-1px;
   }
   .collection-bulletin .progresive-bar .inner-bar{
     height:8px;
