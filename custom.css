@@ -721,6 +721,9 @@ footer .btn-goto-top a span{
   .pc_section #padding_w202205305ce4bc59a9203 { /* 하단 마진 */
     height: 80px !important;
   }
+  #s202205301e61d7effd141 .section_bg {
+    background:none;
+  }
   #s202205301e61d7effd141 .doz_aside{
     display: block !important;
     width:auto !important;
@@ -741,8 +744,9 @@ footer .btn-goto-top a span{
   }
 
   .heading01{
-    padding-bottom:170px;
+    padding-bottom:175px;
     padding-right:30px;
+    background:url(https://cdn.imweb.me/upload/S202205122b1ec895efdd4/44ddd493d6fab.png) no-repeat right bottom;
     background-size: auto 175px;
   }
   .heading01.reward{
