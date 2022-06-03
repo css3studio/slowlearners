@@ -165,7 +165,7 @@ footer .sns-menu li.yt a:after{
 footer .btn-goto-top{
   position:absolute;
   top:-64px;
-  right:16px;
+  right:80px;
 }
 footer .btn-goto-top a{
   display:flex;
@@ -515,7 +515,11 @@ footer .btn-goto-top a span{
 
   /* footer */
   footer{
-    padding-bottom:40px;
+    padding-bottom:20px;
+  }
+  footer .footer-section .inside {
+    padding-left: 15px;
+    padding-right: 15px;
   }
   footer .foot-custom .custom-text-info{
     display:block;
@@ -535,6 +539,9 @@ footer .btn-goto-top a span{
   footer .sns-menu li{
     margin:0 8px 8px 0;
   }
+  footer .btn-goto-top {
+    right: 15px;
+  }
 
   /******캠페인 2022******/
   /* 헤더 */
@@ -544,6 +551,7 @@ footer .btn-goto-top a span{
   }
   .campaign-header01{
     height:54px;
+    padding:0 16px;
   }
   .campaign-header01 .logo{
     height:20px;
@@ -554,9 +562,9 @@ footer .btn-goto-top a span{
     display:block;
     position:absolute;
     top:56px;
-    left:-7.5px;
+    left:0;
     z-index:10;
-    width:calc(100% + 15px);
+    width:100%;
     background-color:#fff;
     max-height:0px;
     overflow:hidden;
@@ -785,12 +793,14 @@ footer .btn-goto-top a span{
   .heading01 p{
     font-size:14px;
   }
+  
+  /* 리워드 */
   #w2022053047474a98b2fa3{
     position:relative;
     top:-15px;
+    padding-left:15px;
   }
   
-  /* 리워드 */
   .pc_section #padding_w20220530063c0ef218dfc {
     height: 80px !important;
   }
@@ -804,6 +814,13 @@ footer .btn-goto-top a span{
   }
   #text_w202205300a5c6b42509c5{
     margin-top:0;
+  }
+  #s20220530a7e1bcbe42c68 .inside > .doz_row > .col-dz > .doz_row:nth-of-type(2){
+    padding:0 15px;
+  }
+  #s20220530a7e1bcbe42c68 .inside > .doz_row > .col-dz > .doz_row:nth-of-type(3) .img_wrap{
+    padding:0 15px;
+    height:auto !important;
   }
   
   #s20220530a7e1bcbe42c68 .inside > .doz_row > .col-dz:nth-of-type(1){
@@ -855,8 +872,15 @@ footer .btn-goto-top a span{
     padding-left:120px;
     margin-bottom:38px;
   }
-  .pc_section #padding_w20220530e0464d248a7b4 {
+  .pc_section #padding_w20220530e0464d248a7b4 > .col-dz > .doz_row {
     height: 40px !important;
+  }
+  #s202205307577598ce6b6d main > .inside >.doz_row:nth-of-type(9) .img_wrap{
+    padding:0 15px;
+    height:auto !important;
+  }
+  #s202205307577598ce6b6d main > .inside >.doz_row:nth-of-type(9) .img_wrap img{
+    width:100% !important;
   }
   #s202205307577598ce6b6d main > .inside >.doz_row:nth-of-type(9) .text-table p:nth-of-type(1) span{
     font-size:24px !important;
