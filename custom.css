@@ -96,6 +96,12 @@ writer: css3studio
 footer{
   border-top:2px solid #000;
 }
+footer .footer-section .inside{
+  max-width: none !important;
+  width:auto !important;
+  padding-left: 80px;
+  padding-right: 80px;
+}
 footer .foot-custom .custom-text-info{
   display:flex;
   justify-content: space-between;
@@ -410,7 +416,7 @@ footer .btn-goto-top a span{
   margin:0px 0
 }
 .campaign-carousel{
-  margin:0 -15px;
+  /*margin:0 -15px;*/
 }
 .campaign-carousel .slick-list{
   overflow:visible;
