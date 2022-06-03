@@ -753,12 +753,15 @@ footer .btn-goto-top a span{
   #s202205301e61d7effd141 main > .inside .doz_row .widget_text_wrap{
     padding:0 15px;
   }
+  #s202205301e61d7effd141 main > .inside .doz_row .widget_text_wrap br{
+    display:none;
+  }
   #w2022053000ef3ebaec5ea{
     display:none;
   }
 
   .heading01{
-    margin-right:-10px;
+    margin-right:10px;
     padding-bottom:175px;
     padding-right:30px;
     background:url(https://cdn.imweb.me/upload/S202205122b1ec895efdd4/44ddd493d6fab.png) no-repeat;
