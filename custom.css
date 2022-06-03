@@ -655,9 +655,9 @@ footer .btn-goto-top a span{
     height:232px;
     border-left:none;
     border-right:none;
-    display:flex;
-    flex-direction: column-reverse;
     width:100% !important;
+    position:relative;
+    padding-top:8px;
   }
   .collection-bulletin .data-area{
     display:block;
@@ -715,13 +715,13 @@ footer .btn-goto-top a span{
   }
   .collection-bulletin .progresive-bar{
     height:8px;
+    width:100%;
     background-color:#E4E4E4;
-    position:relative;
-    top:-1px;
+    position:absolute;
+    top:0;
+    left:0;
   }
-  _::-webkit-:not(:root:root), .collection-bulletin .progresive-bar{
-     top:-2px;
-  }
+
   .collection-bulletin .progresive-bar .inner-bar{
     height:8px;
     background-color:#FF7051;;
