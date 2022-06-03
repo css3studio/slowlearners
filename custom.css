@@ -11,6 +11,7 @@ writer: css3studio
 .btn-primary, .btn-default{
   font-size:16px;
   padding:16px 32px;
+  border-radius: 32px;
 }
 .btn-primary:hover{
   border-color:#00a290 !important;
@@ -93,7 +94,6 @@ writer: css3studio
 
 /* footer */
 footer{
-  padding-bottom:120px;
   border-top:2px solid #000;
 }
 footer .foot-custom .custom-text-info{
@@ -101,7 +101,7 @@ footer .foot-custom .custom-text-info{
   justify-content: space-between;
   align-items: end;
   text-align:left;
-  font-size:14px;
+  font-size:14px !important;
   color:#000;
 }
 footer .footer-info .logo{
@@ -188,7 +188,8 @@ footer .btn-goto-top a span{
   background-size:auto 100%;
 }
 #s202205308c6b36927f957 .inside{
-  height:760px;
+  /*height:760px;*/
+  height:calc(100vh - 80px);
   position:relative;
 }
 #s202205308c6b36927f957 .inside > .doz_row:nth-child(1){
