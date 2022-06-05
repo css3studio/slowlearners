@@ -471,6 +471,9 @@ footer .btn-goto-top a span{
   font-family: xeicon;
   font-size:30px;
 }
+.lg-outer.lg-pull-caption-up.lg-thumb-open .lg-sub-html {
+  display:none;
+}
 
 /* result */
 .result-2021{
