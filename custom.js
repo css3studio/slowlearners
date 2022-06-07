@@ -24,6 +24,7 @@ $(window).resize(function() {
 	}
 });
 
+/*
 $(window).scroll(function(e){
 	var scroll_top = $(window).scrollTop();
 	var event_top = $('#s20220530a7e1bcbe42c68').offset().top - 10;
@@ -40,7 +41,7 @@ $(window).scroll(function(e){
 	}
 	didScroll = true;
   });
-
+  */
 $(document).ready(function() {
 
 	//모금액 카운팅
