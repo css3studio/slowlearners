@@ -111,6 +111,7 @@ header .logo img{
 .slider-main .controls .progressive div{
   height:1px;
   background-color:#F0831E;
+  transition: width 0.2s;
 }
 
 /**** mobile ****/
