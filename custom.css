@@ -78,7 +78,8 @@ header .login_btn .login_btn_item:first-of-type .use_info:after{
   position:relative
 }
 .slider-main ul.slider{
-  padding:0
+  padding:0;
+  margin:0;
 }
 .slider-main .slider-item{
   display:flex;
@@ -151,6 +152,71 @@ header .login_btn .login_btn_item:first-of-type .use_info:after{
   color:#5E5E65;
   padding:6px;
 }
+/* quick menu */
+#s20220628b0c4199adc72c .button_wrap {
+  display:flex;
+  justify-content: space-between;
+  margin:0 -10px;
+  padding:16px 0;
+}
+#s20220628b0c4199adc72c .button_wrap > div {
+  width:25%;
+  padding:0 10px;
+}
+#s20220628b0c4199adc72c .button_wrap > div >.btn{
+  display:block;
+  position:relative;
+  margin:0 !important;
+  background-color:#fff;
+  border: 1px solid #E8E8E9;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+  font-size:18px;
+  padding:20px 0;
+  cursor:pointer
+}
+#s20220628b0c4199adc72c .button_wrap > div >.btn:before{
+  content:"";
+  display:block;
+  width:40px;
+  height:40px;
+  background:#7652DB url(https://cdn.imweb.me/upload/S20220613fb324545e5bef/2ec05c00d146f.png) no-repeat center center;
+  background-size:20px;
+  border-radius:20px;
+  position:absolute;
+  left:24px;
+  top:50%;
+  margin-top:-20px;
+}
+#s20220628b0c4199adc72c .button_wrap > div:nth-of-type(1) >.btn:before{
+  background-image:url(https://cdn.imweb.me/upload/S20220613fb324545e5bef/2ec05c00d146f.png)
+}
+#s20220628b0c4199adc72c .button_wrap > div:nth-of-type(2) >.btn:before{
+  background-image:url(https://cdn.imweb.me/upload/S20220613fb324545e5bef/0f7145e922f4a.png)
+}
+#s20220628b0c4199adc72c .button_wrap > div:nth-of-type(3) >.btn:before{
+  background-image:url(https://cdn.imweb.me/upload/S20220613fb324545e5bef/43c0c4b257645.png)
+}
+#s20220628b0c4199adc72c .button_wrap > div:nth-of-type(4) >.btn:before{
+  background-image:url(https://cdn.imweb.me/upload/S20220613fb324545e5bef/c6293bc6ccd89.png)
+}
+#s20220628b0c4199adc72c .button_wrap > div >.btn:after{
+  content: "\e93e";
+  font-family:xeicon;
+  position:absolute;
+  right:20px;
+  top:50%;
+  transform: translateY(-50%);
+  font-size:18px;
+}
+#s20220628b0c4199adc72c .button_wrap > div >.btn:hover{
+  background: #7652DB;
+  border: 1px solid #5B36C2;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+  color:#fff;
+}
+
 
 /**** mobile ****/
 
