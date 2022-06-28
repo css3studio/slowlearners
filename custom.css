@@ -10,16 +10,16 @@ writer: css3studio
 
 .button01{
   display:inline-block;
-  border:1px solid #422692;
+  border:1px solid #F0831E;
   padding:8px 24px;
   border-radius:50px;
-  color: #422692;
+  color: #F0831E !important;
   font-weight:bold;
   font-size:14px;
 }
 .button01:hover{
-  border-color:#F0831E;
-  color: #F0831E !important;;
+  border-color:#422692;
+  color: #422692 !important;
 }
 
 .btn-primary, .btn-default{
@@ -48,11 +48,30 @@ header .logo{
 header .logo img{
   width:255px;
 }
-#w2022062751644dc3b5c72 .viewport-nav > li.dropdown > .notranslate a, #w2022062751644dc3b5c72 .viewport-nav > li.dropdown > a {
+#w2022062751644dc3b5c72 .viewport-nav > li.dropdown > .notranslate a, 
+#w2022062751644dc3b5c72 .viewport-nav > li.dropdown > a {
   width:136px;
   text-align:center;
-  font-weight: 500;
+  font-weight: 700;
 }
+header .login_btn {
+  background-color:#F6F6F6;
+  padding:4px 20px;
+  border-radius:50px;
+  font-size:14px;
+  line-height:24px;
+}
+header .login_btn .login_btn_item{
+  margin-right:0px !important;
+}
+header .login_btn .login_btn_item:first-of-type .use_info:after{
+  content:"|";
+  margin-left:8px;
+  font-size:12px;
+  position:relative;
+  top:-2px;
+}
+
 
 /* main */
 .slider-main{
@@ -89,16 +108,27 @@ header .logo img{
 }
 .slider-main .controls{
   position: absolute;
-  bottom:40px;
+  bottom:65px;
   left:50%;
   padding-left:74px;
   display: flex;
+  align-items: center;
+}
+.slider-main .controls .indicator{
+  margin-right:16px;
 }
 .slider-main .controls .indicator ul {
-  padding:0
+  padding:0;
+  margin:0;
 }
 .slider-main .controls .indicator ul li{
   display:none;
+  font-size:14px;
+  color:#B9B9BE
+}
+.slider-main .controls .indicator ul li b{
+  color:#000;
+  font-weight:400;
 }
 .slider-main .controls .indicator ul li.slick-active{
   display:block;
@@ -107,11 +137,19 @@ header .logo img{
   height:1px;
   width:304px;
   background-color:#E8E8E9;
+  margin-right:16px;
 }
 .slider-main .controls .progressive div{
   height:1px;
   background-color:#F0831E;
-  transition: width 0.2s;
+  transition: width 0.6s;
+}
+.slider-main .controls .arrows{
+  display:flex;
+}
+.slider-main .controls .arrows a{
+  color:#5E5E65;
+  padding:6px;
 }
 
 /**** mobile ****/
