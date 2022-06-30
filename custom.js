@@ -54,6 +54,15 @@ $(document).ready(function() {
 		device_status = "pc";
 	}
 
+
+	$('.campaign-carousel .slider').slick({
+		dots: false,
+		arrows: true,
+		slidesToShow: 4,
+		slidesToScroll: 1,
+		variableWidth: true
+	});
+
 });
 
 //PC버젼 초기화

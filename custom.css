@@ -216,7 +216,30 @@ header .login_btn .login_btn_item:first-of-type .use_info:after{
   border-radius: 20px;
   color:#fff;
 }
-
+/*  활동나눔 */
+.heading01{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom:24px;
+}
+.heading01 .more{
+  color:#666;
+  font-weight:700;
+  border:1px solid #E9E9E9;
+  padding:8px 16px;
+  border-radius: 20px;
+}
+.heading01 .more:hover{
+  border-color:#F0821E;
+  color:#F0821E;
+}
+.heading01 .more:after{
+  content:"\e907";
+  font-family:xeicon;
+  margin-left:16px;
+  
+}
 
 /**** mobile ****/
 
