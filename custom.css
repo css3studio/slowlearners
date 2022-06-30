@@ -82,6 +82,125 @@ header .login_btn .login_btn_item:first-of-type .use_info:after{
   display:none !important;
 }
 
+footer{
+  border-top:1px solid #E8E8E9;
+}
+footer .inside{
+  padding:0 !important;
+}
+footer .above-area{
+  display:flex;
+  justify-content: space-between;
+  text-align:left;
+  font-size:14px;
+    color:#aaa;
+  line-height:1.71 !important;
+}
+footer .above-area .brand{
+  font-weight:700;
+  color:#000;
+  display:block;
+}
+footer .above-area address{
+  display:block;
+  margin:0;
+}
+footer .above-area .email{
+  display:block;
+  margin:0;
+  color:#aaa !important;
+}
+footer .menu-footer{
+  padding:0;
+  margin-top:8px;
+  list-style: none;
+  display:flex;
+}
+footer .menu-footer li:after{
+  content:"|";
+  color:#D9D9D9;
+  margin:0 24px;
+}
+footer .menu-footer li:last-child:after{
+  content:none;
+}
+footer .menu-footer li a{
+  font-weight:700
+}
+footer .menu-sns{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: end;
+  width:300px;
+  padding:0;
+  list-style: none;
+}
+footer .menu-sns li a{
+  display:block;
+  border:1px solid #E8E8E9;
+  border-radius: 10px;
+  width:140px;
+  height:40px;
+  line-height:38px;
+  color:#000 !important;
+  padding:0 16px;
+  margin:0 0 8px 8px;
+  background:url(https://cdn.imweb.me/upload/S20220613fb324545e5bef/99bdfa8d45178.png) no-repeat;
+  background-position: right 16px center;
+}
+footer .menu-sns li a:hover{
+  border-color:#F0821E;
+}
+footer .menu-sns li.naver-cafe a{
+  background-image:url(https://cdn.imweb.me/upload/S20220613fb324545e5bef/99bdfa8d45178.png);
+    background-size: 14px auto;
+}
+footer .menu-sns li.insta a{
+  background-image:url(https://cdn.imweb.me/upload/S20220613fb324545e5bef/3c32920897ad4.png);
+    background-size: 14px auto;
+}
+footer .menu-sns li.naver-blog a{
+  background-image:url(https://cdn.imweb.me/upload/S20220613fb324545e5bef/fa4edddba3f70.png);
+    background-size: 16px auto;
+}
+footer .menu-sns li.youtube a{
+  background-image:url(https://cdn.imweb.me/upload/S20220613fb324545e5bef/d301f1da15292.png);
+    background-size: 16px auto;
+}
+footer .menu-sns li.facebook a{
+  background-image:url(https://cdn.imweb.me/upload/S20220613fb324545e5bef/07ec6b0074ede.png);
+    background-size: 14px auto;
+}
+footer .menu-sns li a span{
+  color:#000 !important;
+}
+
+
+footer .bottom-area{
+  display:flex;
+  padding-top:24px;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items:center;
+  border-top:1px solid #E8E8E9;
+}
+footer .cp{
+  color:#aaa;
+}
+footer blockquote{
+  padding:0 !important;
+  border-left:none !important;
+  color:#ccc !important;
+  font-size:16px !important;
+  width:486px;
+  text-align: left !important;
+  padding-left:32px !important;
+  background:url(https://cdn.imweb.me/upload/S20220613fb324545e5bef/725638ec402bd.png) no-repeat left top;
+  font-weight:700;
+  background-size:auto 16px;
+
+}
+
 /* main */
 .slider-main{
   position:relative
