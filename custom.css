@@ -60,6 +60,7 @@ header .login_btn {
   border-radius:50px;
   font-size:14px;
   line-height:24px;
+  margin-right:16px !important;;
 }
 header .login_btn .login_btn_item{
   margin-right:0px !important;
@@ -71,7 +72,15 @@ header .login_btn .login_btn_item:first-of-type .use_info:after{
   position:relative;
   top:-2px;
 }
-
+#dropdown_w2022062751644dc3b5c72{
+  border-top:1px solid #ddd;
+}
+.mega_dropdown .title_menu{
+  padding-top:0 !important;
+}
+.mega_dropdown .title_menu ._title_anchor{
+  display:none !important;
+}
 
 /* main */
 .slider-main{
@@ -216,7 +225,7 @@ header .login_btn .login_btn_item:first-of-type .use_info:after{
   border-radius: 20px;
   color:#fff;
 }
-/*  활동나눔 */
+/*  활동나눔 */
 #s2022062885650a0ab88b0{
   border-bottom:1px solid #eee;
 }
