@@ -63,6 +63,17 @@ $(document).ready(function() {
 		variableWidth: true
 	});
 
+  	/* 메가 메뉴 호버 효과 */
+	  $('.mega_dropdown .title_menu').on("mouseenter",function() {
+		var index = $( ".mega_dropdown .title_menu" ).index( this );
+        $(this).addClass('active');
+        $('header .navbar-nav li.dropdown:nth-child(' + index + ')').addClass('active');
+    });
+    $('.mega_dropdown .title_menu').on("mouseleave",function() {
+		var index = $( ".mega_dropdown .title_menu" ).index( this );
+        $(this).removeClass('active');
+        $('header .navbar-nav li.dropdown:nth-child(' + index + ')').removeClass('active');
+    });
 });
 
 //PC버젼 초기화
