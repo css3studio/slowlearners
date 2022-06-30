@@ -443,6 +443,22 @@ footer blockquote{
   color:#8B8B92
 }
 
+/* 제휴사이트 로고 */
+.slider-logo{
+  padding:16px 0;
+  background-color:#F9F9F9;
+}
+.slider-logo .slider{
+  margin:0 !important;
+  padding:0;
+}
+.slider-logo li{
+  padding:0 12px
+}
+.slider-logo li a img{
+  height:32px;
+}
+
 /**** mobile ****/
 
 @media screen and (max-width:991px) {
