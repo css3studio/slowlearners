@@ -240,6 +240,43 @@ header .login_btn .login_btn_item:first-of-type .use_info:after{
   margin-left:16px;
   
 }
+.list-style-gallery.grid_02.type_grid .card a{
+  border: 1px solid #E8E8E9;
+  box-shadow:0px 2px 6px rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+  overflow:hidden
+}
+.list-style-gallery.grid_02.type_grid .card .card_wrapper .card-head{
+  height:240px !important;
+}
+.list-style-gallery.grid_02.type_grid .card .card-body{
+  padding:16px 16px 8px !important;
+}
+.list-style-gallery.grid_02.type_grid .card .card-body .title{
+  display:block;
+  color: #000 !important;
+  font-weight:700;
+  height:104px !important;
+}
+
+.list-style-gallery.grid_02.type_grid .card a:hover .card-body .title{
+  text-decoration: underline;
+}
+.list-style-gallery.grid_02.type_grid .card .card-body .title em{
+  display:block;
+  color: #8B8B92 !important;
+  font-size:13px;
+}
+
+.list-style-gallery.grid_02.type_grid .card .card-summary .avatar{
+  padding:0 16px !important;
+}
+.list-style-gallery.grid_02.type_grid .card .card-summary .avatar small{
+  color: #8B8B92 !important;
+  font-size: 14px;
+}
+
+
 
 /**** mobile ****/
 
