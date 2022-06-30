@@ -217,6 +217,9 @@ header .login_btn .login_btn_item:first-of-type .use_info:after{
   color:#fff;
 }
 /*  활동나눔 */
+#s2022062885650a0ab88b0{
+  border-bottom:1px solid #eee;
+}
 .heading01{
   display:flex;
   justify-content: space-between;
@@ -276,7 +279,35 @@ header .login_btn .login_btn_item:first-of-type .use_info:after{
   font-size: 14px;
 }
 
-
+/*공지사항 뉴스클리핑*/
+#s20220628234297afe68d1{
+  border-top:7px solid #F9F9F9;
+}
+#s20220628234297afe68d1 .heading01{
+  border-bottom:1px solid #000;
+  padding-bottom:10px;
+  margin-bottom: 0;
+}
+.list-style.row_01.type_row .list{
+  padding:24px !important;;
+}
+.list-style.row_01.type_row .list .title a span{
+  font-size:18px !important;
+  display:-webkit-box;
+  -webkit-line-clamp:2;
+  -webkit-box-orient:vertical;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  height:48px;
+}
+.list-style.row_01.type_row .list .title a:hover span{
+  font-weight:bold;
+  text-decoration: underline;
+}
+.list-style.row_01.type_row .list .date{
+  padding-left:0;
+  color:#8B8B92
+}
 
 /**** mobile ****/
 
