@@ -495,7 +495,12 @@ footer blockquote{
 /**** mobile ****/
 
 @media screen and (max-width:991px) {
-
+  header .logo{
+    margin-right:0 !important;
+  }
+  header .logo img {
+    width: 159px;
+  }
 }
 
 /* 스마트폰 */
