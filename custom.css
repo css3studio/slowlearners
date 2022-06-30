@@ -236,6 +236,9 @@ footer blockquote{
   background-size:auto 16px;
   margin:0 !important;
 }
+footer blockquote strong{
+  color:#858585;
+}
 
 /* main */
 .slider-main{
