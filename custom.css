@@ -75,6 +75,9 @@ header .login_btn .login_btn_item:first-of-type .use_info:after{
   position:relative;
   top:-2px;
 }
+#w202206276d03e6ac559f6 .vertical_line .real_line{
+  border:none;
+}
 
 header .navbar-nav li.dropdown:last-child a{
   color:#F0831E !important;
@@ -497,5 +500,83 @@ footer blockquote strong{
 .slider-logo li a img{
   height:32px;
 }
+
+/*** 소개 > 시민회는  ***/
+.text-content01{
+  display:flex;
+  align-items:center;
+  justify-content: space-between;
+  width:100%;
+  border-bottom:1px solid #ddd;
+  padding-bottom:40px;
+  margin-bottom:40px;
+}
+.text-content01 dt{
+  font-weight: 700;
+  font-size: 24px;
+  width:218px;
+  flex-basis: 218px;
+  flex-shrink: 0;
+}
+.text-content01 dd{
+  flex-grow:1;
+}
+.text-content01 ul.values{
+  display:flex;
+  margin:0 -10px;
+  list-style: none;
+  padding:0;
+}
+.text-content01 ul.values > li{
+  margin:0 10px;
+  padding:24px;
+  width:33.3333%;
+  border: 1px solid #422692;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+.text-content01 ul.values > li dl{
+  margin-bottom:0;
+}
+.text-content01 ul.values > li dt{
+  font-size:24px;
+  font-weight:normal;
+  margin-bottom:8px
+}
+.text-content01 ul.values > li dt img{
+  margin:0;
+  width:32px;
+  display:inline;
+  margin-right:8px;
+}
+.text-content01 ul.values > li dd{
+  font-size:16px;
+  color:#666
+}
+.text-content01 .chart{
+  background-color:#EDEAF7;
+  border: 1px solid #E8E8E9;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  padding:40px;
+}
+.text-content01 .chart img{
+  width:100% !important;
+  max-width:628px !important;
+}
+#video_w202206308b553e75b962b ._img_box{
+  height:634px !important;
+}
+
+
+#s202206303509b4736e52b .inside >.doz_row:nth-of-type(3) .text-content01{
+  align-items:normal
+}
+#s202206303509b4736e52b .inside >.doz_row:nth-of-type(4) .text-content01{
+  align-items:normal
+}
+
+
+
 
 
