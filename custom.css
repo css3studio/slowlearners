@@ -88,6 +88,9 @@ footer{
 footer .inside{
   padding:0 !important;
 }
+footer .custom-text{
+  margin:30px 0 0 !important;
+}
 footer .above-area{
   display:flex;
   justify-content: space-between;
@@ -178,11 +181,11 @@ footer .menu-sns li a span{
 
 footer .bottom-area{
   display:flex;
-  padding-top:24px;
   flex-direction: row-reverse;
   justify-content: space-between;
   align-items:center;
   border-top:1px solid #E8E8E9;
+  height:80px;
 }
 footer .cp{
   color:#aaa;
@@ -198,7 +201,7 @@ footer blockquote{
   background:url(https://cdn.imweb.me/upload/S20220613fb324545e5bef/725638ec402bd.png) no-repeat left top;
   font-weight:700;
   background-size:auto 16px;
-
+  margin:0 !important;
 }
 
 /* main */
