@@ -573,7 +573,8 @@ footer blockquote strong{
   align-items:normal
 }
 #s202206303509b4736e52b .inside >.doz_row:nth-of-type(4) .text-content01{
-  align-items:normal
+  align-items:normal;
+  border-bottom:none;
 }
 
 
