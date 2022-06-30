@@ -1,0 +1,78 @@
+/*
+Theme Name: slowlearners
+writer: css3studio
+*/
+
+/**** mobile ****/
+
+@media screen and (max-width:991px) {
+  header .logo{
+    margin-right:0 !important;
+    position:relative;
+    top:-3px
+  }
+  header .logo img {
+    width: 159px;
+  }
+  header .login_btn{
+    margin-right:0 !important;
+    background-color:#fff;
+    border:1px solid #F0831E;
+    border-radius: 16px;
+    font-weight:700;
+  }
+
+  /* main */
+  .slider-main{
+    padding-bottom:90px;
+  }
+  .slider-main .slider-item{
+    display:block;
+  }
+  .slider-main .slider-item .text-area{
+    padding:0px 16px;
+    padding-top:24px;
+  }
+  .slider-main .slider-item .text-area em{
+    font-size:14px;
+  }
+  .slider-main .slider-item .text-area h2{
+    font-size:24px;
+    margin:0 0 24px;
+  }
+  .slider-main .controls{
+    position: absolute;
+    bottom:20px;
+    left:0;
+    padding:0px 16px;
+    justify-content: space-between;
+    width:100%;
+  }
+  .slider-main .controls .indicator{
+    flex-shrink: 0;
+  }
+  .slider-main .controls .progressive{
+    width:auto;
+    flex-grow: 1;
+    margin-right:16px;
+  }
+  .slider-main .controls .arrows{
+    flex-shrink: 0;
+  }
+
+
+
+
+
+
+
+
+}
+
+/* 스마트폰 */
+@media screen and (max-width: 767px){
+
+}
+
+
+
