@@ -43,7 +43,7 @@ writer: css3studio
   border-bottom:1px solid #ddd;
 }
 header .logo{
-  margin-right:46px !important;;
+  margin-right:42.5px !important;;
 }
 header .logo img{
   width:255px;
@@ -72,14 +72,44 @@ header .login_btn .login_btn_item:first-of-type .use_info:after{
   position:relative;
   top:-2px;
 }
+
+header .navbar-nav li.dropdown:last-child a{
+  color:#F0831E !important;
+}
+header .navbar-nav li.dropdown.active{
+  background-color:#F6F6F6;
+}
+
 #dropdown_w2022062751644dc3b5c72{
   border-top:1px solid #ddd;
 }
+#dropdown_w2022062751644dc3b5c72 .mega_dropdown_wrap{
+  padding-bottom:0;
+  border-bottom:1px solid #ddd;
+}
+.mega_dropdown{
+  display:flex;
+}
+.mega_dropdown:after,
+.mega_dropdown:before{
+  content:none;
+}
 .mega_dropdown .title_menu{
   padding-top:0 !important;
+  padding-bottom:16px;
 }
+.mega_dropdown .title_menu.active{
+  background-color:#F6F6F6;
+}
+
 .mega_dropdown .title_menu ._title_anchor{
   display:none !important;
+}
+.mega_dropdown .title_menu ul li a{
+  font-weight:500;
+}
+.mega_dropdown .title_menu ul li a:hover{
+  text-decoration:underline;
 }
 
 footer{
