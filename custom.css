@@ -724,9 +724,51 @@ footer blockquote strong{
   color:#666;
 }
 
-
-
-
-
+#accordion > .acd_row  a .category{
+  
+}
+#w2022070184b7f9bf8f1c8 .acd_title a{
+  display:flex;
+}
+#w2022070184b7f9bf8f1c8 .acd_title a > div.category {
+  width:auto;
+  font-size: 18px;
+}
+#w2022070184b7f9bf8f1c8 .acd_title a > div.category span{
+  color:#000 !important;;
+}
+#w2022070184b7f9bf8f1c8 .acd_title a > div.category:before {
+  content:"("
+}
+#w2022070184b7f9bf8f1c8 .acd_title a > div.category:after {
+  content:")"
+}
+#w2022070184b7f9bf8f1c8 .acd_title a > div.title .icons{
+  display:none;
+}
+#w2022070184b7f9bf8f1c8 .acd_body {
+  padding: 16px 24px 0px;
+}
+#w2022070184b7f9bf8f1c8 .acd_body .file_area{
+  margin:16px -24px 0;
+  
+}
+#w2022070184b7f9bf8f1c8 .acd_body .file_area ul{
+  padding:0 !important;
+  
+}
+#w2022070184b7f9bf8f1c8 .acd_body .file_area ul li{
+  display:flex;
+  align-items:center;
+}
+#w2022070184b7f9bf8f1c8 .acd_body .file_area ul li a{
+  display:flex !important;
+  padding-left:24px !important;
+  align-items:center;
+}
+#w2022070184b7f9bf8f1c8 .acd_body .file_area ul li a p{
+  text-decoration:underline;
+  margin-right:10px
+}
 
 
