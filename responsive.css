@@ -235,7 +235,39 @@ writer: css3studio
     line-height:1.4
   }
 
+  /*** 소개 > 시민회 지부   ***/
+  #s20220701dc33228dbd31b main .doz_aside{
+    display:block !important;
+    margin-bottom:16px !important;
+  }
+  .history-subtitle{
+    font-size:18px;
+  }
+  .history-step dl{
+    display:block;
+  }
 
+  .history-step dl > dt strong:last-of-type{
+    font-size: 16px;
+  }
+  .history-step dl > dd{
+    padding-top:0px;
+    font-size:14px;
+  }
+
+
+  #w2022070184b7f9bf8f1c8 .acd_title a > div.category {
+    font-size: 16px;
+  }
+  #w2022070184b7f9bf8f1c8 .acd_title a > div.title {
+    font-size: 16px;
+  }
+
+
+  
+  
+  
+  
 }
 
 /* 스마트폰 */
