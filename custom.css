@@ -73,6 +73,9 @@ writer: css3studio
   font-size: 10px;
   top: -1px;
 }
+.sub-menu.h-menu-type5.menu-horizontal > ul > li.active ul > li.active a span{
+  display:none !important;
+}
 
 
 /* header */
