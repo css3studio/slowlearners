@@ -23,12 +23,12 @@ writer: css3studio
 }
 
 .btn-primary, .btn-default{
-  font-size:16px;
-  padding:16px 32px;
+  font-size:14px;
+  padding:8px 24px;
   border-radius: 32px;
 }
 .btn-primary:hover{
-  border-color:#00a290 !important;
+  border-color:#422692 !important;
 }
 .btn-primary span{
   float:right;
@@ -655,12 +655,74 @@ footer blockquote strong{
   display:block;
 }
 
-
-
-
-
-
-
+/*** 소개 > 시민회 지부   ***/
+.history-subtitle{
+  font-size:24px;
+  font-weight:700;
+}
+.history-step dl{
+  position:relative;
+  padding-left:52px;
+  padding-bottom:40px;
+  margin-bottom:0;
+  display:flex;
+}
+.history-step dl:after{
+  content:"";
+  display:block;
+  width:4px;
+  height:100%;
+  background-color:#7652DB;
+  position:absolute;
+  left:10px;
+  top:28px;
+}
+.history-step dl:last-of-type:after{
+  content:none;
+}
+.history-step dl:before{
+  content:"";
+  display:block;
+  width:24px;
+  height:24px;
+  background:url(https://cdn.imweb.me/upload/S20220613fb324545e5bef/0dc417cc2dc78.png) no-repeat 0 0;
+  background-size:contain;
+  position:absolute;
+  left:0;
+  top:5px;
+}
+.history-step dl > dt{
+  flex-basis: 268px;
+  flex-shrink: 1;
+}
+.history-step dl > dt b{
+  display:block
+}
+.history-step dl > dt strong:first-of-type{
+  display:block;
+  font-weight: 700;
+  font-size: 14px;
+  color: #7652DB;
+}
+.history-step dl > dt strong:last-of-type{
+  display:block;
+  font-weight: 700;
+  font-size: 18px;
+}
+.history-step dl > dd{
+  padding-top:20px;
+  font-size:18px;
+}
+.history-step dl > dd ul{
+  list-style: none;
+  padding-left:16px;
+  border-left:2px solid #999;
+  margin-top:8px;
+  margin-left:8px;
+  margin-bottom:0;
+  font-size:14px;
+  color:#666;
+}
 
 
 
