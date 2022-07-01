@@ -551,14 +551,14 @@ footer blockquote strong{
   padding-bottom:40px;
   margin-bottom:40px;
 }
-.text-content01 dt{
+.text-content01 > dt{
   font-weight: 700;
   font-size: 24px;
   width:218px;
   flex-basis: 218px;
   flex-shrink: 0;
 }
-.text-content01 dd{
+.text-content01 > dd{
   flex-grow:1;
 }
 .text-content01 ul.values{
@@ -616,6 +616,43 @@ footer blockquote strong{
   align-items:normal;
   border-bottom:none;
 }
+
+/*** 소개 > 연혁   ***/
+.text-content01.history{
+  align-items:normal;
+}
+.text-content01 .history dl{
+  display:flex;
+  margin-bottom:16px;
+}
+.text-content01 .history dl:last-of-type{
+  margin-bottom:0;
+}
+.text-content01 .history dl dt{
+  flex-basis: 108px;
+  flex-shrink: 0;
+  font-size:18px;
+  color: #422692;
+}
+.text-content01 .history dl dd{
+  font-size:18px;
+  line-height:1.6
+}
+.text-content01 .history dl dd em{
+  font-size:14px;
+  color:#666;
+  font-style: normal;
+  display:block;
+}
+
+
+
+
+
+
+
+
+
 
 
 
