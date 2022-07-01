@@ -6,6 +6,14 @@ writer: css3studio
 /**** mobile ****/
 
 @media screen and (max-width:991px) {
+  
+  
+  /*** common ***/
+  h1.widget_menu_title{
+    font-size:32px !important;
+  }
+  
+  /*** header ***/
   .popup-banner-wrap .banner-container img {
     transform: scale(0.5) translate(-50%);
     margin-left:16px;
@@ -154,6 +162,53 @@ writer: css3studio
     margin-bottom:80px;
   }
 
+  /*** 소개 > 시민회는  ***/
+  .text-content01{
+    display:block;
+  }
+  .text-content01 dt{
+    font-size: 18px;
+    width:auto;
+    margin-bottom:8px;
+  }
+  .text-content01 dd{
+    font-size:14px;
+  }
+  .text-content01 ul.values{
+    display:block;
+    margin:0;
+  }
+  .text-content01 ul.values > li{
+    margin:0 0 8px;
+  width:auto;
+  }
+  .text-content01 ul.values > li dt{
+    font-size:18px;
+    line-height:1.3;
+  }
+  .text-content01 ul.values > li dt img{
+    width:24px;
+  }
+  .text-content01 ul.values > li dd{
+    font-size:14px;
+  }
+  .text-content01 .chart{
+    padding:14px;
+  }
+  #video_w202206308b553e75b962b ._img_box{
+    height:360px !important;
+    background-color:#C0C0C0;
+    position:relative;
+  }
+  #video_w202206308b553e75b962b ._img_box img{
+    height:200px !important;
+    width:auto !important;
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    margin-top:0 !important;
+  }
 
 
 }
