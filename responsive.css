@@ -209,6 +209,19 @@ writer: css3studio
     transform: translate(-50%,-50%);
     margin-top:0 !important;
   }
+  /*** 소개 > 연혁   ***/
+
+  .text-content01 .history dl{
+    display:block;
+  }
+  .text-content01 .history dl dt{
+    font-size:16px;
+    margin-bottom:0px;
+  }
+  .text-content01 .history dl dd{
+    font-size:14px;
+    line-height:1.4
+  }
 
 
 }
