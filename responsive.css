@@ -33,6 +33,9 @@ writer: css3studio
     border-radius: 16px;
     font-weight:700;
   }
+  header .login_btn a span{
+    color: #F0831E !important;
+  }
 
 
   footer .custom-text{
@@ -210,9 +213,15 @@ writer: css3studio
     margin-top:0 !important;
   }
   /*** 소개 > 연혁   ***/
-
+  .text-content01.history{
+    margin-top:24px;
+    padding-bottom:24px;
+  }
+  
+  
   .text-content01 .history dl{
     display:block;
+    margin-bottom:8px;
   }
   .text-content01 .history dl dt{
     font-size:16px;
