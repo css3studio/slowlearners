@@ -217,6 +217,9 @@ writer: css3studio
     margin-top:24px;
     padding-bottom:24px;
   }
+  .text-content01.history > dt{
+    padding-bottom:12px;
+  }
   
   
   .text-content01 .history dl{
