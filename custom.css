@@ -771,4 +771,69 @@ footer blockquote strong{
   margin-right:10px
 }
 
+/* 로고 */
+.design-color{
+  font-size:13px;
+  display:flex;
+  justify-content: space-between;
+  margin:0 -10px;
+}
+.design-color dl{
+  width:20%;
+  padding:0 10px;
+}
+.design-color dl dt{
+  height:104px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  text-indent:-9999px;
+  ocerflow:hidden;
+  margin-bottom:8px;
+}
+.design-color dl.c01 dt{
+  background:#F0821D;
+}
+.design-color dl.c02 dt{
+  background:#00A496;
+}
+.design-color dl.c03 dt{
+  background:#88B929;
+}
+.design-color dl.c04 dt{
+  background:#2295CC;
+}
+.design-color dl.c05 dt{
+  background:#3E3A39;
+}
+.design-color dl dd strong{
+  color:#999;
+  font-weight: 400;
+  width:60px;
+  display:inline-block;
+}
+.design-color dl dd p{
+  line-height:1.8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
