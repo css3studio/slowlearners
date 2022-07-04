@@ -238,7 +238,7 @@ writer: css3studio
   /*** 소개 > 시민회 지부   ***/
   #s20220701dc33228dbd31b main .doz_aside{
     display:block !important;
-    margin-bottom:16px !important;
+    margin-bottom:16px !important
   }
   .history-subtitle{
     font-size:18px;
@@ -264,6 +264,9 @@ writer: css3studio
   }
 
   /*** 소개 > 로고   ***/
+  #text_w20220704dd83c70840d34 .text-table *{
+    font-size:14px;
+  }
   #s20220704632ffbddf9387 main .doz_aside{
     display:block !important;
     margin-bottom:16px !important;
@@ -272,6 +275,61 @@ writer: css3studio
     display:block !important;
     margin-bottom:16px !important;
   }
+  .pc_section #padding_w2022070487ebc968801c3 {
+    height: 40px !important;
+  }  
+  #s20220704632ffbddf9387{
+    padding-bottom:0 !important;
+  }
+  #s20220704632ffbddf9387 .inside > .doz_row:nth-of-type(3) > .col-dz:nth-of-type(1){
+    margin-bottom:24px;
+  }
+  #s20220704632ffbddf9387 .inside > .doz_row:nth-of-type(3) > .col-dz:nth-of-type(1):after{
+    content:"";
+    display:block;
+    height:24px;
+    width:100%;
+    border-bottom:1px solid #E8E8E9;
+  }
+  #s20220704632ffbddf9387 .inside > .doz_row:nth-of-type(8) > .col-dz:nth-of-type(1){
+    margin-bottom:24px;
+  }
+  #s20220704632ffbddf9387 .inside > .doz_row:nth-of-type(8) > .col-dz:nth-of-type(1):after{
+    content:"";
+    display:block;
+    height:24px;
+    width:100%;
+    border-bottom:1px solid #E8E8E9;
+  }
+  #s20220704632ffbddf9387 .inside > .doz_row:nth-of-type(10) > .col-dz:nth-of-type(1):after{
+    content:"";
+    display:block;
+    height:24px;
+    width:100%;
+    border-bottom:1px solid #E8E8E9;
+  }
+  
+  .design-color{
+    display:flex;
+    justify-content:normal;
+    margin:0 -4px;
+    flex-wrap: wrap;
+  }
+  .design-color dl{
+    width:33.3333%;
+    padding:0 4px;
+    margin-bottom:24px;
+  }
+  .design-color dl dt{
+    height:64px;
+    border-radius: 10px;
+  }
+ 
+  .design-color dl dd strong{
+    width:auto;
+    display:block;
+  }
+
   
   
 }

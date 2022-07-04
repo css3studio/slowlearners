@@ -787,7 +787,7 @@ footer blockquote strong{
   box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
   border-radius: 20px;
   text-indent:-9999px;
-  ocerflow:hidden;
+  overflow:hidden;
   margin-bottom:8px;
 }
 .design-color dl.c01 dt{
