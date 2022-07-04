@@ -1029,6 +1029,13 @@ border-radius: 8px;
 #w2022070495ef354931a95 form .form-group.privacy .form-control{
   display:none;
 }
+#w2022070495ef354931a95 form .form-group.privacy .checkbox{
+  position:relative;
+  top:-12px;
+}
+#w2022070495ef354931a95 form .form-group.privacy .checkbox label span{
+  font-weight:normal
+}
 #w2022070495ef354931a95 .form.text-center{
   text-align:left;
 }
