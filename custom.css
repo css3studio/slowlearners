@@ -932,7 +932,9 @@ footer blockquote strong{
 }
 
 /*** 소식 > 공지사항 ***/
-
+.sub-menu.h-menu-type1.menu-horizontal{
+  margin-bottom:24px;
+}
 .sub-menu.h-menu-type1.menu-horizontal > ul >li a{
   font-weight:700
 }
