@@ -286,7 +286,7 @@ footer blockquote strong{
   color:#858585;
 }
 
-/* main */
+/*** main ***/
 .slider-main{
   position:relative
 }
@@ -459,6 +459,43 @@ footer blockquote strong{
   margin-left:16px;
 
 }
+
+.card a{
+  border: 1px solid #E8E8E9;
+  box-shadow:0px 2px 6px rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+  overflow:hidden
+}
+.card .card_wrapper .card-head{
+  height:240px !important;
+}
+.card .card-body{
+  padding:16px 16px 8px !important;
+}
+.card .card-body .title{
+  display:block;
+  color: #000 !important;
+  font-weight:700;
+  height:104px !important;
+}
+
+.card a:hover .card-body .title{
+  text-decoration: underline;
+}
+.card .card-body .title em{
+  display:block;
+  color: #8B8B92 !important;
+  font-size:13px;
+}
+
+.card .card-summary .avatar{
+  padding:0 16px !important;
+}
+.card .card-summary .avatar small{
+  color: #8B8B92 !important;
+  font-size: 14px;
+}
+/*
 .list-style-gallery.grid_02.type_grid .card a{
   border: 1px solid #E8E8E9;
   box-shadow:0px 2px 6px rgba(0, 0, 0, 0.05);
@@ -494,6 +531,7 @@ footer blockquote strong{
   color: #8B8B92 !important;
   font-size: 14px;
 }
+*/
 
 /*공지사항 뉴스클리핑*/
 #s20220628234297afe68d1{
