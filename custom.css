@@ -938,7 +938,20 @@ border-radius: 8px;
   color:#422692 !important;
   border-radius: 8px;
 }
+/*** 소식 > 공지사항 > view ***/
 
+.post_view .sub-menu.h-menu-type1.menu-horizontal {
+  display:none;
+}
+.post_view  .board_view .view_tit{
+  font-size:24px;
+}
+.post_view  .board_view .view_tit > a{
+  display:block;
+  font-size:16px;
+  font-weight:700;
+  margin-bottom:8px;
+}
 
 
 

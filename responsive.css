@@ -6,13 +6,13 @@ writer: css3studio
 /**** mobile ****/
 
 @media screen and (max-width:991px) {
-  
-  
+
+
   /*** common ***/
   h1.widget_menu_title{
     font-size:32px !important;
   }
-  
+
   /*** header ***/
   .popup-banner-wrap .banner-container img {
     transform: scale(0.5) translate(-50%);
@@ -159,7 +159,7 @@ writer: css3studio
   .list-style-gallery.grid_02.type_grid .post_row{
     display:block !important;
   }
-  
+
   /*공지사항 뉴스클리핑*/
   #s20220628234297afe68d1 .inside > .doz_row:nth-of-type(2) > .col-dz:nth-of-type(1){
     margin-bottom:80px;
@@ -220,8 +220,8 @@ writer: css3studio
   .text-content01.history > dt{
     padding-bottom:12px;
   }
-  
-  
+
+
   .text-content01 .history dl{
     display:block;
     margin-bottom:8px;
@@ -277,7 +277,7 @@ writer: css3studio
   }
   .pc_section #padding_w2022070487ebc968801c3 {
     height: 40px !important;
-  }  
+  }
   #s20220704632ffbddf9387{
     padding-bottom:0 !important;
   }
@@ -301,7 +301,7 @@ writer: css3studio
     width:100%;
     border-bottom:1px solid #E8E8E9;
   }
-    
+
   .design-color{
     display:flex;
     justify-content:normal;
@@ -317,7 +317,7 @@ writer: css3studio
     height:64px;
     border-radius: 10px;
   }
- 
+
   .design-color dl dd strong{
     width:auto;
     display:block;
@@ -347,8 +347,8 @@ writer: css3studio
     height:350px;
     border-bottom:1px solid #ddd;
   }
-  
-  
+
+
   /*** 소식 > 공지사항 ***/
 
   .sub-menu.h-menu-type1.menu-horizontal{
