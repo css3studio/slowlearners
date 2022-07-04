@@ -1009,7 +1009,34 @@ border-radius: 8px;
 }
 
 
-
+#w2022070495ef354931a95 form .form-group{
+  margin-bottom:32px;
+}
+#w2022070495ef354931a95 form .form-group label{
+  font-size:14px;
+  margin-bottom:8px;
+  font-weight:700;
+}
+#w2022070495ef354931a95 form .form-group input[type=text],
+#w2022070495ef354931a95 form .form-group input[type=tel]{
+  border-color:#ddd;
+  height:48px;
+  padding:0 16px;
+}
+#w2022070495ef354931a95 form .form-group.privacy .control-label{
+  display:none;
+}
+#w2022070495ef354931a95 form .form-group.privacy .form-control{
+  display:none;
+}
+#w2022070495ef354931a95 .form.text-center{
+  text-align:left;
+}
+#w2022070495ef354931a95 .form.text-center .btn-primary{
+  font-size: 18px;
+  padding:20px 112px;
+  border-radius: 20px;
+}
 
 
 

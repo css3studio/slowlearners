@@ -377,6 +377,15 @@ writer: css3studio
   }
 
   /*** 뉴스레터 ***/
+  #s20220704e55d55cee9273 .doz_aside{
+    display:block !important;
+  }
+  #text_w202207045468d735f4b65{
+    margin-bottom:20px;
+  }
+  #text_w202207045468d735f4b65 .text-table p span{
+    font-size:24px !important;
+  }
   #post_card_b202207047642f4f12032c .card .card_wrapper .card-head{
     height:80px !important;
   }
@@ -384,8 +393,12 @@ writer: css3studio
     height:24px !important;
     font-size:16px;
   }
-
-
+  #w2022070495ef354931a95 .form.text-center .btn-primary{
+    width:100%
+  }
+  #w2022070495ef354931a95 form .form-group{
+    margin-bottom:16px;
+  }
 }
 
 /* 스마트폰 */
