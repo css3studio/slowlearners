@@ -770,8 +770,66 @@ footer blockquote strong{
   text-decoration:underline;
   margin-right:10px
 }
+/*modal*/
+.modal-dialog .modal-header{
+  border-color:#E5E5E5
+}
+.modal-dialog .modal-header h4.modal-title{
+  font-size:15px;
+  color:#000;
+  font-weight:700;
+}
+.modal-dialog .modal-body .inside{
+  padding:0 30px;
+}
+.modal-dialog .modal-body .form-widget{
+  margin:40px 0
+}
+.modal-dialog .modal-body .form-group{
+  margin-bottom:32px;
+}
+.modal-dialog .modal-body .form-group label{
+  font-size:14px;
+  margin-bottom:8px;
+}
+.modal-dialog .modal-body .form-group input[type=text],
+.modal-dialog .modal-body .form-group input[type=tel]{
+  border-color:#ddd;
+  height:48px;
+  padding:0 16px;
+}
+.phonenumber_wrap{
+  display:flex;
+  justify-content: space-between;
+  align-items:center;
+}
+.phonenumber_wrap span.line{
+  width:20px;
+  flex-shrink: 1;
+  text-align:center;
+}
+.phonenumber_wrap input{
+  flex-grow: 1
+}
+.form-group.privacy .form-control{
+  font-size:14px !important;
+}
+#file_8I3103i133_w202207046346bf0e0c20f .holder .btn{
+  border:1px solid #ddd;
+  color:#999 !important;
+  font-weight:normal;
+  padding:12px 32px;
+}
+.modal-dialog .modal-body .btn-primary{
+  background-color:#EE780A !important;
+  padding:20px 112px;
+  border-radius:20px;
+}
+.modal-dialog .modal-body .btn-primary:hover{
+  background-color:#88B92A !important;
+}
 
-/* 로고 */
+/*** 로고 ***/
 .design-color{
   font-size:13px;
   display:flex;
