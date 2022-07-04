@@ -301,14 +301,7 @@ writer: css3studio
     width:100%;
     border-bottom:1px solid #E8E8E9;
   }
-  #s20220704632ffbddf9387 .inside > .doz_row:nth-of-type(10) > .col-dz:nth-of-type(1):after{
-    content:"";
-    display:block;
-    height:24px;
-    width:100%;
-    border-bottom:1px solid #E8E8E9;
-  }
-  
+    
   .design-color{
     display:flex;
     justify-content:normal;
