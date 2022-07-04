@@ -876,7 +876,22 @@ footer blockquote strong{
   line-height:1.8;
 }
 
-
+/*** 소개 > 오시는길 ***/
+.contacts-info{
+  margin-bottom:40px;
+}
+.contacts-info dl{
+  display:flex;
+  font-size:18px;
+  margin-bottom:10px;
+}
+.contacts-info dl:last-of-type{
+  margin-bottom:0
+}
+.contacts-info dl dt{
+  width:140px;
+  flex-shrink: 0;
+}
 
 
 
