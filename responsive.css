@@ -263,9 +263,15 @@ writer: css3studio
     font-size: 16px;
   }
 
-
-  
-  
+  /*** 소개 > 로고   ***/
+  #s20220704632ffbddf9387 main .doz_aside{
+    display:block !important;
+    margin-bottom:16px !important;
+  }
+  #s20220704eee81fea293ef main .doz_aside{
+    display:block !important;
+    margin-bottom:16px !important;
+  }
   
   
 }
