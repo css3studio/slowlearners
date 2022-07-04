@@ -993,7 +993,9 @@ border-radius: 8px;
   margin-bottom:8px;
 }
 
-
+.full_board_view .full_board{
+  padding-bottom:120px;
+}
 
 
 
