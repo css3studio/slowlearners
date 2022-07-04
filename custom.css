@@ -893,14 +893,51 @@ footer blockquote strong{
   flex-shrink: 0;
 }
 
+/*** 소식 > 공지사항 ***/
 
+.sub-menu.h-menu-type1.menu-horizontal > ul >li a{
+  font-weight:700
+}
+.sub-menu.h-menu-type1.menu-horizontal > ul >li.active a{
+  color:#FF891C !important;
+  border-bottom:none;
+}
+.board._list_wrap .board-head{
+  margin-bottom:24px;
+  padding-bottom:0;
+  overflow:hidden;
+}
+.board._list_wrap .board-head .heading{
+  display:none;
+}
+.board._list_wrap .board-head .input-group input.form-control{
+  border: 1px solid #B9B9BE;
+border-radius: 8px;
 
-
-
-
-
-
-
+}
+.board._list_wrap .board-head .input-group .icon-magnifier{
+  position:relative;
+  top:-3px;
+  font-weight:bold;
+}
+.board._list_wrap .li_header{
+  font-size:14px;
+  font-weight:700;
+  color:#1D1D1F;
+}
+.board._list_wrap .li_board .li_body .category a em{
+  color:#422692 !important;
+  font-weight:700;
+}
+.board._list_wrap .li_board .li_body .tit a.list_text_title:hover{
+  font-weight:700;
+  text-decoration: underline;
+}
+.board._list_wrap .btn-primary{
+  border-color:#422692 !important;
+  color:#422692 !important;
+  border-radius: 8px;
+}
 
 
 

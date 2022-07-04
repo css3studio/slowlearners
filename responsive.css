@@ -349,6 +349,34 @@ writer: css3studio
   }
   
   
+  /*** 소식 > 공지사항 ***/
+
+  .sub-menu.h-menu-type1.menu-horizontal{
+    display:block
+  }
+  .sub-menu.h-menu-type1.menu-horizontal > ul >li a{
+   font-size:18px !important;
+  }
+  .board._list_wrap .board-head{
+    margin-bottom:8px;
+  }
+  .board._list_wrap .board-head .input-group input.form-control{
+    height:40px
+
+  }
+  .board._list_wrap .board-head .input-group .icon-magnifier{
+    font-size:18px
+  }
+  .board._list_wrap .li_board{
+    border-top:2px solid #000;
+  }
+  .board._list_wrap .li_board .li_body .tit ._fade_link > em{
+    color:#422692 !important;
+    font-weight:700;
+    display:block;
+  }
+
+
 }
 
 /* 스마트폰 */
