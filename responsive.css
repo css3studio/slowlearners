@@ -414,7 +414,74 @@ writer: css3studio
     margin-bottom:8px;
   }
   
-  
+
+  /*** 활동개선 > 상담 ***/
+  #s20220705bd5ed4ddbb40f{
+    padding:40px 0 !important;;
+  }
+  .counsel-info{
+    display:block;
+    margin:0;
+  }
+  .counsel-info dl{
+    width:auto;
+    margin:0;
+    padding:24px;
+    margin-bottom:16px;
+    font-size:14px;
+  }
+  .counsel-info dl dt{
+    font-size:18px;
+    margin-bottom:0;
+    position: relative;
+  }
+  .counsel-info dl dt:after{
+   content:"\e941";
+	 font-size:20px;
+	 font-family:xeicon;
+    position:absolute;
+    right:0;
+  }
+  .counsel-info dl.active dt:after{
+   content:"\e944";
+  }
+
+  .counsel-info dl dd{
+    padding-top:0px;
+    max-height:0px;
+    overflow:hidden;
+  }
+  .counsel-info dl.active dd{
+    padding-top:24px;
+    max-height:100px;
+  }
+
+  .counsel-info ul.target li{
+    padding-bottom:8px;
+    margin-bottom:8px;
+  }
+
+  .counsel-info dl dd strong{
+    font-size:18px;
+  }
+  #s20220705bd5ed4ddbb40f main > .inside > .doz_row:nth-of-type(1){
+    display:none !important;
+  }
+  #s20220705bd5ed4ddbb40f main > .inside > .doz_row:nth-of-type(2){
+    display:block !important;
+  }
+  #w2022070588f51ec5bbfb4 .button_wrap{
+    display:flex;
+    flex-direction: column;
+  }
+  #w2022070588f51ec5bbfb4 a.btn{
+    width:100%;
+    margin:8px 0 0 !important;
+  }
+  body._body_menu_m20220630f5cf6cb62ae3b .doz_aside{
+    display:block !important;
+    margin-bottom:8px;
+  }  
   
 }
 

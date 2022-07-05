@@ -1056,12 +1056,61 @@ border-radius: 8px;
   text-decoration:underline
 }
 
+/*** 활동개선 > 상담 ***/
+#s202207056709b33d31bb7{
+  border-bottom:1px solid #E5E6E6;
+}
+#s20220705bd5ed4ddbb40f{
+  border-top:7px solid #EEEEEE;
+}
+.counsel-info{
+  display:flex;
+  margin:0 -10px;
+  justify-content: space-between;
+}
+.counsel-info dl{
+  width:25%;
+  margin:0 10px;
+  padding:40px;
+  border: 1px solid #E8E8E9;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  font-size:18px;
+}
+.counsel-info dl dt{
+  color:#1D1D1F;
+  font-size:24px;
+  margin-bottom:24px;
+}
+.counsel-info ul.target{
+  list-style: none;
+  padding-left:0
+}
+.counsel-info ul.target li{
+  padding-bottom:15px;
+  border-bottom:1px solid #E8E8E9;
+  margin-bottom:15px;
+}
+.counsel-info ul.target li:last-child{
+  padding-bottom:0;
+  border-bottom:none;
+  margin-bottom:0;
+}
+.counsel-info dl dd strong{
+  color:#422692;
+  font-size:24px;
+  display:block;
+  margin-top:8px;
+}
+#s20220705bd5ed4ddbb40f main > .inside > .doz_row:nth-of-type(2){
+  display:none;
+}
 
-
-
-
-
-
+#w2022070588f51ec5bbfb4 a.btn{
+  padding:20px 128px;
+  font-size:18px;
+  border-radius: 20px;
+}
 
 
 
