@@ -399,6 +399,23 @@ writer: css3studio
   #w2022070495ef354931a95 form .form-group{
     margin-bottom:16px;
   }
+  
+  /*** 활동개선 > 인식개선 ***/
+  #w20220705c6ca65fb7051b .widget.image .img_wrap{
+    height:auto !important;
+  }
+  #w20220705c6ca65fb7051b .widget.image .img_wrap img{
+    width:100% !important;
+    height:auto !important;
+    max-width:600px;
+  }
+  body._body_menu_m20220630cc8945bb6e4ab .doz_aside{
+    display:block !important;
+    margin-bottom:8px;
+  }
+  
+  
+  
 }
 
 /* 스마트폰 */
