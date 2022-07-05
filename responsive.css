@@ -573,6 +573,22 @@ writer: css3studio
     display:none;
   }
 
+  /*** 활동 > 느린학습자맞춤교육 ***/
+  body._body_menu_m20220705877beb43308ab .doz_aside{
+    display:block !important;
+    margin-bottom:8px;
+  }   
+  #text_w20220705393331701190b .text-table > div >p > span > strong{
+    display:block
+  }
+
+  .together-content ul li{
+    font-size:14px;
+  }
+  .together-content ul li:nth-child(1){
+    width:30%;
+  }
+
   
 }
 
