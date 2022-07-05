@@ -533,7 +533,46 @@ writer: css3studio
   }   
 
 
-  
+  .community-area{
+    border-top:none;
+  }
+  .community-area > dl:first-of-type{
+    display:none
+  }
+  .community-area > dl{
+    margin:0 0 24px;
+  }
+  .community-area > dl > dt{
+    display:block;
+    background-color:#F6F3FD;
+    border-top:2px solid #000;
+    border-bottom:1px solid #B9B9BE;
+    padding:16px 8px;
+    font-size:14px;
+  }
+  .community-area ul{
+    margin:0;
+    list-style: none;
+    padding: 16px 0 16px 0;
+    display:block;
+    width:100%;
+    line-height:1.6
+  }
+  .community-area ul li{
+    width:auto !important;
+    display:block;
+    text-align: left !important;;
+    padding:0;
+    font-size:14px;
+    color:#1D1D1F
+  }
+  .community-area ul li:nth-child(1){
+    display:none;
+  }
+  .community-area ul li:nth-child(3){
+    display:none;
+  }
+
   
 }
 
