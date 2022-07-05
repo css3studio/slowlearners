@@ -942,7 +942,7 @@ footer blockquote strong{
   font-weight:700
 }
 .sub-menu.h-menu-type1.menu-horizontal > ul >li.active a{
-  color:#FF891C !important;
+  color:#7652DB !important;
   border-bottom:none;
 }
 .board._list_wrap .board-head{
@@ -1154,4 +1154,44 @@ border-radius: 8px;
   border-bottom:none;
   margin-bottom:0;
 }
+
+/*** 활동 > 커뮤니티 ***/
+.sub-menu.h-menu-type2.menu-horizontal{
+  border-bottom:1px solid #ddd;
+}
+.sub-menu.h-menu-type2.menu-horizontal > ul > li{
+  margin-right:12px
+}
+.sub-menu.h-menu-type2.menu-horizontal > ul > li > a{
+  border:none;
+  font-weight:700;
+  padding:0 0 5px;
+}
+.sub-menu.h-menu-type2.menu-horizontal > ul > li.active > a{
+  position:relative;
+}
+.sub-menu.h-menu-type2.menu-horizontal > ul > li.active > a:after{
+  content:"";
+  display:block;
+  width:100%;
+  height:1px;
+  border-bottom:2px solid;
+  position:absolute;
+  left:0;
+  bottom:-1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

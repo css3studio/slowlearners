@@ -507,9 +507,24 @@ writer: css3studio
     margin-bottom:8px;
   }
 
+  /*** 활동 > 커뮤니티 ***/
+  .sub-menu.h-menu-type2.menu-horizontal{
+    display: block;
+  }
   
-  
-  
+  .sub-menu.h-menu-type2.menu-horizontal > ul > li{
+    margin-right:6px
+  }
+  .sub-menu.h-menu-type2.menu-horizontal > ul > li > a{
+    font-size:18px !important;
+  }
+
+   body._body_menu_m20220705c38074e711c8b .doz_aside{
+    display:block !important;
+    margin-bottom:8px;
+  }
+   
+
 
   
   
