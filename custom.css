@@ -76,6 +76,9 @@ writer: css3studio
 .sub-menu.h-menu-type5.menu-horizontal > ul > li.active ul > li.active a span{
   display:none !important;
 }
+.sub-menu.h-menu-type5.menu-horizontal > ul ul ul li:before{
+  color:#fff !important;
+}
 
 
 /* header */
