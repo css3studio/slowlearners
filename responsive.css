@@ -483,6 +483,35 @@ writer: css3studio
     display:block !important;
     margin-bottom:8px;
   }  
+
+  /*** 활동 > 연구정책개발 ***/
+  .research-info{
+    display:block;
+    margin:0;
+  }
+  .research-info > div{
+    width:auto;
+    padding:0;
+  }
+  .research-info dl{
+    height:auto;
+    padding:24px;
+    font-size:14px;
+  }
+  .research-info dl dt{
+    font-size:18px;
+    margin-bottom:24px;
+  }
+  .research-info ul li{
+    padding-bottom:8px;
+    margin-bottom:8px;
+  }
+
+  
+  
+  
+
+  
   
 }
 

@@ -1112,6 +1112,43 @@ border-radius: 8px;
   border-radius: 20px;
 }
 
-
-
+/*** 활동 > 연구정책개발 ***/
+.research-info{
+  display:flex;
+  margin:0 -10px;
+  flex-wrap: wrap;
+  align-items: baseline;
+}
+.research-info > div{
+  width:50%;
+  padding:0px 10px;
+}
+.research-info dl{
+  height:400px;
+  border: 1px solid #422692;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  padding:40px;
+  font-size:18px;
+}
+.research-info dl dt{
+  color:#1D1D1F;
+  font-size:32px;
+  margin-bottom:24px;
+}
+.research-info ul{
+  list-style: none;
+  padding-left:0
+}
+.research-info ul li{
+  padding-bottom:15px;
+  border-bottom:1px solid #E8E8E9;
+  margin-bottom:15px;
+  color:#666;
+}
+.research-info ul li:last-child{
+  padding-bottom:0;
+  border-bottom:none;
+  margin-bottom:0;
+}
 
