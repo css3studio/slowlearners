@@ -450,10 +450,11 @@ writer: css3studio
     padding-top:0px;
     max-height:0px;
     overflow:hidden;
+    transition:max-height 0.3s, padding-top 0.3s;
   }
   .counsel-info dl.active dd{
     padding-top:24px;
-    max-height:100px;
+    max-height:200px;
   }
 
   .counsel-info ul.target li{
