@@ -87,12 +87,13 @@ function init_pc(){
 
 //모바일 버젼 초기화
 function init_mobile(){
+	//활동 > 상담 아코디언
 	$('.counsel-info dl dt').on('click', function(){
 		if($(this).parent().hasClass('active')){
 			$(this).parent().removeClass('active');
 		}
 		else{
-			$(this).parent().raddClass('active');
+			$(this).parent().addClass('active');
 		}
 	});
 }
