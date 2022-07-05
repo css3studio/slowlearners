@@ -1234,10 +1234,34 @@ border-radius: 8px;
   color:#8B8B92
 }
 
-
-
-
-
+/*** 활동 > 느린학습자맞춤교육 ***/
+.together-content{
+  border-top:2px solid #000;
+}
+.together-content ul{
+  list-style: none;
+  padding:0;
+  margin:0;
+  display:table;
+  width:100%;
+  border-bottom: 1px solid #B9B9BE;
+}
+.together-content ul li{
+  display:table-cell;
+  font-size:18px;
+  padding:16px;
+}
+.together-content ul li:nth-child(1){
+  width:20%;
+  text-align:center;
+  font-weight:bold;
+  color:#422692;
+}
+.together-content ul.table-header li{
+  color:#1D1D1F;
+  font-size:14px;
+  font-weight:700;
+}
 
 
 
