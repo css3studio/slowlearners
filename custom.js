@@ -82,12 +82,19 @@ $(document).ready(function() {
 
 //PC버젼 초기화
 function init_pc(){
-
+	$('.counsel-info dl dt').off();
 }
 
 //모바일 버젼 초기화
 function init_mobile(){
-
+	$('.counsel-info dl dt').on('click', function(){
+		if($(this).parent().hasClass('active')){
+			$(this).parent().removeClass('active');
+		}
+		else{
+			$(this).parent().raddClass('active');
+		}
+	});
 }
 
 
