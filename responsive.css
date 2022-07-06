@@ -590,6 +590,70 @@ writer: css3studio
   }
 
   
+
+  /*** 활동 > 의제네트원크 ***/
+  .network-info{
+    display:block;
+    margin:0;
+  }
+  .network-info li{
+    width:auto;
+    margin:0 0 8px;
+    height:72px;
+    padding:0 30px;
+  }
+  div[doz_type="section"]:not(.mobile_section) div[doz_type="text"].widget .network-info img {
+    height: 32px !important;
+  }
+  .network-info li span{
+    font-size:18px;
+  }
+
+  .participate-firm dl{
+    display:block;
+    margin-bottom:24px;
+    text-align: left;
+  }
+
+  .participate-firm ul{
+    display:block;
+    height:auto;
+    padding:16px 0;
+  }
+  .participate-firm dl.table-header{
+    display:none
+  }
+
+
+  .participate-firm dl dt{
+    width:auto;
+    background-color:#F6F3FD;
+    border-top:2px solid #000;
+    height:56px;
+    font-weight:bold;
+  }
+
+
+  .participate-firm dl dd{
+    width:auto;
+  }
+  .participate-firm ul li:nth-child(1){
+    width:auto;
+    margin-bottom:16px;
+  }
+  .participate-firm ul li:nth-child(2){
+    width:auto;
+  }
+  .participate-firm ul li:nth-child(3){
+    width:auto;
+  }
+  .participate-firm ul li:nth-child(4){
+    width:auto;
+  }
+
+
+
+  
 }
 
 /* 스마트폰 */
