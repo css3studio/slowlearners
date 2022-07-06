@@ -1264,6 +1264,99 @@ border-radius: 8px;
 }
 
 
+/*** 활동 > 의제네트원크 ***/
+.network-info{
+  list-style: none;
+  padding:0;
+  margin:0;
+  display:flex;
+  justify-content: space-between;
+  margin:0 -10px;
+}
+.network-info li{
+  width:33.3333%;
+  border: 1px solid #422692;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  margin:0 10px;
+  height:88px;
+  display:flex;
+  align-items:center;
+  padding:0 24px;
+}
+.network-info li img{
+  height:40px;
+  margin:0 16px 0 0 !important;
+}
+.network-info li span{
+  font-size:24px;
+}
+
+.participate-firm dl{
+  display:flex;
+  margin-bottom:0;
+  align-items: stretch;
+  text-align:center;
+}
+
+.participate-firm ul{
+  display:flex;
+  list-style: none;
+  padding-left:0;
+  margin:0;
+  align-items:center;
+  height:80px;
+  align-items:center;
+  border-bottom:1px solid #B9B9BE;
+}
+.participate-firm dl.table-header{
+  border-top:2px solid #000;
+  font-size:14px;
+}
+.participate-firm dl.table-header ul{
+  height:56px;
+}
+
+.participate-firm .table-header li{
+  font-weight:bold;
+  padding:16px;
+}
+
+.participate-firm dl dt{
+  width:15%;
+  border-bottom:1px solid #B9B9BE;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-weight:normal;
+}
+.participate-firm dl.table-header dt{
+  height:56px;
+  font-weight:700;
+}
+
+.participate-firm dl dd{
+  width:85%;
+}
+.participate-firm ul li:nth-child(1){
+  width:25%;
+}
+.participate-firm ul li:nth-child(2){
+  width:25%;
+}
+.participate-firm ul li:nth-child(3){
+  width:20%;
+}
+.participate-firm ul li:nth-child(4){
+  width:30%;
+}
+.participate-firm ul li:nth-child(4) a{
+  color:#8B8B92;
+}
+
+
+
+
 
 
 
