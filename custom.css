@@ -1379,6 +1379,10 @@ border-radius: 8px;
   font-weight:normal;
   margin-top:8px !important;
 }
+
+.donate-info > dl{
+  align-items:baseline
+}
 .donate-info .benefit{
   background-color: #F8F7FB;
   margin-top:40px;
@@ -1407,8 +1411,6 @@ border-radius: 8px;
   right:-1000px; 
 }
 
-
-
 .donate-info .benefit dl{
   margin-bottom:0;
 }
@@ -1426,8 +1428,14 @@ border-radius: 8px;
   margin:0 8px 0 0;
   width:32px;
 }
-
-
+.donate-info .contact dl{
+  display:flex;
+  margin-bottom:8px;
+}
+.donate-info .contact dl dt{
+  width:90px;
+  font-weight:normal;
+}
 
 
 

@@ -172,7 +172,7 @@ writer: css3studio
   .text-content01 dt{
     font-size: 18px;
     width:auto;
-    margin-bottom:8px;
+    margin-bottom:16px;
   }
   .text-content01 dd{
     font-size:14px;
@@ -651,8 +651,27 @@ writer: css3studio
     width:auto;
   }
 
-
-
+  /*** 함께하기 > 후원신청 ***/
+  .grid_02.type_grid.gallery2 .item_gallary{
+    display:block !important;
+  }
+  .grid_02.type_grid.gallery2 .gallery_row{
+    margin-bottom:16px
+  }
+  .grid_02.type_grid.gallery2 .gallery_row:last-of-type{
+    margin-bottom:0px
+  }
+  
+  .donate-info > dl:first-of-type{
+    border-top: 1px solid #D9D9D9;
+    padding-top:40px;
+  }
+  .donate-info .contact dl{
+  }
+  .donate-info .contact dl dt{
+    font-size:14px;
+    margin-bottom:0;
+  }
   
 }
 
