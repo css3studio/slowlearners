@@ -10,16 +10,16 @@ writer: css3studio
 
 .button01{
   display:inline-block;
-  border:1px solid #F0831E;
+  border:1px solid #422692;
   padding:8px 24px;
   border-radius:50px;
-  color: #F0831E !important;
+  color: #422692 !important;
   font-weight:bold;
   font-size:14px;
 }
 .button01:hover{
-  border-color:#422692;
-  color: #422692 !important;
+  border-color:#F0821E;
+  color: #F0821E !important;
 }
 
 .btn-primary, .btn-default{
@@ -1355,10 +1355,30 @@ border-radius: 8px;
 }
 
 
-
-
-
-
+/*** 함께하기 > 후원신청 ***/
+.grid_02.type_grid.gallery2 .item_container{
+  border: 1px solid #B9B9BE;
+  box-shadow:0px 2px 6px rgba(0, 0, 0, 0.05);
+  border-radius: 16px;
+    overflow:hidden;
+}
+.grid_02.type_grid.gallery2 .item_container .img_wrap{
+  border:none !important;
+  overflow:hidden;
+}
+.grid_02.type_grid.gallery2 .item_container .text_wrap{
+  width:auto !important;
+  padding:24px 0 32px 0 !important;
+  margin:0 24px;
+}
+.grid_02.type_grid.gallery2 .item_container .text_wrap .title{
+  font-weight:700;
+  font-size:24px !important;
+}
+.grid_02.type_grid.gallery2 .item_container .text_wrap .title span{
+  font-weight:normal;
+  margin-top:8px !important;
+}
 
 
 
