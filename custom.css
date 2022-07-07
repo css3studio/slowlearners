@@ -380,17 +380,32 @@ footer blockquote strong{
   padding:0 10px;
 }
 #s20220628b0c4199adc72c .button_wrap > div >.btn{
-  display:block;
+  display:flex;
   position:relative;
   margin:0 !important;
   background-color:#fff;
   border: 1px solid #E8E8E9;
   box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.05);
-  border-radius: 20px;
+  border-radius: 20px !important;;
   font-size:18px;
-  padding:20px 0;
-  cursor:pointer
+  padding:12px 0 12px 24px;
+  cursor:pointer;
+  text-align:left;
+  align-items:center;
 }
+#s20220628b0c4199adc72c .button_wrap > div >.btn > span{
+  width:40px;
+  height:40px;
+  border-radius: 20px;
+  background-color:#7652DB;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  color:#fff;
+  font-size:22px;
+  margin-right:16px !important;
+}
+/*
 #s20220628b0c4199adc72c .button_wrap > div >.btn:before{
   content:"";
   display:block;
@@ -416,6 +431,7 @@ footer blockquote strong{
 #s20220628b0c4199adc72c .button_wrap > div:nth-of-type(4) >.btn:before{
   background-image:url(https://cdn.imweb.me/upload/S20220613fb324545e5bef/c6293bc6ccd89.png)
 }
+*/
 #s20220628b0c4199adc72c .button_wrap > div >.btn:after{
   content: "\e93e";
   font-family:xeicon;

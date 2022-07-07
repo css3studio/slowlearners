@@ -141,9 +141,13 @@ writer: css3studio
     display:block;
     padding:4px 0;
   }
-  #s20220628b0c4199adc72c .button_wrap > div >.btn{
-    text-align:left;
-    text-indent:80px;
+
+  #s20220628b0c4199adc72c .button_wrap > div >.btn > span{
+    width:32px;
+    height:32px;
+    border-radius: 16px;
+    font-size:18px;
+    margin-right:8px !important;
   }
 
   /*  활동나눔 */
