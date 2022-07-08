@@ -1017,6 +1017,14 @@ footer blockquote strong{
   width:60px;
   display:inline-block;
 }
+.design-color dl dd > strong{
+  color:#000;
+  font-weight: 700;
+  font-size:16px;
+  display:block;
+  margin-bottom:8px;
+}
+
 .design-color dl dd p{
   line-height:1.8;
 }

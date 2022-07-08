@@ -386,7 +386,10 @@ writer: css3studio
     width:auto;
     display:block;
   }
-
+  .design-color dl dd > strong{
+    font-size:13px;
+    margin-bottom:0px;
+  }
   /*** 소개 > 오시는길 ***/
   #s2022070492c55fa2cd3f3 main .doz_aside{
     display:block !important;
