@@ -187,7 +187,8 @@ writer: css3studio
   }
   .text-content01 ul.values > li{
     margin:0 0 8px;
-  width:auto;
+    width:auto;
+    margin-bottom:24px;
   }
   .text-content01 ul.values > li dt{
     font-size:18px;

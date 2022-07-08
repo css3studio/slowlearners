@@ -601,13 +601,14 @@ footer blockquote strong{
 /*** 소개 > 시민회는  ***/
 .text-content01{
   display:flex;
-  align-items:center;
+  align-items:baseline;
   justify-content: space-between;
   width:100%;
   border-bottom:1px solid #ddd;
   padding-bottom:40px;
-  margin-bottom:40px;
+  margin-bottom:80px;
 }
+
 .text-content01.last{
   border-bottom:none;
   padding-bottom:0;
@@ -631,18 +632,14 @@ footer blockquote strong{
 }
 .text-content01 ul.values > li{
   margin:0 10px;
-  padding:24px;
   width:33.3333%;
-  border: 1px solid #422692;
-  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
-  border-radius: 20px;
 }
 .text-content01 ul.values > li dl{
   margin-bottom:0;
 }
 .text-content01 ul.values > li dt{
   font-size:24px;
-  font-weight:normal;
+  color:#422692;
   margin-bottom:8px
 }
 .text-content01 ul.values > li dt img{
@@ -666,18 +663,92 @@ footer blockquote strong{
   width:100% !important;
   max-width:628px !important;
 }
+
+.text-content01 .mission{
+  border: 1px solid #422692;
+  border-radius: 200px;
+  display:flex;
+  justify-content: space-between;
+  padding:18px 32px;
+}
+.text-content01 .mission dl{
+  width:220px;
+  height:220px;
+  background-color:#F4F4F4;
+  border-radius:110px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom:0;
+}
+.text-content01 .mission dl dt{
+  color:#422692;
+  font-size:18px;
+}
+.text-content01 .mission dl dd{
+  color:#A8A1C2;
+  font-size:14px;
+}
+
+.text-content01 .business{
+  display:flex;
+  flex-wrap: wrap;
+  margin-bottom:40px;
+}
+.text-content01 .business li{
+  width:50%;
+  font-size:18px;
+  font-weight:bold;
+  height:54px;
+}
+.text-content01 .business li strong{
+  color:#7652DB
+}
+
+.text-content01.greeting{
+  position:relative;
+  background-color: #F8F7FB;
+  border-top:1px solid #E8E8E9;
+  padding-top:80px;
+}
+.text-content01.greeting:before{
+  content:"";
+  display:block;
+  width:1000px;
+  height:100%;
+  background-color: #F8F7FB;
+  position:absolute;
+  top:0;
+  left:-1000px;
+}
+.text-content01.greeting:after{
+  content:"";
+  display:block;
+  width:1000px;
+  height:100%;
+  background-color: #F8F7FB;
+  position:absolute;
+  top:0;
+  right:-1000px; 
+}
+.text-content01.greeting{
+   padding-bottom:80px;
+}
+
+.text-content01.greeting dd p{
+   font-size:18px;
+  margin-bottom:32px;
+}
+
+
+
 #video_w202206308b553e75b962b ._img_box{
   height:634px !important;
 }
 
 
-#s202206303509b4736e52b .inside >.doz_row:nth-of-type(3) .text-content01{
-  align-items:normal
-}
-#s202206303509b4736e52b .inside >.doz_row:nth-of-type(4) .text-content01{
-  align-items:normal;
-  border-bottom:none;
-}
+
 
 /*** 소개 > 연혁   ***/
 .text-content01.history{
