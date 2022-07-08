@@ -601,7 +601,6 @@ footer blockquote strong{
 /*** 소개 > 시민회는  ***/
 .text-content01{
   display:flex;
-  align-items:baseline;
   justify-content: space-between;
   width:100%;
   border-bottom:1px solid #ddd;
@@ -740,8 +739,26 @@ footer blockquote strong{
    font-size:18px;
   margin-bottom:32px;
 }
+.text-content01.association{
+  padding-bottom:120px;
+}
+.text-content01.association .button01{
+  display:inline-flex;
+  align-items:center;
+}
+.text-content01.association .button01:after{
+  content:"\e980";
+  font-family: xeicon;
+  margin-left:5px;
+  font-size:20px;
+}
 
-
+#s202206303509b4736e52b{
+  border-bottom:2px solid #E5E6E6;
+}
+#s20220630a9c3bee829aec{
+  border-top:6px solid #E5E6E6;
+}
 
 #video_w202206308b553e75b962b ._img_box{
   height:634px !important;

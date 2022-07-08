@@ -172,6 +172,8 @@ writer: css3studio
   /*** 소개 > 시민회는  ***/
   .text-content01{
     display:block;
+    padding-bottom:24px;
+    margin-bottom:24px;
   }
   .text-content01 dt{
     font-size: 18px;
@@ -203,6 +205,63 @@ writer: css3studio
   .text-content01 .chart{
     padding:14px;
   }
+  
+
+  .text-content01 .mission{
+    border:none;
+    border-radius:0;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding:0;
+    margin:0px;
+  }
+  .text-content01 .mission dl{
+    margin:0 0px;
+    width:calc(50% - 10px);
+    height:auto;
+    aspect-ratio: 1;
+    margin-bottom:10px;
+  }
+  .text-content01 .mission dl dt{
+    font-size:14px;
+  }
+  .text-content01 .mission dl dd{
+    font-size:12px;
+  }
+
+  .text-content01 .business{
+    display:block;
+    margin-bottom:40px;
+    padding-left:16px;
+  }
+  .text-content01 .business li{
+    width:auto;
+    font-size:14px;
+    height:auto;
+    margin-bottom:16px;
+  }
+
+  .text-content01.greeting{
+    padding-top:40px;
+  }
+
+  .text-content01.greeting{
+     padding-bottom:40px;
+  }
+
+  .text-content01.greeting dd p{
+     font-size:14px;
+    margin-bottom:24px;
+  }
+  .text-content01.association{
+    padding-bottom:80px;
+  }
+
+  
+  
+  
+  
   #video_w202206308b553e75b962b ._img_box{
     height:360px !important;
     background-color:#C0C0C0;
