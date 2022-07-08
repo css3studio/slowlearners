@@ -85,6 +85,7 @@ $(document).ready(function() {
 		else{
 			$(this).parent().addClass('active');
 		}
+		event.preventDefault();
 	});
 
 });
@@ -104,6 +105,7 @@ function init_mobile(){
 		else{
 			$(this).parent().addClass('active');
 		}
+		event.preventDefault();
 	});
 }
 
