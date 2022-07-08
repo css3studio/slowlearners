@@ -793,11 +793,25 @@ footer blockquote strong{
   font-size:18px;
   line-height:1.6
 }
+.text-content01 .history dl dd p{
+  margin-bottom:16px;
+}
+.text-content01 .history dl dd p:last-of-type{
+  margin-bottom:0;
+}
 .text-content01 .history dl dd em{
   font-size:14px;
   color:#666;
   font-style: normal;
   display:block;
+}
+.text-content01 .history .diagram{
+  margin-top:16px;
+}
+.text-content01 .history .diagram img{
+  max-width:680px;
+  width:100%;
+  margin:0;
 }
 
 /*** 소개 > 시민회 지부   ***/
