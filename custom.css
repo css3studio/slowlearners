@@ -883,6 +883,66 @@ footer blockquote strong{
   color:#666;
 }
 
+.accordion01{
+  border-top:2px solid #000
+}
+.accordion01 dl{
+  border-bottom:1px solid #B9B9BE;
+  font-size:18px;
+  margin-bottom:0
+}
+
+.accordion01 dl dt a{
+  display:flex;
+  justify-content: space-between;
+  padding:16px;
+  font-weight:normal;
+}
+.accordion01 dl.active dt a{
+  border-bottom:1px solid #B9B9BE;
+  font-weight:bold
+}
+.accordion01 dl dt a:hover span{
+  text-decoration: underline;
+}
+.accordion01 dl dt a:after{
+  content:"\e941";
+  font-family:xeicon;
+}
+.accordion01 dl.active dt a:after{
+  transform: rotate(180deg)
+}
+.accordion01 dl dd{
+  max-height:0;
+  overflow:hidden;
+  transition:max-height 0.3s;
+}
+.accordion01 dl.active dd{
+  max-height:400px;
+}
+.accordion01 dl dd p{
+  padding:16px;
+}
+.accordion01 dl dd .attach{
+  padding:16px;
+  background-color:#eee;
+}
+.accordion01 dl dd .attach:before{
+  content:"\eb7c";
+  font-family:xeicon;
+  margin-right:8px;
+}
+.accordion01 dl dd .attach span{
+  font-size:16px;
+  text-decoration:underline;
+  margin-right:8px
+}
+.accordion01 dl dd .attach em{
+  font-size:14px;
+  color:#8B8B92;
+  font-style: normal;
+}
+
 #w2022070184b7f9bf8f1c8{
   border-top:1px solid #000;
 }

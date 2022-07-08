@@ -319,6 +319,26 @@ writer: css3studio
     font-size:14px;
   }
 
+  .accordion01 dl{
+    font-size:14px;
+  }
+  .accordion01 dl dt{
+    margin-bottom:0;
+  }
+
+
+  .accordion01 dl dt a span{
+    font-size:16px;
+  }
+
+
+  .accordion01 dl dd .attach span{
+    font-size:14px;
+  }
+  .accordion01 dl dd .attach em{
+    font-size:12px;
+  }
+
 
   #w2022070184b7f9bf8f1c8 .acd_title a > div.category {
     font-size: 16px;
