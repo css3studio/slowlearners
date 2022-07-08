@@ -77,6 +77,15 @@ $(document).ready(function() {
 		$(this).removeClass('active');
 		$('.mega_dropdown .title_menu:nth-child(' + index + ')').removeClass('active');
 	});
+	//소개 > 시민회 지부 > 구비서류 아코디언
+	$('.accordion01 dl dt').on('click', function(){
+		if($(this).parent().hasClass('active')){
+			$(this).parent().removeClass('active');
+		}
+		else{
+			$(this).parent().addClass('active');
+		}
+	});
 
 });
 
