@@ -15,8 +15,7 @@ writer: css3studio
 
   /*** header ***/
   .popup-banner-wrap .banner-container img {
-    transform: scale(0.5) translate(-50%);
-    margin-left:16px;
+    max-width:none;
   }
   header .logo{
     margin-right:0 !important;
