@@ -70,6 +70,7 @@ writer: css3studio
 
   footer .custom-text{
     margin:30px 16px 0 !important;
+    padding:0;
   }
   footer .above-area{
     display:block;
