@@ -3,29 +3,21 @@ Theme Name: slowlearners
 writer: css3studio
 */
 
-/**** mobile ****/
-
-@media screen and (max-width:991px) {
-
-
-  /*** common ***/
-  h1.widget_menu_title{
-    font-size:32px !important;
+/* tablet / laptop */
+@media screen and (max-width:1274px) {
+  /* header */
+  #doz_header .new_org_header #inline_header_mobile, .fixed-menu-on #doz_header .new_fixed_header #inline_header_mobile_fixed {
+    display: block;
   }
-
-  /*** header ***/
-  .popup-banner-wrap .banner-container a{
-    position:relative;
-    height:48px;
-    display:block;
+  
+  #doz_header .new_org_header #inline_header_normal, .fixed-menu-on #doz_header .new_fixed_header #inline_header_fixed {
+    display: none;
+  }  
+  
+  .doz_sys.new_header_overlay > .section_first.pc_section, .doz_sys.new_header_overlay.section_fixed_disable > .section_first.pc_section.scroll-to-fixed-fixed, .doz_sys.new_header_overlay #doz_header_wrap + .section_first.pc_section.visual_section .op, .doz_sys.new_header_overlay #doz_header_wrap ~ .section_first.pc_section.visual_section .op, .doz_sys.new_header_overlay #doz_header_wrap ~ .one_page_section .section_first.pc_section.visual_section .op, .doz_sys.header_overlay .widget.board .grid_ignore.bg_on, .doz_sys.new_header_overlay > .section_first.pc_section .repeat_icon {
+    padding-top: 65px !important;
   }
-  .popup-banner-wrap .banner-container img {
-    position:absolute;
-    left:50%;
-    top:0;
-    transform: translateX(-50%);
-    max-width:none;
-  }
+  
   header .logo{
     margin-right:0 !important;
     position:relative;
@@ -44,7 +36,37 @@ writer: css3studio
   header .login_btn a span{
     color: #F0831E !important;
   }
+  
+  footer .custom-text{
+    padding:0 20px;
+  }
 
+  /* main slider */
+  .slider-main .slider-item .text-area {
+    padding-left: 30px;
+    padding-top: 34px;
+  }
+  .slider-main .slider-item .text-area h2 {
+    font-size: 32px;
+    font-weight: 700;
+  }
+  .slider-main .controls {
+    bottom: 35px;
+    padding-left: 34px;
+    display: flex;
+    align-items: center;
+  }
+}
+
+
+/**** mobile ****/
+@media screen and (max-width:991px) {
+
+
+  /*** common ***/
+  h1.widget_menu_title{
+    font-size:32px !important;
+  }
 
   footer .custom-text{
     margin:30px 16px 0 !important;
