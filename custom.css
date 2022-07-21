@@ -1206,6 +1206,10 @@ border-radius: 8px;
   color:#422692 !important;
   border-radius: 8px;
 }
+.pagination > .active > a{
+  color: #7652DB;
+  font-weight:700 !important;
+}
 /*** 소식 > 공지사항 > view ***/
 
 .post_view .sub-menu.h-menu-type1.menu-horizontal {
