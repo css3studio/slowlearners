@@ -199,6 +199,10 @@ writer: css3studio
   #s20220628234297afe68d1 .inside > .doz_row:nth-of-type(2) > .col-dz:nth-of-type(1){
     margin-bottom:80px;
   }
+  
+  #text_w20220721db71ca7f2abf3 {
+    padding:0
+  }
 
   /*** 소개 > 시민회는  ***/
   .text-content01{
