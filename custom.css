@@ -603,6 +603,18 @@ footer blockquote strong{
 .slider-logo li{
   padding:0 12px
 }
+.slider-logo li a span{
+  display:inline;
+}
+.slider-logo li a strong{
+  display:none;
+}
+.slider-logo li a:hover span{
+  display:none;
+}
+.slider-logo li a:hover strong{
+  display:inline;
+}
 .slider-logo li a img{
   height:32px;
 }
