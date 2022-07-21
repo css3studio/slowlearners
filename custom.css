@@ -14,7 +14,7 @@ ul{
 .button01{
   display:inline-block;
   border:1px solid #422692;
-  padding:8px 24px;
+  padding:8px 24px !important;;
   border-radius:50px;
   color: #422692 !important;
   font-weight:bold;
