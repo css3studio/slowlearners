@@ -300,6 +300,9 @@ footer blockquote{
 footer blockquote strong{
   color:#858585;
 }
+footer blockquote br{
+  display:none;
+}
 
 /*** main ***/
 .slider-main{
