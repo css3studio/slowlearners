@@ -622,6 +622,7 @@ footer blockquote strong{
 }
 .slider-logo li a img{
   height:32px;
+  margin:0 !important;
 }
 
 /*** 소개 > 시민회는  ***/
