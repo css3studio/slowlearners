@@ -14,7 +14,16 @@ writer: css3studio
   }
 
   /*** header ***/
+  .popup-banner-wrap .banner-container a{
+    position:relative;
+    height:48px;
+    display:block;
+  }
   .popup-banner-wrap .banner-container img {
+    position:absolute;
+    left:50%;
+    top:0;
+    transform: translateX(-50%);
     max-width:none;
   }
   header .logo{
