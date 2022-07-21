@@ -1106,6 +1106,9 @@ footer blockquote strong{
 .design-color dl.c05 dt{
   background:#3E3A39;
 }
+.design-color dl dd{
+  padding:0 8px;
+}
 .design-color dl dd strong{
   color:#999;
   font-weight: 400;
