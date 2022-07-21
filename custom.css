@@ -7,6 +7,9 @@ writer: css3studio
 * {
   word-break:keep-all;
 }
+ul{
+  list-style:none;
+}
 
 .button01{
   display:inline-block;
