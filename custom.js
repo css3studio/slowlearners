@@ -66,6 +66,15 @@ $(document).ready(function() {
 	}
 
 
+	/* 푸터메뉴 */
+	$('.menu-footer li:first-child a').on("click",function() {	//개인정보처리방침
+		SITE.openPrivacy();
+		event.preventDefault();
+	});
+	$('.menu-footer li:nth-child(2) a').on("click",function() {	//이용약관
+		SITE.openPolicy();
+		event.preventDefault();
+	});
 	/* 메가 메뉴 호버 효과 */
 	$('header .navbar-nav li.dropdown').on("mouseenter",function() {
 		var index = $( "header .navbar-nav li.dropdown" ).index( this ) + 1;
