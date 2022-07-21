@@ -1154,7 +1154,8 @@ a.btn_4b0f7ed542666{
   margin-bottom:24px;
 }
 .sub-menu.h-menu-type1.menu-horizontal > ul >li a{
-  font-weight:700
+  font-weight:700;
+  margin-right:24px !important;
 }
 .sub-menu.h-menu-type1.menu-horizontal > ul >li.active a{
   color:#7652DB !important;
@@ -1182,6 +1183,12 @@ border-radius: 8px;
   font-size:14px;
   font-weight:700;
   color:#1D1D1F;
+}
+.board._list_wrap .li_header .category .category_select_btn{
+  display:none;
+}
+.board._list_wrap .li_header .category:after{
+  content: "구분"
 }
 .board._list_wrap .li_board .li_body .category a em{
   color:#422692 !important;
