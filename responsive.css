@@ -9,15 +9,15 @@ writer: css3studio
   #doz_header .new_org_header #inline_header_mobile, .fixed-menu-on #doz_header .new_fixed_header #inline_header_mobile_fixed {
     display: block;
   }
-  
+
   #doz_header .new_org_header #inline_header_normal, .fixed-menu-on #doz_header .new_fixed_header #inline_header_fixed {
     display: none;
-  }  
-  
+  }
+
   .doz_sys.new_header_overlay > .section_first.pc_section, .doz_sys.new_header_overlay.section_fixed_disable > .section_first.pc_section.scroll-to-fixed-fixed, .doz_sys.new_header_overlay #doz_header_wrap + .section_first.pc_section.visual_section .op, .doz_sys.new_header_overlay #doz_header_wrap ~ .section_first.pc_section.visual_section .op, .doz_sys.new_header_overlay #doz_header_wrap ~ .one_page_section .section_first.pc_section.visual_section .op, .doz_sys.header_overlay .widget.board .grid_ignore.bg_on, .doz_sys.new_header_overlay > .section_first.pc_section .repeat_icon {
     padding-top: 65px !important;
   }
-  
+
   header .logo{
     margin-right:0 !important;
     position:relative;
@@ -36,7 +36,7 @@ writer: css3studio
   header .login_btn a span{
     color: #F0831E !important;
   }
-  
+
   footer .custom-text{
     padding:0 20px;
   }
@@ -186,7 +186,7 @@ writer: css3studio
     margin-bottom:24px;
   }
   .heading01 h2{
-    font-size:24px;
+    font-size:24px !important;;
   }
   .heading01 .more{
     font-size:14px
@@ -194,12 +194,17 @@ writer: css3studio
   .list-style-gallery.grid_02.type_grid .post_row{
     display:block !important;
   }
+  .card .card-body .title{
+    font-size:18px !important;
+    height:68px !important;
+    margin-bottom:8px
+  }
 
   /*공지사항 뉴스클리핑*/
   #s20220628234297afe68d1 .inside > .doz_row:nth-of-type(2) > .col-dz:nth-of-type(1){
     margin-bottom:80px;
   }
-  
+
   #text_w20220721db71ca7f2abf3 {
     padding:0
   }
@@ -240,7 +245,7 @@ writer: css3studio
   .text-content01 .chart{
     padding:14px;
   }
-  
+
 
   .text-content01 .mission{
     border:none;
@@ -293,10 +298,10 @@ writer: css3studio
     padding-bottom:80px;
   }
 
-  
-  
-  
-  
+
+
+
+
   #video_w202206308b553e75b962b ._img_box{
     height:360px !important;
     background-color:#C0C0C0;
@@ -525,7 +530,7 @@ writer: css3studio
   #w2022070495ef354931a95 form .form-group{
     margin-bottom:16px;
   }
-  
+
   /*** 활동개선 > 인식개선 ***/
   #w20220705c6ca65fb7051b .widget.image .img_wrap{
     height:auto !important;
@@ -539,7 +544,7 @@ writer: css3studio
     display:block !important;
     margin-bottom:8px;
   }
-  
+
 
   /*** 활동개선 > 상담 ***/
   #s20220705bd5ed4ddbb40f{
@@ -608,7 +613,7 @@ writer: css3studio
   body._body_menu_m20220630f5cf6cb62ae3b .doz_aside{
     display:block !important;
     margin-bottom:8px;
-  }  
+  }
 
   /*** 활동 > 연구정책개발 ***/
   .research-info{
@@ -637,7 +642,7 @@ writer: css3studio
   .sub-menu.h-menu-type2.menu-horizontal{
     display: block;
   }
-  
+
   .sub-menu.h-menu-type2.menu-horizontal > ul > li{
     margin-right:6px
   }
@@ -652,11 +657,11 @@ writer: css3studio
    body._body_menu_m202207057e08befbc66f5 .doz_aside{
     display:block !important;
     margin-bottom:8px;
-  }   
+  }
    body._body_menu_m202207057ddfa1f59a6a8 .doz_aside{
     display:block !important;
     margin-bottom:8px;
-  }   
+  }
 
 
   .community-area{
@@ -703,7 +708,7 @@ writer: css3studio
   body._body_menu_m20220705877beb43308ab .doz_aside{
     display:block !important;
     margin-bottom:8px;
-  }   
+  }
   #text_w20220705393331701190b .text-table > div >p > span > strong{
     display:block
   }
@@ -715,7 +720,7 @@ writer: css3studio
     width:30%;
   }
 
-  
+
 
   /*** 활동 > 의제네트원크 ***/
   .network-info{
@@ -787,7 +792,7 @@ writer: css3studio
   .grid_02.type_grid.gallery2 .gallery_row:last-of-type{
     margin-bottom:0px
   }
-  
+
   .donate-info > dl:first-of-type{
     border-top: 1px solid #D9D9D9;
     padding-top:40px;
@@ -798,7 +803,7 @@ writer: css3studio
     font-size:14px;
     margin-bottom:0;
   }
-  
+
 }
 
 /* 스마트폰 */

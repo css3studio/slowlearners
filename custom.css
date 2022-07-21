@@ -507,7 +507,9 @@ footer blockquote strong{
   display:block;
   color: #000 !important;
   font-weight:700;
-  height:104px !important;
+  height:96px !important;
+  margin-bottom:8px;
+  display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis
 }
 
 .card a:hover .card-body .title{
