@@ -1316,6 +1316,24 @@ border-radius: 8px;
   border-radius: 20px;
 }
 
+body._body_menu_m202206300d8fc06a45476 #s20220704e55d55cee9273{
+  display:none;
+}
+body._body_menu_m202206300d8fc06a45476 #s20220704073ee9e750dac{
+  padding: 0 0 80px;
+  border-top:none;
+}
+
+body._body_menu_m202206300d8fc06a45476 #text_w20220704501e7054b73a1{
+  display:none;
+}
+body._body_menu_m202206300d8fc06a45476 #s20220704073ee9e750dac .section_bg_color{
+  background-color: #fff !important;
+}
+body._body_menu_m202206300d8fc06a45476 #s20220704073ee9e750dac main > .inside > .doz_row:nth-child(2){
+  display:none;
+}
+
 /*** 활동개선 > 인식개선 ***/
 #w20220705c6ca65fb7051b .widget.image .img_wrap{
   text-align:left;
