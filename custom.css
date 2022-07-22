@@ -1255,6 +1255,11 @@ border-radius: 8px;
   display:none;
 }
 
+#container_w2022072260b5b5af8f91b .item_gallary .item_container .img_wrap{
+  min-height:160px !important;
+}
+
+
 
 #w2022070495ef354931a95 form .form-group{
   margin-bottom:32px;
