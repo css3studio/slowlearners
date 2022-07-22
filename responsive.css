@@ -511,6 +511,12 @@ writer: css3studio
   }
 
   /*** 뉴스레터 ***/
+  #s20220704e55d55cee9273{
+    padding-bottom:40px;
+  }
+  #s20220704073ee9e750dac{
+    padding:40px 0;
+  }
   #s20220704e55d55cee9273 .doz_aside{
     display:block !important;
   }
@@ -532,6 +538,9 @@ writer: css3studio
   }
   #w2022070495ef354931a95 form .form-group{
     margin-bottom:16px;
+  }
+  #stb_subscribe .stb_form_submit_button {
+    min-width:100%;
   }
 
   /*** 활동개선 > 인식개선 ***/

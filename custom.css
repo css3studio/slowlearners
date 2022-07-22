@@ -1236,6 +1236,15 @@ border-radius: 8px;
 }
 
 /*** 뉴스레터 ***/
+#s20220704e55d55cee9273{
+  padding-bottom:120px;
+  border-bottom:1px solid #E5E6E6;
+}
+#s20220704073ee9e750dac{
+  padding:80px 0;
+  border-top:7px solid #eee;
+}
+
 #post_card_b202207047642f4f12032c .card .card_wrapper .card-head{
   height:160px !important;
 }
@@ -1280,6 +1289,30 @@ border-radius: 8px;
 #w2022070495ef354931a95 .form.text-center .btn-primary{
   font-size: 18px;
   padding:20px 112px;
+  border-radius: 20px;
+}
+
+#stb_subscribe {
+  background-color: #fff;
+  border:none !important;;
+  padding: 0 !important;;
+}
+#stb_subscribe .stb_form_set .stb_form_set_input {
+  border: solid 1px #ddd !important;
+}
+#stb_subscribe .stb_form_policy label{
+  display:flex;
+  align-items:center;
+}
+#stb_subscribe .stb_form_policy label input {
+  margin-right:5px !important;
+}
+#stb_subscribe .stb_form_submit_button {
+  min-width:327px;
+  box-sizing: border-box;
+  height: 64px !important;
+  font-size:18px;
+  padding:0 !important;;
   border-radius: 20px;
 }
 
