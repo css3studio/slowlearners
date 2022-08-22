@@ -5,6 +5,9 @@ writer: css3studio
 
 /* tablet / laptop */
 @media screen and (max-width:1274px) {
+  br.no-mobile{
+    display:none;
+  }
   /* header */
   #doz_header .new_org_header #inline_header_mobile, .fixed-menu-on #doz_header .new_fixed_header #inline_header_mobile_fixed {
     display: block;
