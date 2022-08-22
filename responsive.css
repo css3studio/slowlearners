@@ -822,7 +822,10 @@ writer: css3studio
     font-size:14px;
     margin-bottom:0;
   }
-
+  /*modal*/
+  .modal-dialog ._input_form_submit{
+    width:100% !important;
+  }
 }
 
 /* 스마트폰 */
