@@ -485,7 +485,12 @@ writer: css3studio
   /*** 소식 > 공지사항 ***/
 
   .sub-menu.h-menu-type1.menu-horizontal{
-    display:block
+    display:block;
+    overflow-x:scroll;
+  }
+  .sub-menu.h-menu-type1.menu-horizontal > ul{
+    display:flex !important;
+    flex-wrap: nowrap !important;
   }
   .sub-menu.h-menu-type1.menu-horizontal > ul >li a{
    font-size:18px !important;
