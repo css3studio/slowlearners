@@ -1243,6 +1243,9 @@ border-radius: 8px;
 .full_board_view .full_board{
   padding-bottom:120px;
 }
+.board_txt_area{
+  max-width:952px;
+}
 
 /*** 뉴스레터 ***/
 #s20220704e55d55cee9273{
