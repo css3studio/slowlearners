@@ -500,6 +500,9 @@ footer blockquote br{
   border-radius: 20px;
   overflow:hidden
 }
+.card .card_wrapper{
+  background-position: center top !important;
+}
 .card .card_wrapper .card-head{
   height:240px !important;
 }
