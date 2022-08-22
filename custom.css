@@ -847,6 +847,9 @@ footer blockquote br{
 }
 
 /*** 소개 > 시민회 지부   ***/
+.map-toolbar .toolbar_top{
+  display:none;
+}
 .history-subtitle{
   font-size:24px;
   font-weight:700;
