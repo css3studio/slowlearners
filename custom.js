@@ -67,11 +67,11 @@ $(document).ready(function() {
 
 
 	/* 푸터메뉴 */
-	$('.menu-footer li:first-child a').on("click",function() {	//개인정보처리방침
+	$('.menu-footer li:first-child a').on("click",function(event) {	//개인정보처리방침
 		SITE.openPrivacy();
 		event.preventDefault();
 	});
-	$('.menu-footer li:nth-child(2) a').on("click",function() {	//이용약관
+	$('.menu-footer li:nth-child(2) a').on("click",function(event) {	//이용약관
 		SITE.openPolicy();
 		event.preventDefault();
 	});
@@ -87,7 +87,7 @@ $(document).ready(function() {
 		$('.mega_dropdown .title_menu:nth-child(' + index + ')').removeClass('active');
 	});
 	//소개 > 시민회 지부 > 구비서류 아코디언
-	$('.accordion01 dl dt').on('click', function(){
+	$('.accordion01 dl dt').on('click', function(event){
 		if($(this).parent().hasClass('active')){
 			$(this).parent().removeClass('active');
 		}
