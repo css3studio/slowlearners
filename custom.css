@@ -268,6 +268,10 @@ footer .menu-sns li.facebook a{
   background-image:url(https://cdn.imweb.me/upload/S20220613fb324545e5bef/07ec6b0074ede.png);
     background-size: 14px auto;
 }
+footer .menu-sns li.kakaotalk a{
+  background-image:url(https://cdn.imweb.me/upload/S20220613fb324545e5bef/26eaaceb3c31b.png);
+    background-size: 16px auto;
+}
 footer .menu-sns li a span{
   color:#000 !important;
 }
