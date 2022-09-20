@@ -498,7 +498,7 @@ writer: css3studio
   .sub-menu.h-menu-type1.menu-horizontal > ul >li a{
    font-size:18px !important;
     margin-right:18px !important;
-    white-space:nowrap; 
+    white-space:nowrap;
     word-break:keep-all
   }
   .board._list_wrap .board-head{
@@ -828,6 +828,9 @@ writer: css3studio
   /*modal*/
   .modal-dialog ._input_form_submit{
     width:100% !important;
+  }
+  .modal-dialog .modal-body .btn-primary{
+    padding:20px 52px;
   }
 }
 
