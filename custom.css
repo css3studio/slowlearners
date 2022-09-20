@@ -1769,8 +1769,13 @@ body.post_view #s20220704073ee9e750dac main > .inside > .doz_row:nth-child(2){
 
 
 
-
-
+/*mypage*/
+.mypage .left-menu > ul > li:nth-child(1),
+.mypage .left-menu > ul > li:nth-child(2),
+.mypage .left-menu > ul > li:nth-child(3)
+{
+  display:none;
+}
 
 
 
