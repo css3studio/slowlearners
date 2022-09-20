@@ -1260,6 +1260,16 @@ border-radius: 8px;
   border-top:7px solid #eee;
 }
 
+
+#w2022072260b5b5af8f91b .item_container .text_wrap .title{
+  font-weight:bold;
+}
+#w2022072260b5b5af8f91b .item_container .text_wrap .title span{
+  font-weight:normal;
+  margin-top:10px
+}
+
+
 #post_card_b202207047642f4f12032c .card .card_wrapper .card-head{
   height:160px !important;
 }

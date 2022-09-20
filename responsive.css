@@ -536,6 +536,23 @@ writer: css3studio
   #text_w202207045468d735f4b65 .text-table p span{
     font-size:24px !important;
   }
+  
+  #w2022072260b5b5af8f91b .item_container .text_wrap .title{
+    font-size:16px;
+  }
+  #w2022072260b5b5af8f91b .item_container .text_wrap .title span{
+    margin-top:6px
+  }
+  
+  #container_w2022072260b5b5af8f91b .item_gallary .item_container .img_wrap {
+    min-height: 80px !important;
+  }
+
+  #w2022072260b5b5af8f91b .container_border .item_gallary .text_wrap {
+    padding: 16px;
+    background: transparent;
+  }  
+  
   #post_card_b202207047642f4f12032c .card .card_wrapper .card-head{
     height:80px !important;
   }
