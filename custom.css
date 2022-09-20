@@ -289,7 +289,6 @@ footer blockquote{
   border-left:none !important;
   color:#ccc !important;
   font-size:16px !important;
-  width:486px;
   text-align: left !important;
   padding-left:32px !important;
   background:url(https://cdn.imweb.me/upload/S20220613fb324545e5bef/725638ec402bd.png) no-repeat left top;
@@ -765,7 +764,7 @@ footer blockquote br{
   background-color: #F8F7FB;
   position:absolute;
   top:0;
-  right:-1000px; 
+  right:-1000px;
 }
 .text-content01.greeting{
    padding-bottom:80px;
@@ -1017,11 +1016,11 @@ a.btn_4b0f7ed542666{
 }
 #w2022070184b7f9bf8f1c8 .acd_body .file_area{
   margin:16px -24px 0;
-  
+
 }
 #w2022070184b7f9bf8f1c8 .acd_body .file_area ul{
   padding:0 !important;
-  
+
 }
 #w2022070184b7f9bf8f1c8 .acd_body .file_area ul li{
   display:flex;
@@ -1711,7 +1710,7 @@ body.post_view #s20220704073ee9e750dac main > .inside > .doz_row:nth-child(2){
   background-color: #F8F7FB;
   position:absolute;
   top:0;
-  right:-1000px; 
+  right:-1000px;
 }
 
 .donate-info .benefit dl{
