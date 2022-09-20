@@ -96,12 +96,7 @@ $(document).ready(function() {
 		}
 		event.preventDefault();
 	});
-	//검색결과 쇼핑 카테고리 삭제
-	$('.search_widget .categorize .site_nav > li a').each(function(){
-		if($(this).text() == "쇼핑"){
-			$(this).parent().remove();
-		}
-	});
+
 
 });
 
